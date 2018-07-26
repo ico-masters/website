@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+// Color variables ---------------------
+
+//COLOR PALETTE
+$blue: #2B3273;
+$dark-blue: #232646;
+$yellow: #F0E81E;
+$white: #FFF;
+$light-gray: #EEEEEE;
+$gray: #DDDDDD;
+
+$dark-blue-60: rgba($dark-blue, 0.6);
+$dark-blue-30: rgba($dark-blue, 0.3);
+
+$color-primary: $yellow;
+
+// DEFINING COMMON BREAKPOINTS
+// BY DEFAULT WE ARE STYLING IS BELOW THE SMALL (MOBILE FIRST)
+// JUST INCLUDE A MIXIN INSIDE A CSS RULE AND BAM!
+
+//    @include breakpoint($small) {
+//      background-color: red;
+//    }
+
+$small: 34em;
+$medium: 48em;
+$large: 62em;
+$x-large: 75em;
+
+
+// Import partials.
+@import
+  "normalize",
+  "breakpoint",
+  "tldr/base",
+  "tldr/utils",
+  "tldr/css-burgers"
+;

@@ -1,0 +1,56 @@
+<header class="header">
+  <a class="logo" rel="author" href="{{ '/' | relative_url }}">
+    {%- include tldr-svg-logo.html -%}
+  </a>
+
+  <a href="#main-menu"
+     class="menu-toggle"
+     role="button"
+     id="main-menu-toggle"
+     aria-expanded="false"
+     aria-controls="main-menu"
+     aria-label="Open main menu">
+    <span class="sr-only">Open main menu</span>
+    <span class="caps bold h5" aria-hidden="true">Menu</span>
+  </a>
+
+  <nav id="main-menu"
+       class="main-menu"
+       role="navigation"
+       aria-expanded="false"
+       aria-label="Main menu">
+
+    <a href="#main-menu-toggle"
+       class="menu-close"
+       role="button"
+       id="main-menu-close"
+       aria-expanded="false"
+       aria-controls="main-menu"
+       aria-label="Close main menu">
+      <span class="sr-only">Close main menu</span>
+      <span aria-hidden="true">&times;</span>
+    </a>
+
+    <ul class="site-nav">
+      <li class="siderbar-menu-logo">
+        <a class="logo" rel="author" href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/images/tldr_logo.svg' | relative_url }}" alt="TLDR Logo" height="38">
+        </a>
+      </li>
+      <li><a class="{% if page.id == '/services' %}selected {% endif %}" href="{{ '/services' | relative_url }}">services</a></li>
+      <li><a class="{% if page.id == '/clients' %}selected {% endif %}" href="{{ '/clients' | relative_url }}">clients</a></li>
+      <li><a class="{% if page.id == '/team' %}selected {% endif %}" href="{{ '/team' | relative_url }}">team</a></li>
+      <li><a class="{% if page.id == '/contact' %}selected {% endif %}" href="{{ '/contact' | relative_url }}">contact</a></li>
+    </ul>
+  </nav>
+  <a href="#main-menu-toggle"
+     class="backdrop"
+     tabindex="-1"
+     aria-hidden="true"
+     hidden></a>
+</header>
+
+
+
+
+

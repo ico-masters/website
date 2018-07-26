@@ -1,0 +1,344 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only the main sass file needs this front matter, not partials.
+---
+
+@import 'tldr';
+
+
+// TLDR STYLE!!!
+html, body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+// MAKE FOOTER STICK
+body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.page-content {
+  padding: 0;
+  flex: 1 0 auto;
+}
+
+
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 1rem 1rem 2rem 2rem;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#232646+0,232646+100&1+0,0+100 */
+  background: -moz-linear-gradient(top, rgba(35,38,70,1) 0%, rgba(35,38,70,0) 100%);
+  background: -webkit-linear-gradient(top, rgba(35,38,70,1) 0%,rgba(35,38,70,0) 100%);
+  background: linear-gradient(to bottom, rgba(35,38,70,1) 0%,rgba(35,38,70,0) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a.logo {
+  height: 38px;
+  display: block;
+  flex: 0 0 100px;
+
+  &:hover svg path{
+    fill: $white;
+  }
+}
+
+.hero {
+  width: 100%;
+  height: 90vh;
+  min-height: 500px;
+  position: relative;
+  // background-image: url("images/hero.jpg");
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0 2rem;
+
+  @include breakpoint($small){
+    padding: 0 5rem;
+  }
+
+  @include breakpoint($large){
+    padding: 0 10rem;
+  }
+
+  //MAKING THE HERO DIFFERENT ON THE INDEX PAGE
+  .index & {
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.headline{
+  max-width: 1111px;
+  line-height: 1.3;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 600;
+
+  .index & {
+    font-weight: 700;
+  }
+
+  @include breakpoint($small){
+    font-size: 2.5rem;
+  }
+  @include breakpoint($medium){
+    font-size: 3.5rem;
+    .index & {font-size: 3rem;}
+  }
+}
+.description {
+  max-width: 1111px;
+}
+
+@-webkit-keyframes downarrow {
+  0% { -webkit-transform: translateY(0) rotate(45deg);  opacity: 0.5; }
+  100% { -webkit-transform: translateY(0.5rem) rotate(45deg);  opacity: 1; }
+}
+
+.arrow {
+  border-color:transparent;
+  border-style:solid;
+  border-width:0;
+  display:block;
+  width:18px;
+  height:18px;
+  opacity:0.5;
+  text-indent:-9999px;
+  transform-origin: 50% 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -9px;
+  bottom: 1.5rem;
+}
+.down {
+  -webkit-animation: downarrow .7s infinite alternate ease-in-out;
+  border-right: 4px solid $yellow;
+  border-bottom: 4px solid $yellow;
+}
+
+.section_title span{
+  position: relative;
+  line-height: 1;
+
+  &:before, &:after{
+    content: " ";
+    width: 16px;
+    height: 16px;
+    border-color: currentColor;
+    border-style: solid;
+    position: absolute;
+    opacity: 0.5;
+  }
+  &:before{
+    border-width: 4px 0 0 4px;
+    top: -12px;
+    left: -18px;
+  }
+  &:after{
+    border-width: 0 4px 4px 0;
+    bottom: -12px;
+    right: -12px;
+  }
+}
+
+.section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  @include breakpoint($small){
+    padding: 5rem;
+  }
+
+  @include breakpoint($large){
+    padding: 5rem 10rem;
+  }
+}
+
+.person{
+  width: 100%;
+  position: relative;
+  padding: 50px 0 0 60px;
+  margin-bottom: 2rem;
+
+  @include breakpoint($small){
+    padding: 80px 0 0 90px;
+  }
+
+  @include breakpoint($medium){
+    float: left;
+    width: 48%;
+    margin: 1%;
+  }
+
+  .bio{
+    border: 4px solid $yellow;
+    position: relative;
+    padding: 16px 16px 16px 48px;
+  }
+
+  .profile_pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+    background-image: url("images/profile_pic_placeholder.jpg");
+
+    @include breakpoint($small){
+      width: 160px;
+      height: 160px;
+    }
+  }
+
+  &:nth-child(even) {
+    margin-bottom: -1rem;
+    padding: 0 60px 50px 0;
+
+    @include breakpoint($small){
+      padding: 0 90px 60px 0;
+    }
+
+    .bio {
+      padding: 16px 48px 16px 16px;
+    }
+    .profile_pic {
+      top: auto;
+      left: auto;
+      right: 0;
+      bottom: 20px;
+    }
+  }
+  &:nth-child(2n+1){
+    clear: left;
+  }
+}
+
+.person_name { line-height: 1;}
+
+.tldrect{
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.person_title {
+  line-height: 1.2;
+  margin-bottom: .5rem;
+}
+
+.icon_link {
+  text-indent:-9999px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  -webkit-transition: all .1s ease-in-out; /* Safari */
+  transition: all .1s ease-in-out;
+  &.linkedin { background-image: url("images/logo-linkedin.svg") }
+  &.twitter { background-image: url("images/logo-twitter.svg") }
+
+  &:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari */
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+}
+
+.portfolio_section a{
+  display: block;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 16px;
+  width: 49%;
+  margin: .5%;
+
+  @include breakpoint($small){
+    height: 150px;
+    width: 24%;
+  }
+
+  @include breakpoint($medium){
+    height: 200px;
+    padding: 28px;
+  }
+
+  img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.8;
+    -webkit-transition:all 250ms ease;
+    -moz-transition:all 250ms ease;
+    -o-transition:all 250ms ease;
+    transition:all 250ms ease;
+
+  }
+  &:hover img{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    opacity: 1;
+  }
+}
+
+.contacts{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  @include breakpoint($medium){
+    flex-direction: row;
+    align-items: stretch;
+  }
+}
+
+.address {
+  flex:1;
+  border: 4px solid $white;
+}
+
+
+
+// TODO cleanup
+.TODO_cleanup {
+  display: flex;
+}
+
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: #828282;
+    padding-right: 5px;
+    vertical-align: text-top;
+}
+
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+
+

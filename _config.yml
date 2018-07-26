@@ -1,0 +1,27 @@
+title: TLDR Website
+email: hello@tldr.com
+description: >- # this means to ignore newlines until "baseurl:"
+  SEO Information???
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "optimistic-goodall-8b0dca.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: tldr
+github_username:  ico_masters
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+sass:
+  sass_dir: _sass
+
+collections:
+  pages:
+    output: true
+  services:
+    output: true
+  clients:
+    output: true
+  team:
+    output: true
+  # posts:
+  #   output: true

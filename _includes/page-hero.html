@@ -1,0 +1,18 @@
+{% if page.hero_image %}
+  <style>
+    .hero { background-image: url('{{ page.hero_image }}'); }
+  </style>
+{% endif %}
+
+<div class="hero flex cover_bg">
+  <h1 class="headline white">
+    {{ page.headline }}
+  </h1>
+  <p class="description yellow h3 py2">{{ page.description }}</p>
+  {%- if page.cta_page -%}
+    <a href="/{{ page.cta_page }}" class="btn btn-solid dark-blue mt1 py2 px3">
+      {{ page.cta }}
+    </a>
+  {%- endif -%}
+  <div class="arrow down">Scroll down</div>
+</div>

@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+{%- include page-hero.html -%}
+
+<div class="services">
+  {% assign service_page = site.pages | where: "id", "/services" | first %}
+  {% assign services = site.services | where: "featured", true | sort: 'order' %}
+  <h2>{{ service_page.home_headline }}</h2>
+  {%- if services.size > 0 -%}
+  <ul>
+    {%- for service in services -%}
+    <li>
+      <img src="{{ service.image }}" alt="">
+      <strong>{{ service.title }}</strong>
+      <p>{{ service.excerpt }}</p>
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- else -%}
+  no featured services
+  {%- endif -%}
+  <a href="/services">See all</a>
+</div>
+
+<div class="clients">
+  {% assign client_page = site.pages | where: "id", "/clients" | first %}
+  {% assign clients = site.clients | where:'featured', true | sort: 'order' %}
+  <h2>{{ client_page.home_headline }}</h2>
+  {%- if clients.size > 0 -%}
+  <ul>
+    {%- for client in clients -%}
+    <li>
+      <a href="{{ client.url }}">
+        <img src="{{ client.image }}" alt="">
+        <strong>{{ client.title | escape }}</strong>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- else -%}
+  no featured clients
+  {%- endif -%}
+  <a href="/clients">See all</a>
+</div>
+
+<div class="team">
+  {% assign team_page = site.pages | where:'id', '/team' | first  %}
+  <h2>{{ team_page.home_headline }}</h2>
+  <a href="/team">See all</a>
+</div>
+
+<div class="download">
+  <h2>Download guide</h2>
+  <button>download now</button>
+</div>

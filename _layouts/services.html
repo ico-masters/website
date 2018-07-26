@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+{%- include page-hero.html -%}
+
+
+<div class="clients bg-white h6 py4">
+  <div class="section_title py2 center">
+    <span class="h0 bold blue inline-block caps">Services</span>
+  </div>
+  <div class="section services_section clearfix">
+    {% assign services = site.services | sort: 'order' %}
+
+    <div class="services_summary">
+      {%- if services.size > 0 -%}
+        <ul>
+          {%- for service in services -%}
+            <li>
+              <a href="#{{ service.anchor }}">
+                <img src="{{ service.image }}" alt="">
+                {{ service.title | escape }}
+                <p>{{ client.excerpt | escape }}</p>
+              </a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- else -%}
+        No Services summary...
+      {%- endif -%}
+    </div>
+
+    <div class="services_list">
+      {%- if services.size > 0 -%}
+        <ul>
+          {%- for service in services -%}
+            <li id="#{{ service.anchor }}">
+                <img src="{{ service.image }}" alt="">
+              <strong>{{ service.title | escape }}</strong>
+              <p>{{ service.description | escape }}</p>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- else -%}
+        No services list
+      {%- endif -%}
+    </div>
+
+  </div>
+</div>
+
+
+

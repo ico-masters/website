@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{%- include page-hero.html -%}
+
+<div class="clients bg-white h6 py4">
+  <div class="section_title py2 center">
+    <span class="h0 bold blue inline-block caps">Clients</span>
+  </div>
+  <div class="section portfolio_section clearfix">
+    {% assign clients = site.clients | sort: 'order' %}
+    {%- if clients.size > 0 -%}
+      {%- for client in clients -%}
+        <a href="{{ client.url }}">
+          <img src="{{ client.image }}" alt="{{ client.name | escape }}">
+          <!-- <p>{{ client.title | escape }}</p> -->
+        </a>
+      {%- endfor -%}
+    {%- else -%}
+      No clients to show
+    {%- endif -%}
+  </div>
+</div>
