@@ -3,7 +3,7 @@ email: hello@tldr.com
 description: >- # this means to ignore newlines until "baseurl:"
   SEO Information???
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://pensive-bohr-b004b4.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tldrcapital.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tldr
 github_username:  ico_masters
 

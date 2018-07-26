@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ico-masters/website
   branch: master
-  site_domain: pensive-bohr-b004b4.netlify.com
+  site_domain: tldrcapital.netlify.com
 media_folder: "images/uploads"
 collections:
   - name: "pages"
