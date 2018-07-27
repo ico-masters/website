@@ -2,7 +2,7 @@
 layout: team
 permalink: /team
 id: team
-title: TLDR Team
+title: The Team
 name: Team
 
 hero_image: /assets/images/hero2.jpg

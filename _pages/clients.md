@@ -8,7 +8,8 @@ name: Clients
 hero_image: /assets/images/hero2.jpg
 headline: Clients... Portfolio
 home_headline: Select clients
-summary:
+summary: |
+  Want to add an additional description before introducing clients? Do it here... totally optional.
 home_summary: |
   Some words about these clients… (small subset of the full portfolio) maybe show here the most eye catching ones.
 description: |

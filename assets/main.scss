@@ -71,7 +71,6 @@ a.logo {
 
   //MAKING THE HERO DIFFERENT ON THE INDEX PAGE
   .index & {
-    height: 100vh;
     align-items: center;
     text-align: center;
   }
@@ -126,9 +125,37 @@ a.logo {
   border-bottom: 4px solid $yellow;
 }
 
+.section_title{
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 1rem;
+
+  @include breakpoint($small){
+    font-size: 2.5rem;
+  }
+  @include breakpoint($medium){
+    font-size: 3rem;
+  }
+}
+
+.section_description{
+  font-size: 1rem;
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+
+  @include breakpoint($small){
+    font-size: 1.25rem;
+  }
+  @include breakpoint($large){
+    font-size: 1.5rem;
+  }
+}
+
 .section_title span{
   position: relative;
   line-height: 1;
+  display: inline-block;
 
   &:before, &:after{
     content: " ";
@@ -153,14 +180,34 @@ a.logo {
 .section {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 4rem;
 
   @include breakpoint($small){
     padding: 5rem;
   }
 
   @include breakpoint($large){
-    padding: 5rem 10rem;
+    padding: 6rem 10rem;
+  }
+}
+
+
+.featured_services {
+  flex-direction: column;
+
+  > div{
+    border-bottom: 4px solid $yellow;
+    margin-bottom: 2rem;
+  }
+
+  @include breakpoint($medium){
+    flex-direction: row;
+    align-items: flex-start;
+
+    > div{
+      border-bottom: 0 none;
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -168,6 +215,65 @@ a.logo {
   width: 100%;
   height: 14rem;
 }
+
+
+.service{
+  width: 100%;
+  position: relative;
+  padding: 50px 0 0 60px;
+  margin-bottom: 2rem;
+
+  @include breakpoint($small){
+    padding: 80px 0 0 90px;
+  }
+
+  @include breakpoint($medium){
+    float: left;
+    width: 48%;
+    margin: 1%;
+  }
+
+  .service_description{
+    border-top: 4px solid $yellow;
+    position: relative;
+    padding: 16px 16px 16px 48px;
+  }
+
+  .service_pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+    background-image: url("images/profile_pic_placeholder.jpg");
+
+    @include breakpoint($small){
+      width: 160px;
+      height: 160px;
+    }
+  }
+
+  &:nth-child(even) {
+    margin-bottom: -1rem;
+    padding: 0 60px 50px 0;
+
+    @include breakpoint($small){
+      padding: 0 90px 60px 0;
+    }
+
+    .service_description {
+      padding: 16px 48px 16px 16px;
+    }
+    .service_pic {
+      top: auto;
+      left: auto;
+      right: 0;
+      bottom: 20px;
+    }
+  }
+}
+
 
 .person{
   width: 100%;
@@ -184,6 +290,8 @@ a.logo {
     width: 48%;
     margin: 1%;
   }
+
+  .person_name { line-height: 1;}
 
   .bio{
     border: 4px solid $yellow;
@@ -229,8 +337,6 @@ a.logo {
   }
 }
 
-.person_name { line-height: 1;}
-
 .tldrect{
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -262,35 +368,40 @@ a.logo {
   }
 }
 
-.portfolio_section a{
-  display: block;
+a.client_thumb{
+  color: $white;
+  text-indent: 9999px;
   float: left;
   text-align: center;
   text-decoration: none;
-  text-indent: 9999px;
   overflow: hidden;
-  position: relative;
   display: flex;
-  align-items: center;
-  height: 100px;
-  padding: 16px;
+  height: 7rem;
+  padding: .5rem;
   width: 49%;
   margin: .5%;
 
   @include breakpoint($small){
-    height: 150px;
-    width: 24%;
+    height: 8rem;;
   }
 
   @include breakpoint($medium){
-    height: 200px;
-    padding: 28px;
+    height: 9rem;
+    width: 32%;
+    padding: 1rem;
+  }
+
+  @include breakpoint($large){
+    height: 10rem;
+    width: 24%;
   }
 
   img{
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0 auto;
+    max-width: none;
+    max-height: none;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
     opacity: 0.8;
@@ -309,7 +420,11 @@ a.logo {
 
 .download_box {
   box-shadow: 0 .5rem 64px -16px rgba(0,0,0,0.32);
-  width: 600px;
+  width: 100%;
+
+  @include breakpoint($medium){
+    width: 600px;
+  }
 }
 
 footer {

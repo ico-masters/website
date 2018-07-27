@@ -8,17 +8,17 @@ layout: default
 <div class="section services">
   {% assign service_page = site.pages | where: "id", "/services" | first %}
   {% assign services = site.services | where: "featured", true | sort: 'order' %}
-  <h2 class="section_title center">
-    <span class="h00 semibold dark-blue inline-block">
-      {{ service_page.home_headline }}
-    </span>
+  <h2 class="section_title center dark-blue">
+    <span>{{ service_page.home_headline }}</span>
   </h2>
-  <p class="pt2 pb4 m0 blue h3 center">{{ service_page.home_summary }}</p>
+  <p class="section_description center blue">
+    {{ service_page.home_summary }}
+  </p>
 
   {%- if services.size > 0 -%}
-    <div class="flex">
+    <div class="featured_services flex pt2">
       {%- for service in services -%}
-        <div class="flex-1 px2">
+        <div class="flex-1 px1">
           <div class="service_small_pic tldrect profile_pic mb2" style="background-image: url('{{ service.image }}');"></div>
           <h3>{{ service.title }}</h3>
           <p>{{ service.excerpt }}</p>
@@ -36,17 +36,15 @@ layout: default
 <div class="section clients">
   {% assign client_page = site.pages | where: "id", "/clients" | first %}
   {% assign clients = site.clients | where:'featured', true | sort: 'order' %}
-  <h2 class="section_title center">
-    <span class="h00 semibold dark-blue inline-block">
-      {{ client_page.home_headline }}
-    </span>
+  <h2 class="section_title center dark-blue">
+    <span>{{ client_page.home_headline }}</span>
   </h2>
-  <p class="pt2 pb1 m0 blue h3 center">{{ client_page.home_summary }}</p>
+  <p class="section_description center blue">{{ client_page.home_summary }}</p>
 
   {%- if clients.size > 0 -%}
-    <div class="portfolio_section clearfix">
+    <div class="clearfix">
       {%- for client in clients -%}
-        <a href="{{ client.url }}">
+        <a href="{{ client.url }}" class="client_thumb">
           <img src="{{ client.image }}" alt="{{ client.title | escape }}">
           {{ client.title | escape }}
         </a>
@@ -63,8 +61,8 @@ layout: default
 <div class="bg-dark-blue white">
   <div class="section team">
     {% assign team_page = site.pages | where:'id', '/team' | first  %}
-    <h1 class="h00 light center">{{ team_page.home_headline }}</h1>
-    <div class="center pt3 pb2">
+    <h2 class="section_title center light white">{{ team_page.home_headline }}</h2>
+    <div class="center pt2">
       <a class="btn btn-solid dark-blue mt1 py2 px3 " href="/team">Meet the team</a>
     </div>
   </div>
@@ -72,7 +70,7 @@ layout: default
 
 <div class="section download">
   <div class="download_box rounded mx-auto center p3">
-    <h3 class="h0 light">Download guide</h2>
+    <h3 class="section_title center blue light">Download guide</h3>
     <p class="semibold">Get this awesome guide on some topic</p>
     <button class="btn btn-solid bg-blue yellow mt1 py2 px3">Download now</button>
   </div>

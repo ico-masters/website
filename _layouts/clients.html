@@ -4,21 +4,21 @@ layout: default
 
 {%- include page-hero.html -%}
 
-<div class="clients bg-white h6 py4">
-  <div class="section_title py2 center">
-    <span class="h0 bold blue inline-block caps">Clients</span>
-  </div>
-  <div class="section portfolio_section clearfix">
-    {% assign clients = site.clients | sort: 'order' %}
-    {%- if clients.size > 0 -%}
-      {%- for client in clients -%}
-        <a href="{{ client.url }}">
-          <img src="{{ client.image }}" alt="{{ client.title | escape }}">
-          {{ client.title | escape }}
-        </a>
-      {%- endfor -%}
-    {%- else -%}
-      No clients to show
-    {%- endif -%}
-  </div>
+<div class="section clearfix">
+  <h2 class="section_title dark-blue">
+    <span>{{ page.title }}</span>
+  </h2>
+  <p class="pt2 pb3 blue">{{ page.summary }}</p>
+  {% assign clients = site.clients | sort: 'order' %}
+  {%- if clients.size > 0 -%}
+    {%- for client in clients -%}
+      <a href="{{ client.url }}" class="client_thumb">
+        <img src="{{ client.image }}" alt="{{ client.title | escape }}">
+        {{ client.title | escape }}
+      </a>
+    {%- endfor -%}
+  {%- else -%}
+    No clients to show
+  {%- endif -%}
 </div>
+
