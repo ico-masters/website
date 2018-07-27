@@ -2,18 +2,21 @@
 layout: default
 ---
 
-{%- include page-hero.html -%}
+{% if page.hero_image %}
+  <style>
+    .hero { background-image: url('{{ page.hero_image }}'); }
+  </style>
+{% endif %}
 
-<div id="first"></div>
-<div class="contact">
-  <form action="">
-    <div>
-      <input type="text">
-    </div>
+<div class="hero hero_contact flex cover_bg">
+  <h1 class="headline white">
+    {{ page.headline }}
+  </h1>
+  <p class="description yellow h3 py2">{{ page.description }}</p>
 
-    <div>
-      <button>Send</button>
-    </div>
-  </form>
+  <div id="contact_form" style="width: 100%;">
+    {%- include fake-hubspot-form.html -%}
+  </div>
+
 </div>
 

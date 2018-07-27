@@ -66,13 +66,19 @@ a.logo {
   }
 
   @include breakpoint($large){
-    padding: 0 10rem;
+    padding: 0 9rem;
   }
 
   //MAKING THE HERO DIFFERENT ON THE INDEX PAGE
   .index & {
     align-items: center;
     text-align: center;
+  }
+
+  &.hero_contact {
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 }
 
@@ -187,7 +193,7 @@ a.logo {
   }
 
   @include breakpoint($large){
-    padding: 6rem 10rem;
+    padding: 6rem 9rem;
   }
 }
 
@@ -461,13 +467,12 @@ footer {
 
 .address {
   border-top: 4px solid $white;
-  min-width: 300px;
-  margin: 0 0 .5rem;
   padding: .5rem 0;
+  flex: 1 1;
+  margin-top: .25rem;
 
   @include breakpoint($medium){
-    margin: 0 .5rem 1rem;
-    padding: .5rem;
+
   }
 }
 
