@@ -4,54 +4,76 @@ layout: default
 
 {%- include page-hero.html -%}
 
-<div class="services">
+
+<div class="section services">
   {% assign service_page = site.pages | where: "id", "/services" | first %}
   {% assign services = site.services | where: "featured", true | sort: 'order' %}
-  <h2>{{ service_page.home_headline }}</h2>
+  <h2 class="section_title center">
+    <span class="h00 semibold dark-blue inline-block">
+      {{ service_page.home_headline }}
+    </span>
+  </h2>
+  <p class="pt2 pb4 m0 blue h3 center">{{ service_page.home_summary }}</p>
+
   {%- if services.size > 0 -%}
-  <ul>
-    {%- for service in services -%}
-    <li>
-      <img src="{{ service.image }}" alt="">
-      <strong>{{ service.title }}</strong>
-      <p>{{ service.excerpt }}</p>
-    </li>
-    {%- endfor -%}
-  </ul>
+    <div class="flex">
+      {%- for service in services -%}
+        <div class="flex-1 px2">
+          <div class="service_small_pic tldrect profile_pic mb2" style="background-image: url('{{ service.image }}');"></div>
+          <h3>{{ service.title }}</h3>
+          <p>{{ service.excerpt }}</p>
+        </div>
+      {%- endfor -%}
+    </div>
   {%- else -%}
-  no featured services
+    No featured services
   {%- endif -%}
-  <a href="/services">See all</a>
+  <div class="center py3">
+    <a class="btn btn-solid dark-blue mt1 py2 px3 " href="/services">See everything we do</a>
+  </div>
 </div>
 
-<div class="clients">
+<div class="section clients">
   {% assign client_page = site.pages | where: "id", "/clients" | first %}
   {% assign clients = site.clients | where:'featured', true | sort: 'order' %}
-  <h2>{{ client_page.home_headline }}</h2>
+  <h2 class="section_title center">
+    <span class="h00 semibold dark-blue inline-block">
+      {{ client_page.home_headline }}
+    </span>
+  </h2>
+  <p class="pt2 pb1 m0 blue h3 center">{{ client_page.home_summary }}</p>
+
   {%- if clients.size > 0 -%}
-  <ul>
-    {%- for client in clients -%}
-    <li>
-      <a href="{{ client.url }}">
-        <img src="{{ client.image }}" alt="">
-        <strong>{{ client.title | escape }}</strong>
-      </a>
-    </li>
-    {%- endfor -%}
-  </ul>
+    <div class="portfolio_section clearfix">
+      {%- for client in clients -%}
+        <a href="{{ client.url }}">
+          <img src="{{ client.image }}" alt="{{ client.title | escape }}">
+          {{ client.title | escape }}
+        </a>
+      {%- endfor -%}
+    </div>
   {%- else -%}
-  no featured clients
+    No clients to show
   {%- endif -%}
-  <a href="/clients">See all</a>
+  <div class="center py3">
+    <a class="btn btn-solid dark-blue mt1 py2 px3 " href="/clients">See all our clients</a>
+  </div>
 </div>
 
-<div class="team">
-  {% assign team_page = site.pages | where:'id', '/team' | first  %}
-  <h2>{{ team_page.home_headline }}</h2>
-  <a href="/team">See all</a>
+<div class="bg-dark-blue white">
+  <div class="section team">
+    {% assign team_page = site.pages | where:'id', '/team' | first  %}
+    <h1 class="h00 light center">{{ team_page.home_headline }}</h1>
+    <div class="center pt3 pb2">
+      <a class="btn btn-solid dark-blue mt1 py2 px3 " href="/team">Meet the team</a>
+    </div>
+  </div>
 </div>
 
-<div class="download">
-  <h2>Download guide</h2>
-  <button>download now</button>
+<div class="section download">
+  <div class="download_box rounded mx-auto center p3">
+    <h3 class="h0 light">Download guide</h2>
+    <p class="semibold">Get this awesome guide on some topic</p>
+    <button class="btn btn-solid bg-blue yellow mt1 py2 px3">Download now</button>
+  </div>
 </div>

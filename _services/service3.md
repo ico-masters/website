@@ -1,9 +1,9 @@
 ---
 featured: true
-order: 10
-title: ICO Launch
-image: /images/uploads/service_1.jpg
-anchor: ico-launch
+order: 30
+title: Security
+image: /images/uploads/service_3.jpg
+anchor: security
 excerpt: |
   A few words to describe this service. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
 description: |

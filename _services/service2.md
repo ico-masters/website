@@ -1,9 +1,11 @@
 ---
 featured: true
-order: 2
-title: making coffe
-image: https://www.perfectdailygrind.com/wp-content/uploads/2017/08/b4bdg_3_8_2017_9_41_15_854-1-e1502286325355.jpg
-anchor: makingcoffe
-excerpt: great coffe can be made
-description: have you ever tried a perfect coffe? try it with us right now.
+order: 20
+title: ICO Marketing
+image: /images/uploads/service_2.jpg
+anchor: ico-marketing
+excerpt: |
+  A few words to describe this service. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+description: |
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nihil perspiciatis vero a modi tempora eaque quidem ducimus fuga quasi. Dolore ullam adipisci accusamus repellat laborum, omnis quo recusandae et. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus impedit accusantium quaerat similique sit molestiae consectetur dignissimos. Beatae quos magnam, dolores, eveniet ducimus, neque incidunt consequatur obcaecati sunt nobis repellendus!
 ---

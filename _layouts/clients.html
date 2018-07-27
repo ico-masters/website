@@ -13,8 +13,8 @@ layout: default
     {%- if clients.size > 0 -%}
       {%- for client in clients -%}
         <a href="{{ client.url }}">
-          <img src="{{ client.image }}" alt="{{ client.name | escape }}">
-          <!-- <p>{{ client.title | escape }}</p> -->
+          <img src="{{ client.image }}" alt="{{ client.title | escape }}">
+          {{ client.title | escape }}
         </a>
       {%- endfor -%}
     {%- else -%}
