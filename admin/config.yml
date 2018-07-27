@@ -25,7 +25,7 @@ collections:
       - {label: "CTA", name: "cta", widget: "string", required: false}
       - {label: "CTA page", name: "cta_page", widget: "string", required: false}
   - name: "services"
-    label: "Services"
+    label: "Service"
     folder: "_services"
     create: true
     fields:
@@ -38,7 +38,7 @@ collections:
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Description", name: "description", widget: "markdown"}
   - name: "clients"
-    label: "Clients"
+    label: "Client"
     folder: "_clients"
     create: true
     fields:
@@ -49,7 +49,7 @@ collections:
       - {label: "URL", name: "url", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
   - name: "team"
-    label: "Team"
+    label: "Team Member"
     folder: "_team"
     create: true
     fields:
