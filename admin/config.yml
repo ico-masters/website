@@ -61,3 +61,15 @@ collections:
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Twitter", name: "twitter_url", widget: "string", required: false}
       - {label: "Linkedin", name: "linkedin_url", widget: "string", required: false}
+  - name: "testimonials"
+    label: "Testimonial"
+    folder: "_testimonials"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "testimonials"}
+      - {label: "Featured", name: "featured", widget: "boolean", default: "false"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int"}
+      - {label: "Company Name", name: "company_name", widget: "string"}
+      - {label: "Company Person", name: "company_person", widget: "string"}
+      - {label: "Quote", name: "quote", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "image"}

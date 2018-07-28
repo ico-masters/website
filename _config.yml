@@ -23,5 +23,7 @@ collections:
     output: true
   team:
     output: true
+  testimonials:
+    output: true
   # posts:
   #   output: true
