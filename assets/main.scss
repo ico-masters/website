@@ -54,7 +54,7 @@ a.logo {
   height: 90vh;
   min-height: 500px;
   position: relative;
-  // background-image: url("images/hero.jpg");
+  background-image: url("images/hero2.jpg");
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -71,6 +71,7 @@ a.logo {
 
   //MAKING THE HERO DIFFERENT ON THE INDEX PAGE
   .index & {
+    background-image: url("images/hero.jpg");
     align-items: center;
     text-align: center;
   }
@@ -275,7 +276,7 @@ a.logo {
     width: 100%;
     height: 10rem;
     z-index: 1;
-    background-image: url("images/profile_pic_placeholder.jpg");
+    background-image: url("images/hero.jpg");
 
     @include breakpoint($small){
       height: 12rem;
@@ -349,7 +350,7 @@ a.logo {
     width: 120px;
     height: 120px;
     z-index: 1;
-    background-image: url("images/profile_pic_placeholder.jpg");
+    background-image: url("images/hero.jpg");
 
     @include breakpoint($small){
       width: 160px;

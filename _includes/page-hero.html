@@ -1,16 +1,25 @@
 {% if page.hero_image %}
   <style>
-    .hero { background-image: url('{{ page.hero_image }}'); }
+    .hero, .index .hero { background-image: url('{{ page.hero_image }}'); }
+    .hero:after {
+      content: " ";
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.32);
+    }
   </style>
 {% endif %}
 
 <div class="hero flex cover_bg">
-  <h1 class="headline white">
+  <h1 class="headline white z2 relative">
     {{ page.headline }}
   </h1>
-  <p class="description yellow h3 py2">{{ page.description }}</p>
+  <p class="description yellow h3 py2 z2 relative">{{ page.description }}</p>
   {%- if page.cta_page -%}
-    <a href="/{{ page.cta_page }}" class="btn btn-solid dark-blue mt1 py2 px3">
+    <a href="/{{ page.cta_page }}" class="btn btn-solid dark-blue mt1 py2 px3 z2 relative">
       {{ page.cta }}
     </a>
   {%- endif -%}
