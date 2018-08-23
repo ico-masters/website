@@ -3,3 +3,90 @@ layout: default
 ---
 
 {%- include page-hero.html -%}
+
+<div class="section">
+  <nav id="secondary-menu" class="secondary-menu" role="navigation" aria-expanded="false" aria-label="Secondary-menu">
+      <ul class="site-nav">
+          <li><a class="{% if page.id == '/resources' %} selected {% endif %}" href="{{ '/resources#secondary-menu' | relative_url }}">Guides</a></li>
+          <li><a class="{% if page.id == '/glossary' %} selected {% endif %}" href="{{ '/resources#secondary-menu' | relative_url }}">Glossary</a></li>
+      </ul>
+  </nav>
+  <div class="glossary-holder">
+      <!-- <div class="glossary-search-box">
+          <input type="text" class="new-input" placeholder="Search here">
+      </div> -->
+      <div class="current-letter">
+          <span class="">A</span>
+      </div>
+      <div class="search-results-holder">
+          <div class="side-letter-search">
+              <ul>
+                  <li><a href="#" class="selected">A</a></li>
+                  <li><a href="#" class="">B</a></li>
+                  <li><a href="#" class="">C</a></li>
+                  <li><a href="#" class="">D</a></li>
+                  <li><a href="#" class="">E</a></li>
+                  <li><a href="#" class="">F</a></li>
+                  <li><a href="#" class="">G</a></li>
+                  <li><a href="#" class="">H</a></li>
+                  <li><a href="#" class="">I</a></li>
+                  <li><a href="#" class="">J</a></li>
+                  <li><a href="#" class="">K</a></li>
+                  <li><a href="#" class="">L</a></li>
+                  <li><a href="#" class="">M</a></li>
+                  <li><a href="#" class="">N</a></li>
+                  <li><a href="#" class="">O</a></li>
+                  <li><a href="#" class="">P</a></li>
+                  <li><a href="#" class="">Q</a></li>
+                  <li><a href="#" class="">R</a></li>
+                  <li><a href="#" class="">S</a></li>
+                  <li><a href="#" class="">T</a></li>
+                  <li><a href="#" class="">U</a></li>
+                  <li><a href="#" class="">V</a></li>
+                  <li><a href="#" class="">W</a></li>
+                  <li><a href="#" class="">X</a></li>
+                  <li><a href="#" class="">Y</a></li>
+                  <li><a href="#" class="">Z</a></li>
+              </ul>
+          </div>
+          <div class="print-search-results">
+              <div class="result-holder">
+                  <p class="h2 bold blue">A word</p>
+                  <p>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus, at condimentum nulla. Donec quis ornare lacus. Etiam gravida mollis tortor quis porttitor.</p>
+              </div>
+              <div class="result-holder">
+                  <p class="h2 bold blue">Another word or sentence</p>
+                  <p>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. </p>
+              </div>
+              <div class="result-holder">
+                  <p class="h2 bold blue">A word</p>
+                  <p>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus, at condimentum nulla. Donec quis ornare lacus. Etiam gravida mollis tortor quis porttitor.</p>
+              </div>
+              <div class="result-holder">
+                  <p class="h3 bold blue">And it’s done</p>
+                  <p>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla </p>
+              </div>
+              <div class="result-holder">
+                  <p class="h2 bold blue">And it’s done</p>
+                  <p>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla </p>
+              </div>
+              <div class="result-holder">
+                  <p class="h2 bold blue">And it’s done</p>
+                  <p>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla </p>
+              </div>
+              <div class="result-holder">
+                  <p class="h2 bold blue">Another word or sentence</p>
+                  <p>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. </p>
+              </div>
+              <div class="result-holder">
+                  <p class="h2 bold blue">And it’s done</p>
+                  <p>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla </p>
+              </div>
+              <div class="result-holder">
+                  <p class="h2 bold blue">A word</p>
+                  <p>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus, at condimentum nulla. Donec quis ornare lacus. Etiam gravida mollis tortor quis porttitor.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

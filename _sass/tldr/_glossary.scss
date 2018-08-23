@@ -1,0 +1,87 @@
+.glossary-holder {
+}
+.glossary-search-box {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.new-input {
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    width: 50%;
+    height: 60px;
+    padding: 10px;
+    color: #C1C1C1;
+}
+.current-letter {
+    border: 4px solid #F1E900;
+    -ms-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    width: 121px;
+    height: 97px;
+    text-align: center;
+    margin: 3rem auto;
+}
+.current-letter span {
+    color: #2B3273;
+    display: block;
+    -ms-transform: skewX(20deg);
+    -moz-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+}
+
+/*
+*
+*  LETTER LIST
+*
+*/
+
+.search-results-holder {
+}
+
+.side-letter-search {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -32px;
+
+}
+
+.side-letter-search ul {
+    padding: 0;
+}
+
+.side-letter-search ul li {
+    list-style: none;
+}
+
+.side-letter-search ul li a {
+    color: #CACACA;
+    font-size: 10px;
+    padding: 6px 8px;
+    text-decoration: none;
+}
+
+.side-letter-search ul li a.selected{
+    color: #F0E81E;
+    font-size: 10px;
+    background-color: #2B3273;
+
+}
+
+.print-search-results {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 40px;
+    overflow-y: scroll;
+    max-height: 100vh;
+}
+
+.result-holder {
+    padding-bottom: 2rem;
+}

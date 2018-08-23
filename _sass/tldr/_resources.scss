@@ -1,0 +1,270 @@
+.secondary-menu:target{
+  box-shadow: none;
+}
+.secondary-menu ul{
+  display: flex;
+  /* Undo off-canvas styling */
+  padding: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  height: auto;
+  width: auto;
+  background: none;
+  align-items: center;
+  justify-content: center;
+}
+.secondary-menu li {
+  list-style: none;
+}
+.secondary-menu li a{
+  color: #2B3273;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.article-holder {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+width: 100%;
+  margin-top: calc(6rem - 10px);
+}
+
+
+
+article.sign-up-tile {
+  flex: 0 2 calc(50% - 20px);
+  border: 5px solid #F1E900;
+  display: flex;
+align-items: center;
+height: 400px;
+  left: 9px;
+}
+@media (max-width: 30em) {
+  article.sign-up-tile {
+      flex: 0 1 calc(100% - 20px);
+  }
+}
+@media (min-width: 34em) {
+  article.sign-up-tile {
+      flex: 0 1 calc(64% - 20px);
+  }
+}
+@media (min-width: 62em) {
+  article.sign-up-tile {
+      flex: 0 2 calc(50% - 20px);
+  }
+}
+article.sign-up-tile img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+article.sign-up-tile .hs-form .input {
+  margin-left: 0;
+}
+
+article.sign-up-tile .hs-form.stacked .actions {
+  padding: 0;
+}
+
+.v-align {
+  position: absolute;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 8px;
+  right: 8px;
+}
+
+
+/*
+*
+* FLIP CARD ANIMATION
+*
+*/
+
+
+/* main shred styles */
+article.shared.with-img {
+  background-image: url(https://picsum.photos/200/300/?random);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+article.shared.with-img img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+article.with-img .file-size-label {
+  font-size: .65rem;
+  color: #fff;
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+article.shared.with-img::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3)
+}
+
+.article-holder article {
+  /*display: flex;
+align-items: center;
+flex: 0 1 calc(25% - 20px);
+height: 400px;*/
+margin: 10px;
+background: #fff;
+cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+/* back of card style*/
+
+.back .shared.with-img .article-header {
+  position: relative;
+  z-index: 2;
+  padding-top: 10px;
+
+}
+
+.back .shared.with-img .article-header .line {
+  box-sizing: border-box;
+  height: 1px;
+  width: 50%;
+  margin: 0px auto;
+  border: 1px solid #111541;}
+
+.back .shared.with-img .article-body {
+  position: absolute;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 10px;
+  right: 10px;
+  z-index: 2;
+}
+
+.back .shared.with-img .article-footer {
+  height: 70px;
+  background-color: #F1E900;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+}
+
+.back .shared.with-img .article-footer .v-center{
+  line-height: 50px;
+}
+
+.back .shared.with-img::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(43, 50, 115, 0.7)
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+perspective: 1000px;
+  display: flex;
+align-items: center;
+flex: 0 1 calc(25% - 20px);
+height: 400px;
+margin: 10px;
+background: #fff;
+cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+-ms-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+}
+
+.flip-container, .shared, .back {
+flex: 0 1 calc(25% - 20px);
+-webkit-flex: 0 1 calc(25% - 20px);
+  height: 400px;
+}
+
+@media (max-width: 30em) {
+  .flip-container, .shared, .back {
+      flex: 0 1 calc(100% - 20px);
+      height: 400px;
+  }
+}
+@media (min-width: 34em) {
+  .flip-container, .shared, .back {
+      flex: 0 1 calc(32% - 20px);
+      height: 400px;
+  }
+}
+@media (min-width: 62em) {
+  .flip-container, .shared, .back {
+      flex: 0 1 calc(25% - 20px);
+      height: 400px;
+  }
+}
+
+/* flip speed goes here */
+.flipper {
+transition: 0.6s;
+transform-style: preserve-3d;
+-webkit-transform-style: preserve-3d;
+  flex: 0 0 100%;
+  width: 100%;
+position: relative;
+}
+
+/* hide back of pane during swap */
+.shared, .back {
+backface-visibility: hidden;
+-webkit-backface-visibility: hidden;
+  flex: 0 0 100%;
+  width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+  height: 400px;
+}
+
+/* shared pane, placed above back */
+.shared {
+z-index: 2;
+/* for firefox 31 */
+transform: rotateY(0deg);
+-webkit-transform: rotateY(0deg);
+-ms-transform: rotateY(0deg);
+-moz-transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+-ms-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+}
