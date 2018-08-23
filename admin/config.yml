@@ -73,3 +73,31 @@ collections:
       - {label: "Company Person", name: "company_person", widget: "string"}
       - {label: "Quote", name: "quote", widget: "markdown"}
       - {label: "Image", name: "image", widget: "image"}
+
+  - name: "news"
+    label: "News"
+    folder: "_news"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "services"}
+      - {label: "Featured", name: "featured", widget: "boolean", default: "false"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Excerpt", name: "excerpt", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}
+
+  - name: "resources"
+    label: "Resources"
+    folder: "_resources"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "clients"}
+      - {label: "Featured", name: "featured", widget: "boolean", default: "false"}
+      - {label: "Order", name: "order", widget: "number", valueType: "int"}
+      - {label: "Resource Name", name: "title", widget: "string"}
+      - {label: "File Size (MB)", name: "file_size", widget: "number"}
+      - {label: "File Type", name: "file_type", widget: "string"}
+      - {label: "URL", name: "url", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Description", name: "description", widget: "string"}

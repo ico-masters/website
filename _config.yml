@@ -25,5 +25,11 @@ collections:
     output: true
   testimonials:
     output: true
+  news:
+    output: true
+  resources:
+    output: true
+  terms:
+    output: true
   # posts:
   #   output: true
