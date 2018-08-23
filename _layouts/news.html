@@ -4,81 +4,39 @@ layout: default
 
 {%- include page-hero.html -%}
 
+{% assign news = site.news %}
+{% assign first_article = news | first %}
+
 <div class="full-section">
   <section class="sub-hero-news">
       <div class="sub-hero-text">
-          <h1 class="h1 white">Important Factors Behind a Successful ICO</h1>
-          <p class="h4 white">A successful whitepaper covers the key concepts and team and leaves the reader engaged and informed. </p>
+          <h1 class="h1 white">{{ first_article.title | escape }}</h1>
+          <p class="h4 white">{{ first_article.excerpt | escape }}</p>
           <a class="btn btn-solid dark-blue mt1 py2 px3 " href="#">Read more</a>
       </div>
       <div class="sub-hero-img-holder">
           <div class="sub-hero-img">
-              <img src="https://picsum.photos/400/?random" alt="sub-hero-img">
+              <img src="{{ first_article.image }}" alt="sub-hero-img">
           </div>
       </div>
   </section>
 </div>
 
 <div class="section news-section z2">
-
-  <article>
-      <div class="article-img-container">
-           <img src="https://picsum.photos/400/?random" alt="sub-hero-img">
-           <p class="z2">TLDR Capital Launches Security Division</p>
-      </div>
-      <p class="h5 dark-blue">A successful whitepaper covers the key concepts and team and leaves the reader engaged and informed. </p>
-      <div class="btn-holder">
-          <a class="btn btn-solid dark-blue mt1 py2 px3 " href="news_details.html">Read more</a>
-      </div>
-  </article>
-   <article>
-      <div class="article-img-container">
-           <img src="https://picsum.photos/400/?random" alt="sub-hero-img">
-           <p class="z2">What makes a good whitepaper?</p>
-      </div>
-      <p class="h5 dark-blue">For years, entrepreneurs have been forced into following a well-trodden track towards raising serious financial backing for their ventures.</p>
-      <div class="btn-holder">
-          <a class="btn btn-solid dark-blue mt1 py2 px3 " href="news_details.html">Read more</a>
-      </div>
-  </article>
-   <article>
-      <div class="article-img-container">
-           <img src="https://picsum.photos/400/?random" alt="sub-hero-img">
-           <p class="z2">Why ICOs and TGEs Are Ground-Breaking Fundraising Models</p>
-      </div>
-      <p class="h5 dark-blue">Martin Adams, TLDR Partner, agrees that one of the key strengths of ICOs compared to traditional fundraising mechanisms is their creation of a global network of ready participants prior to platform launch.</p>
-      <div class="btn-holder">
-          <a class="btn btn-solid dark-blue mt1 py2 px3 " href="news_details.html">Read more</a>
-      </div>
-  </article>
-  <article>
-      <div class="article-img-container">
-           <img src="https://picsum.photos/400/?random" alt="sub-hero-img">
-           <p class="z2">Why Do ICOs Need Global Investors?</p>
-      </div>
-      <p class="h5 dark-blue">Blockchain has initiated a technological paradigm shift. Its capabilities are opening up a whole new view on fundraising and the role of transparency and decentralization in building a company.</p>
-      <div class="btn-holder">
-          <a class="btn btn-solid dark-blue mt1 py2 px3 " href="news_details.html">Read more</a>
-      </div>
-  </article>
-   <article>
-      <div class="article-img-container">
-           <img src="https://picsum.photos/400/?random" alt="sub-hero-img">
-           <p class="z2">Important Factors Behind a Successful ICO</p>
-      </div>
-      <p class="h5 dark-blue">Security is an integral part of TLDR’s goals and identity. Our commitment to maintaining the industry’s best practices has resulted in the creation of a dedicated division, focused on both …</p>
-      <div class="btn-holder">
-          <a class="btn btn-solid dark-blue mt1 py2 px3 " href="news_details.html">Read more</a>
-      </div>
-  </article>
-   <article>
-      <div class="article-img-container">
-           <img src="https://picsum.photos/400/?random" alt="sub-hero-img">
-           <p class="z2">TLDR Capital Launches Security Division</p>
-      </div>
-      <p class="h5 dark-blue">A successful whitepaper covers the key concepts and team and leaves the reader engaged and informed. There’s no set template or format for a whitepaper. It’s a fluid document. </p>
-      <div class="btn-holder">
-          <a class="btn btn-solid dark-blue mt1 py2 px3 " href="news_details.html">Read more</a>
-      </div>
-  </article>
+    {%- if news.size > 0 -%}
+    {%- for article in news -%}
+    <article>
+        <div class="article-img-container">
+            <img src="{{ article.image }}" alt="sub-hero-img">
+            <p class="z2">{{ article.title | escape }}</p>
+        </div>
+        <p class="h5 dark-blue">{{ article.excerpt | escape }}</p>
+        <div class="btn-holder">
+            <a class="btn btn-solid dark-blue mt1 py2 px3 " href="news_details.html">Read more</a>
+        </div>
+    </article>
+    {%- endfor -%}
+    {%- else -%}
+    No news list
+    {%- endif -%}
 </div>
