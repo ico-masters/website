@@ -120,12 +120,11 @@ article.shared.with-img::after {
 
 .article-holder article {
   /*display: flex;
-align-items: center;
-flex: 0 1 calc(25% - 20px);
-height: 400px;*/
-margin: 10px;
-background: #fff;
-cursor: pointer;
+  align-items: center;
+  flex: 0 1 calc(25% - 20px);
+  height: 400px;*/
+  margin: 10px;
+  background: #fff;
   position: relative;
   text-align: center;
 }
@@ -164,6 +163,8 @@ cursor: pointer;
   width: 100%;
   bottom: 0;
   padding: 10px;
+  display: inline-block;
+  left: 0;
 }
 
 .back .shared.with-img .article-footer .v-center{
@@ -184,12 +185,11 @@ cursor: pointer;
 .flip-container {
 perspective: 1000px;
   display: flex;
-align-items: center;
-flex: 0 1 calc(25% - 20px);
-height: 400px;
-margin: 10px;
-background: #fff;
-cursor: pointer;
+    align-items: center;
+    flex: 0 1 calc(25% - 20px);
+    height: 400px;
+    margin: 10px;
+    background: #fff;;
   position: relative;
   text-align: center;
 }

@@ -73,7 +73,6 @@ collections:
       - {label: "Company Person", name: "company_person", widget: "string"}
       - {label: "Quote", name: "quote", widget: "markdown"}
       - {label: "Image", name: "image", widget: "image"}
-
   - name: "news"
     label: "News"
     folder: "_news"
@@ -86,7 +85,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Description", name: "description", widget: "markdown"}
-
   - name: "resources"
     label: "Resources"
     folder: "_resources"
@@ -98,10 +96,9 @@ collections:
       - {label: "Resource Name", name: "title", widget: "string"}
       - {label: "File Size (MB)", name: "file_size", widget: "number"}
       - {label: "File Type", name: "file_type", widget: "string"}
-      - {label: "URL", name: "url", widget: "string"}
+      - {label: "Download URL", name: "download_url", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Description", name: "description", widget: "string"}
-
   - name: "terms"
     label: "Terms"
     folder: "_terms"

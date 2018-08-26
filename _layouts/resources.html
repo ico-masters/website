@@ -37,7 +37,7 @@ layout: default
                 <p class="center h3 white ">{{ resource.title | escape }}</p>
                 <p class="center h6 white mb0">{{ resource.description | escape }} </p>
               </div>
-              <div class="article-footer z2">
+              <a href="{{ resource.download_url }}" class="article-footer z2">
                 <div class="left">
                   <p class="h3 blue mb0 bold">Download</p>
                   <p class="left h6 blue mb0">File Size: {{ resource.file_size }}mb</p>
@@ -45,7 +45,7 @@ layout: default
                 <div class="right v-center">
                   Icon
                 </div>
-              </div>
+              </a>
             </article>
           </div>
         </div>
@@ -94,7 +94,7 @@ layout: default
                 <p class="center h3 white ">{{ resource.title | escape }}</p>
                 <p class="center h6 white mb0">{{ resource.description | escape }} </p>
               </div>
-              <div class="article-footer z2">
+              <a href="{{ resource.download_url }}" class="article-footer z2">
                 <div class="left">
                   <p class="h3 blue mb0 bold">Download</p>
                   <p class="left h6 blue mb0">File Size: {{ resource.file_size }}mb</p>
@@ -102,7 +102,7 @@ layout: default
                 <div class="right v-center">
                   Icon
                 </div>
-              </div>
+              </a>
             </article>
           </div>
         </div>

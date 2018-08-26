@@ -4,7 +4,11 @@ layout: default
 
 {%- include page-hero.html -%}
 
-{% assign terms_grouped = site.terms | group_by: 'letter' | sort: 'letter' | reverse %}
+{% assign terms_grouped = site.terms | group_by: 'letter' | sort: 'name' %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <div class="section">
   <nav id="secondary-menu" class="secondary-menu" role="navigation" aria-expanded="false" aria-label="Secondary-menu">
@@ -13,6 +17,7 @@ layout: default
           <li><a class="{% if page.id == '/glossary' %} selected {% endif %}" href="{{ '/glossary#secondary-menu' | relative_url }}">Glossary</a></li>
       </ul>
   </nav>
+
   <div class="glossary-holder">
       <!-- <div class="glossary-search-box">
           <input type="text" class="new-input" placeholder="Search here">
@@ -21,19 +26,22 @@ layout: default
           <span class="">A</span>
       </div>
       <div class="search-results-holder">
-          <div class="side-letter-search">
-              <ul>
-                    {% assign all_letters = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: ',' %}
-                    {%- for letter in all_letters -%}
-                        {% assign exists = terms_grouped | where: 'name', letter | first %}
-                        <li><a href="#{{letter}}" class="{% if exists %} black {% endif %}">{{letter}}</a></li>
-                    {%- endfor -%}
-              </ul>
-          </div>
-          <div class="print-search-results">
+          <nav id="scrollspy" class="scrollspy navbar">
+            <div class="side-letter-search">
+                <ul  class="nav navbar-nav">
+                        {% assign all_letters = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: ',' %}
+                        {%- for letter in all_letters -%}
+                            {% assign exists = terms_grouped | where: 'name', letter | first %}
+                            <li><a href="#item-{{letter}}" class="{% if exists %} black {% endif %}">{{letter}}</a></li>
+                        {%- endfor -%}
+                </ul>
+            </div>
+          </nav>
+          <div class="print-search-results" id="scroll-data" >
             {% for group in terms_grouped %}
                 {% assign terms = group.items | sort: 'title' %}
-                <div class="clearfix" id="#{{group.name}}">
+                <div class="clearfix" id="{{group.name}}">
+                    <h1 id="item-{{group.name}}" class="anchor">{{group.name}}</h1>
                     {%- for term in terms -%}
                         <div class="result-holder">
                             <p class="h2 bold blue">{{ term.title | escape }}</p>
@@ -46,3 +54,10 @@ layout: default
       </div>
   </div>
 </div>
+<script>
+$('#scroll-data').scrollspy({ target: '#scrollspy' })
+$(window).on('activate.bs.scrollspy', function (event) {
+    var data = $(event.target).find('a').html();
+    $('.current-letter span').html(data);
+})
+</script>
