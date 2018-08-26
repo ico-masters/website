@@ -1,4 +1,8 @@
 ---
+layout: article
+permalink: /news/:title
+id: news
+
 featured: false
 order: 10
 image: /images/uploads/client_aelf.jpg

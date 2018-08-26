@@ -165,3 +165,94 @@
 .news-form-holder .hs-form .input {
   margin-left: 0px;
 }
+
+/*
+*
+* NEWS DETAILS
+*
+*/
+
+.linear-bg {
+  background: linear-gradient(357.5deg, #FFFFFF 0%, rgba(238,240,245,0.4) 100%);
+}
+.news-detail-title {
+  background-color: #fff;
+  padding: 4rem 2rem 10rem;
+
+  text-align: center;
+}
+@media (min-width: 34em) {
+  .news-detail-title {
+      padding: 5rem 5rem 10rem; } }
+@media (min-width: 62em) {
+  .news-detail-title {
+      padding: 6rem 9rem 10rem; } }
+.news-detail-section {
+  padding: 0rem 2rem 6rem;
+  border-bottom: 1px solid #EAEAEA;
+  margin: 0 auto;
+  max-width: 1280px;}
+  @media (min-width: 34em) {
+  .section {
+    padding: 5rem; } }
+  @media (min-width: 62em) {
+      .section {
+      padding: 6rem 9rem; } }
+
+.big-img {
+  width: 100%;
+  margin-top: -6rem;
+  margin-bottom: 3rem;
+}
+.big-img img {
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/*
+*
+* QUOTE BOX STYLE
+*
+*/
+
+.news-detail-section {
+  blockquote {
+    border: 4px solid #F1E900;
+    padding:3rem;
+    margin: 3rem auto;
+    position: relative;
+    font-style: italic;
+  }
+
+  blockquote:after{
+    background : url(/assets/images/quote_icon.png) no-repeat;
+    content: '';
+    position: absolute;
+    top:-22px;
+    width: 65px;
+    height: 45px;
+  }
+
+}
+
+/*
+*
+* NEWS LIST STYLE
+*
+*/
+
+.news-detail-list {
+  margin: 0px 0px 1rem;
+}
+.news-detail-list li {
+  margin: .5rem 0;
+}
+.news-detail-list li a {
+  font-size: 1rem;
+  color: #2B3273;
+}
+
+.new-article-end {
+
+}

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{%- include page-hero.html -%}
+
+<section class="linear-bg">
+  <div class="news-detail-title">
+      <h1 class="mb3">{{ page.title }}</h1>
+      <p class="dark-blue">{{ page.excerpt }}</p>
+  </div>
+  <div class="news-detail-section">
+      <div class="big-img">
+          <img src="{{ page.image }}" alt="big img" />
+      </div>
+
+      {{ content }}
+
+      <hr class="pt3">
+      <div class="new-article-end mt4">
+          <div class="left">
+              <a href="/news" class="btn btn-outline">Back to News</a>
+          </div>
+          <div class="right">
+              share tools
+          </div>
+      </div>
+  </div>
+</section>
