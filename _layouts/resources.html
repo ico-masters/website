@@ -12,9 +12,11 @@ layout: default
       </ul>
   </nav>
   <div class="article-holder">
-    {% assign resources = site.resources %}
-    {%- if resources.size > 0 -%}
-    {%- for resource in resources -%}
+    {% assign resources1 = site.resources | where: "featured", "true" | sort: 'order' %}
+    {% assign resources2 = site.resources | where: "featured", "false" | sort: 'order' %}
+
+    {%- if resources1.size > 0 -%}
+    {%- for resource in resources1 -%}
       <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
         <div class="flipper">
           <article class="with-img shared" style="background-image: url('{{ resource.image}}'); ">
@@ -68,6 +70,47 @@ layout: default
             </form>
         </div>
     </article>
+
+
+    {%- if resources2.size > 0 -%}
+    {%- for resource in resources2 -%}
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <article class="with-img shared" style="background-image: url('{{ resource.image}}'); ">
+            <div class="v-align z2">
+                <img src="/assets/images/icon_a.png" alt="icon">
+                <p class="h3 white">{{ resource.title | escape }}</p>
+            </div>
+            <div class="file-size-label z2">File Size: {{ resource.file_size }}mb</div>
+          </article>
+          <div class="back">
+            <article class="with-img shared" style="background-image: url('{{ resource.image}}'); ">
+              <div class="article-header">
+                <img src="/assets/images/icon_a.png" alt="">
+                <p class="h6 white">File Type: {{ resource.file_type }}</p>
+                <div class="line"></div>
+              </div>
+              <div class="article-body">
+                <p class="center h3 white ">{{ resource.title | escape }}</p>
+                <p class="center h6 white mb0">{{ resource.description | escape }} </p>
+              </div>
+              <div class="article-footer z2">
+                <div class="left">
+                  <p class="h3 blue mb0 bold">Download</p>
+                  <p class="left h6 blue mb0">File Size: {{ resource.file_size }}mb</p>
+                </div>
+                <div class="right v-center">
+                  Icon
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    {%- endfor -%}
+    {%- else -%}
+    No resources list
+    {%- endif -%}
 
   </div>
 </div>

@@ -4,7 +4,7 @@ layout: default
 
 {%- include page-hero.html -%}
 
-{% assign news = site.news %}
+{% assign news = site.news | sort: 'order' %}
 {% assign first_article = news | first %}
 
 <div class="full-section">
@@ -22,6 +22,7 @@ layout: default
       </div>
   </section>
 </div>
+
 
 <div class="section news-section z2">
     {%- if news.size > 0 -%}
@@ -42,3 +43,18 @@ layout: default
     No news list
     {%- endif -%}
 </div>
+
+<section class="news-bottom-subscrition">
+    <div class="news-form-holder">
+        <h1 class="h1 bold white">Subscribe module</h1>
+        <p class="h5 white">Get the juicy stuff on your email. Only the juicy stuff on your email. </p>
+        <form action="" class="hs-form stacked hs-custom-form">
+            <div class="input">
+                <input class="hs-input"  name="email" placeholder="your@email.com" required="" type="email">
+            </div>
+            <div class="actions">
+                <input class="hs-button primary large" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</section>
