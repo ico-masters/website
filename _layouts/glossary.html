@@ -4,6 +4,8 @@ layout: default
 
 {%- include page-hero.html -%}
 
+{% assign terms_grouped = site.terms | group_by: 'letter' | sort: 'letter' | reverse %}
+
 <div class="section">
   <nav id="secondary-menu" class="secondary-menu" role="navigation" aria-expanded="false" aria-label="Secondary-menu">
       <ul class="site-nav">
@@ -21,49 +23,25 @@ layout: default
       <div class="search-results-holder">
           <div class="side-letter-search">
               <ul>
-                  <li><a href="#" class="selected">A</a></li>
-                  <li><a href="#" class="">B</a></li>
-                  <li><a href="#" class="">C</a></li>
-                  <li><a href="#" class="">D</a></li>
-                  <li><a href="#" class="">E</a></li>
-                  <li><a href="#" class="">F</a></li>
-                  <li><a href="#" class="">G</a></li>
-                  <li><a href="#" class="">H</a></li>
-                  <li><a href="#" class="">I</a></li>
-                  <li><a href="#" class="">J</a></li>
-                  <li><a href="#" class="">K</a></li>
-                  <li><a href="#" class="">L</a></li>
-                  <li><a href="#" class="">M</a></li>
-                  <li><a href="#" class="">N</a></li>
-                  <li><a href="#" class="">O</a></li>
-                  <li><a href="#" class="">P</a></li>
-                  <li><a href="#" class="">Q</a></li>
-                  <li><a href="#" class="">R</a></li>
-                  <li><a href="#" class="">S</a></li>
-                  <li><a href="#" class="">T</a></li>
-                  <li><a href="#" class="">U</a></li>
-                  <li><a href="#" class="">V</a></li>
-                  <li><a href="#" class="">W</a></li>
-                  <li><a href="#" class="">X</a></li>
-                  <li><a href="#" class="">Y</a></li>
-                  <li><a href="#" class="">Z</a></li>
+                    {% assign all_letters = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: ',' %}
+                    {%- for letter in all_letters -%}
+                        {% assign exists = terms_grouped | where: 'name', letter | first %}
+                        <li><a href="#{{letter}}" class="{% if exists %} black {% endif %}">{{letter}}</a></li>
+                    {%- endfor -%}
               </ul>
           </div>
           <div class="print-search-results">
-            {% assign terms = site.terms %}
-
-            <div class="clearfix">
-                {%- if terms.size > 0 -%}
-                {%- for term in terms -%}
-                    <div class="result-holder">
-                        <p class="h2 bold blue">{{ term.title | escape }}</p>
-                        <p>{{ term.description | escape }}</p>
-                    </div>
-                {%- endfor -%}
-                {%- else -%}
-                No terms list
-                {%- endif -%}
-            </div>
+            {% for group in terms_grouped %}
+                {% assign terms = group.items | sort: 'title' %}
+                <div class="clearfix" id="#{{group.name}}">
+                    {%- for term in terms -%}
+                        <div class="result-holder">
+                            <p class="h2 bold blue">{{ term.title | escape }}</p>
+                            <p>{{ term.description | escape }}</p>
+                        </div>
+                    {%- endfor -%}
+                </div>
+            {%- endfor -%}
           </div>
       </div>
   </div>
