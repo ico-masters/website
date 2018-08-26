@@ -4,7 +4,7 @@ permalink: /news/:title
 id: news
 
 featured: false
-order: 10
+order: 9
 image: /images/uploads/client_aelf.jpg
 title: TLDR Capital Launches Security Division
 excerpt: Security is an integral part of TLDR’s goals and identity. Our commitment to maintaining the industry’s best practices has resulted in the creation of a dedicated division, focused on both cybersecurity and physical security, for TLDR and for our clients.
