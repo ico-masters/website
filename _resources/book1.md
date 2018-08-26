@@ -1,7 +1,7 @@
 ---
 featured: true
 order: 2
-url: https://www.file.com/book1.pdf
+download_url: https://www.file.com/book1.pdf
 image: http://t1.gstatic.com/images?q=tbn:ANd9GcR-6YpiUWtVrkEQcuqXTCoD1Nvm0o5we4q_VuKC9VKfqABZES17
 title: "The Age of Cryptocurrency: How Bitcoin and Digital Money Are Challenging"
 file_size: 22.4

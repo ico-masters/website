@@ -1,7 +1,7 @@
 ---
 featured: false
 order: 5
-url: https://www.file.com/book2.pdf
+download_url: https://www.file.com/book2.pdf
 image: https://images-na.ssl-images-amazon.com/images/I/51TDyaEvhcL._SX379_BO1,204,203,200_.jpg
 title: "Mastering Bitcoin: Unlocking Digital Cryptocurrencies"
 file_size: 12.3
