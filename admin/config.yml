@@ -79,6 +79,8 @@ collections:
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "services"}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: '/news/:title'}
+      - {label: "ID", name: "id", widget: "hidden", default: 'news'}
       - {label: "Featured", name: "featured", widget: "boolean", default: "false"}
       - {label: "Order", name: "order", widget: "number", valueType: "int"}
       - {label: "Image", name: "image", widget: "image"}
