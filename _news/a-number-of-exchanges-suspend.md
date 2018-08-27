@@ -1,5 +1,7 @@
 ---
 layout: article
+permalink: /news/:title
+id: news
 featured: false
 order: 1
 image: 'https://cimg.co/w/articles-attachments/0/5ae/1527c6a9e4.jpg'

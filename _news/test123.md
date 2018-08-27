@@ -1,5 +1,5 @@
 ---
-layout: services
+layout: article
 permalink: '/news/:title'
 id: news
 featured: 'false'
