@@ -62,12 +62,12 @@ layout: default
 {% assign feat_testimonials = site.testimonials | where: 'featured', 'true' | sort: 'order' | reverse %}
 {%- if feat_testimonials.size > 0 -%}
   <div class="section center">
-    {%- for testimonial in feat_testimonials limit:1 -%}
+    {%- for testimonial in feat_testimonials limit: 1 -%}
       <div class="featured_testimonial cover_bg rounded white mb4" style="background-image: url('{{ testimonial.image }}');">
         <h1 class="italic pb3 z2 relative">&ldquo;{{ testimonial.quote }}&rdquo;</h1>
         <p class="m0 z2 relative">
           <b>{{ testimonial.company_person }}</b><br>
-          {{ testimonial.company_name }}
+          {{ testimonial.title }}
         </p>
       </div>
     {%- endfor -%}

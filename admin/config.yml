@@ -69,7 +69,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "testimonials"}
       - {label: "Featured", name: "featured", widget: "boolean", default: "false"}
       - {label: "Order", name: "order", widget: "number", valueType: "int"}
-      - {label: "Company Name", name: "company_name", widget: "string"}
+      - {label: "Company Name", name: "title", widget: "string"}
       - {label: "Company Person", name: "company_person", widget: "string"}
       - {label: "Quote", name: "quote", widget: "markdown"}
       - {label: "Image", name: "image", widget: "image"}
