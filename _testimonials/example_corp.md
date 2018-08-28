@@ -1,6 +1,7 @@
 ---
 featured: false
 order: 10
+image: /images/uploads/testimonial_ex.jpg
 title: Example Crypto Acme Corp
 company_person: 'Jane Doe, Head of ICO'
 quote: >
