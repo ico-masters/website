@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 {%- include page-hero.html -%}
 
 
@@ -58,20 +62,45 @@ layout: default
   </div>
 </div>
 
-
 {% assign feat_testimonials = site.testimonials | where: 'featured', 'true' | sort: 'order' | reverse %}
 {%- if feat_testimonials.size > 0 -%}
   <div class="section center">
-    {%- for testimonial in feat_testimonials limit: 1 -%}
-      <div class="featured_testimonial cover_bg rounded white mb4" style="background-image: url('{{ testimonial.image }}');">
-        <h1 class="italic pb3 z2 relative">&ldquo;{{ testimonial.quote }}&rdquo;</h1>
-        <p class="m0 z2 relative">
-          <b>{{ testimonial.company_person }}</b><br>
-          {{ testimonial.title }}
-        </p>
+    <div id="tldr-carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        {% assign counter = 0 %}
+        {%- for testimonial in feat_testimonials -%}
+          <li data-target="#tldr-carousel" data-slide-to="{{ counter }}" class="{% if counter == 0 %} active {% endif %}"></li>
+          {% assign counter = counter | plus: 1 %}
+        {%- endfor -%}
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        {% assign counter = 0 %}
+        {%- for testimonial in feat_testimonials -%}
+          <div class="item {% if counter == 0 %} active {% endif %}">
+            <div class="featured_testimonial cover_bg rounded white" style="background-image: url('{{ testimonial.image }}');">
+              <h1 class="italic pb3 z2 relative">&ldquo;{{ testimonial.quote }}&rdquo;</h1>
+              <p class="m0 z2 relative">
+                <b>{{ testimonial.company_person }}</b><br>
+                {{ testimonial.title }}
+              </p>
+            </div>
+          </div>
+          {% assign counter = counter | plus: 1 %}
+        {%- endfor -%}
       </div>
-    {%- endfor -%}
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#tldr-carousel" role="button" data-slide="prev">
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#tldr-carousel" role="button" data-slide="next">
+        <span class="sr-only">Next</span>
+      </a>
   </div>
+</div>
 {%- else -%}
   No testimonial
 {%- endif -%}
@@ -94,3 +123,11 @@ layout: default
     <button class="btn btn-solid bg-blue yellow mt1 py2 px3">Download now</button>
   </div>
 </div>
+
+<script>
+  $('#scroll-data').scrollspy({ target: '#scrollspy' })
+  $(window).on('activate.bs.scrollspy', function (event) {
+      var data = $(event.target).find('a').html();
+      $('.current-letter span').html(data);
+  })
+  </script>
