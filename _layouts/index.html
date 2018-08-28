@@ -62,7 +62,7 @@ layout: default
   </div>
 </div>
 
-{% assign feat_testimonials = site.testimonials | where: 'featured', 'true' | sort: 'order' | reverse %}
+{% assign feat_testimonials = site.testimonials | where: 'featured', 'true' | sort: 'order' %}
 {%- if feat_testimonials.size > 0 -%}
   <div class="section center">
     <div id="tldr-carousel" class="carousel slide" data-ride="carousel">
