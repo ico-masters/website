@@ -17,11 +17,18 @@ layout: default
 
     {%- if resources1.size > 0 -%}
     {%- for resource in resources1 -%}
+
+    {% assign bookIcon = 'book.png' %}
+    {%- if resource.file_type == 'audio' -%}
+      {% assign bookIcon = 'book-audio.png'%}
+    {%- endif -%}
+
+
       <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
         <div class="flipper">
           <article class="with-img shared" style="background-image: url('{{ resource.image}}'); ">
             <div class="v-align z2">
-                <img src="/assets/images/icon_a.png" alt="icon">
+                <img src="/assets/images/{{ bookIcon }}" alt="icon" class="icon">
                 <p class="h3 white">{{ resource.title | escape }}</p>
             </div>
             <div class="file-size-label z2">File Size: {{ resource.file_size }}mb</div>
@@ -29,7 +36,7 @@ layout: default
           <div class="back">
             <article class="with-img shared" style="background-image: url('{{ resource.image}}'); ">
               <div class="article-header">
-                <img src="/assets/images/icon_a.png" alt="">
+                <img src="/assets/images/{{ bookIcon }}" alt="" class="icon">
                 <p class="h6 white">File Type: {{ resource.file_type }}</p>
                 <div class="line"></div>
               </div>
@@ -43,7 +50,7 @@ layout: default
                   <p class="left h6 blue mb0">File Size: {{ resource.file_size }}mb</p>
                 </div>
                 <div class="right v-center">
-                  Icon
+                  <img src="/assets/images/download.png" alt="icon" class="icon">
                 </div>
               </a>
             </article>
@@ -57,7 +64,7 @@ layout: default
 
     <article class="sign-up-tile">
         <div class="v-align z2">
-            <img src="/assets/images/email_icon.png" alt="icon">
+            <img src="/assets/images/icon_a.png" alt="icon">
             <p class="h3 bold">Subscribe module</p>
             <p class="h5 ">Get the juicy stuff on your email. Only the juicy stuff on your email. </p>
             <form action="" class="hs-form stacked hs-custom-form">
@@ -74,11 +81,17 @@ layout: default
 
     {%- if resources2.size > 0 -%}
     {%- for resource in resources2 -%}
+
+    {% assign bookIcon = 'book.png' %}
+    {%- if resource.file_type == 'audio' -%}
+      {% assign bookIcon = 'book-audio.png'%}
+    {%- endif -%}
+
       <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
         <div class="flipper">
           <article class="with-img shared" style="background-image: url('{{ resource.image}}'); ">
             <div class="v-align z2">
-                <img src="/assets/images/icon_a.png" alt="icon">
+                <img src="/assets/images/{{ bookIcon }}" alt="icon" class="icon">
                 <p class="h3 white">{{ resource.title | escape }}</p>
             </div>
             <div class="file-size-label z2">File Size: {{ resource.file_size }}mb</div>
@@ -86,7 +99,7 @@ layout: default
           <div class="back">
             <article class="with-img shared" style="background-image: url('{{ resource.image}}'); ">
               <div class="article-header">
-                <img src="/assets/images/icon_a.png" alt="">
+                <img src="/assets/images/{{ bookIcon }}" alt="" class="icon">
                 <p class="h6 white">File Type: {{ resource.file_type }}</p>
                 <div class="line"></div>
               </div>
@@ -100,7 +113,7 @@ layout: default
                   <p class="left h6 blue mb0">File Size: {{ resource.file_size }}mb</p>
                 </div>
                 <div class="right v-center">
-                  Icon
+                  <img src="/assets/images/download.png" alt="icon" class="icon">
                 </div>
               </a>
             </article>

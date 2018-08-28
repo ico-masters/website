@@ -3,7 +3,7 @@ featured: true
 order: 1
 title: '[edit] After the Bitcoin Boom: Hard Lessons for Cryptocurrenc'
 file_size: '222.3'
-file_type: text
+file_type: audio
 download_url: >-
   https://www.nytimes.com/2018/08/20/technology/cryptocurrency-investor-losses.html
 image: >-
