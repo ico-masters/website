@@ -3,7 +3,7 @@ featured: true
 order: 10
 title: Strategy
 image: /images/uploads/service_1.jpg
-anchor: ico-launch
+anchor: strategy
 excerpt: >-
   Our flagship advisory practice that helps your project navigate tokenisation,
   marketing and community while scaling your business beyond the TGE.
