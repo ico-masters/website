@@ -72,7 +72,6 @@ collections:
       - {label: "Company Name", name: "title", widget: "string"}
       - {label: "Company Person", name: "company_person", widget: "string"}
       - {label: "Quote", name: "quote", widget: "markdown"}
-      - {label: "Image", name: "image", widget: "image"}
   - name: "news"
     label: "News"
     folder: "_news"
