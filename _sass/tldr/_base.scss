@@ -228,3 +228,14 @@ strong {
   background: $yellow; /* Gecko Browsers */
   background: $dark-blue; /* Gecko Browsers */
 }
+
+
+.map {
+  margin-top: 6rem;
+  text-align: center;
+  img {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
