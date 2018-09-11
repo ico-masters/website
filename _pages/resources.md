@@ -16,7 +16,7 @@ home_summary: >
 description: >-
   Welcome to TLDR’s Resources. Here our Partners, all recognized industry
   leaders within their respective fields, share their thoughts and insights.
-cta: Teste
+cta: ''
 cta_page: Browse The Resource Catalog
 ---
 
