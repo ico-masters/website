@@ -1,9 +1,9 @@
 ---
 featured: true
 order: 20
-title: Cyber Security
+title: Cybersecurity
 image: /images/uploads/service_2.jpg
-anchor: cyber-security
+anchor: Cybersecurity
 excerpt: >-
   Our cybersecurity practice deploy best-in-class security protocols to protect
   against cyber threats and other exploits.
