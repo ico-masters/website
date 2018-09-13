@@ -7,9 +7,11 @@ title: Our Clients
 hero_image: /assets/images/hero2.jpg
 headline: Our Client Portfolio
 home_headline: 'Clients, Partners & Portfolio'
-summary: >
-  Want to add an additional description before introducing clients? Do it
-  here... totally optional.
+summary: >-
+  The projects that make up our portfolio offer creative solutions through the
+  use of decentralized technologies. They all share ambitious visions,
+  innovative thinking, and impressive teams with proven track records. The
+  ultimate goal is to accelerate the growth and adoption of blockchain.
 home_summary: >-
   TLDR works with a wide variety of projects and crypto infrastructure companies
   around the world. Here are just a few:
