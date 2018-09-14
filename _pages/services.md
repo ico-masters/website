@@ -2,18 +2,22 @@
 layout: services
 permalink: /services
 id: services
-title: Services
 name: Services
-
+title: Services
 hero_image: /assets/images/hero2.jpg
-headline: Our services
-home_headline: Featured services
-summary: |
-  Take a look at these great services. Have something more to say before showing all the services? this is the place...
-home_summary: |
-  Some intro words about these services maybe show here the services with more demand.
-description: |
-  The real intro to services on the actual services page
+headline: Our Solutions
+home_headline: Featured Services
+summary: >-
+  We’ve refined our service offering based on the key support areas we’ve
+  identified as most prevalent within the blockchain space. Browse our key
+  service areas below and envision how TLDR can support your project.
+home_summary: >-
+  We provide the experience, strategy, and network to ensure success and
+  adoption.
+description: >-
+  TLDR draws on its extensive multidisciplinary expertise to offer clients a
+  full set of solutions. We provide essential support in all areas and for every
+  growth stage in a company.
 cta: Teste
-cta_page:
 ---
+

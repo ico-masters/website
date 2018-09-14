@@ -3,21 +3,22 @@ layout: clients
 permalink: /clients
 id: clients
 name: Clients
-title: Our clients
+title: Our Clients
 hero_image: /assets/images/hero2.jpg
-headline: Clients... Portfolio
+headline: Our Client Portfolio
 home_headline: 'Clients, Partners & Portfolio'
-summary: >
-  Want to add an additional description before introducing clients? Do it
-  here... totally optional.
+summary: >-
+  The projects that make up our portfolio offer creative solutions through the
+  use of decentralized technologies. They all share ambitious visions,
+  innovative thinking, and impressive teams with proven track records. The
+  ultimate goal is to accelerate the growth and adoption of blockchain.
 home_summary: >-
   TLDR works with a wide variety of projects and crypto infrastructure companies
   around the world. Here are just a few:
-description: >
-  The real intro to clients on the actual clients page. Some wise words about
-  our clients. Imagine two men facing each other, pointing
-
-  past one another.....
+description: >-
+  At TLDR we seek innovative blockchain and tokenization projects with a focus
+  on increasing adoption and improving industries and existing practices. Take a
+  look at some of the ambitious projects in our portfolio.
 cta: Teste
 ---
 
