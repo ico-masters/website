@@ -2,7 +2,7 @@
 featured: true
 order: 20
 title: Cybersecurity
-image: /images/uploads/service_2.jpg
+image: /images/uploads/cybersecurity.jpg
 anchor: Cybersecurity
 excerpt: >-
   Our cybersecurity practice deploy best-in-class security protocols to protect
