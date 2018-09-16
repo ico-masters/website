@@ -1,0 +1,64 @@
+<script>
+function initScripts() {
+  // HubSpot Embed Code
+  var script = document.createElement('script');
+  script.setAttribute('id', 'hs-script-loader');
+  script.src = "//js.hs-scripts.com/4534216.js";
+  document.head.appendChild(script)
+}
+
+function removeScript() {
+  scripts = document
+              .head
+              .getElementsByTagName('script');
+  if(scripts.length > 0) {
+    scripts = Array.prototype.slice.call(scripts)
+    scripts.forEach(function(element) {
+      element.remove();
+    });
+  }
+}
+
+function acceptTerms() {
+  localStorage.acceptTerms = 'true';
+  removeBanner();
+  initScripts();
+}
+
+function discartTerms() {
+  localStorage.removeItem('acceptTerms');
+  clearAllCookies();
+  removeScript();
+  showBanner();
+}
+
+function showBanner() {
+  document
+    .getElementById("cookie-banner")
+    .style
+    .display = 'block';
+}
+
+function removeBanner() {
+  document
+    .getElementById("cookie-banner")
+    .style
+    .display = 'none';
+}
+
+function clearAllCookies() {
+  document
+    .cookie
+    .split(";")
+    .forEach(function(c) {
+      document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
+    });
+}
+
+if(localStorage.acceptTerms == 'true') {
+  initScripts();
+}
+else {
+  showBanner();
+}
+</script>

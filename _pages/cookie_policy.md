@@ -77,7 +77,7 @@ Also, following the consent you provide for the use of the abovementioned cookie
 ## 3. How can you control the use of cookies in this website?
 A “cookie notice” appeared when you accessed our website, requesting your consent for the use of cookies. Your consent was free, explicit, unambiguous and properly informed by this Cookie Policy.
 
-When you consent in this manner, we and our advertising partners set advertising cookies on the site you are visiting and on other of our websites, dashboards, and services. If you do not provide consent, we will not deploy any cookies in your browser. If you do provide consent, you can opt-out at any time by clicking here. By doing so, you won’t share information with our analytics tool about events or actions that happen after the opt-out.
+When you consent in this manner, we and our advertising partners set advertising cookies on the site you are visiting and on other of our websites, dashboards, and services. If you do not provide consent, we will not deploy any cookies in your browser. If you do provide consent, you can opt-out at any time by clicking [here](javascript:discartTerms();). By doing so, you won’t share information with our analytics tool about events or actions that happen after the opt-out.
 
 ## 4. Contact Us
 If you have any questions about our use of cookies or other related questions, please refer to our [Global Privacy Policy](/privacy_policy).

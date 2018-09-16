@@ -1,0 +1,15 @@
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  z-index: 99999;
+  width: 100%;
+  background-color: rgba( $color-primary, .9 );
+  color: black;
+  display: none;
+  border-top: 2px solid darken($color-primary, 1%);
+  padding: 10px;
+  line-height: 2rem;
+  .actions {
+    float: right;
+  }
+}
