@@ -2,7 +2,7 @@
 featured: true
 order: 10
 title: Strategy
-image: /images/uploads/strategy.jpg
+image: /images/uploads/strategy-overlay40-.jpg
 anchor: Strategy
 excerpt: >-
   Our flagship advisory practice that helps your project navigate tokenisation,
