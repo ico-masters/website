@@ -3,7 +3,7 @@ layout: services
 featured: true
 order: 6
 title: Community
-image: /images/uploads/adult-cellphone-communication-1350611.jpg
+image: /images/uploads/community-overlay15-.jpg
 anchor: Community
 excerpt: >-
   Our team provides the strategy, insights, and network to establish strong and
