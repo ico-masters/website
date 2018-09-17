@@ -2,7 +2,7 @@
 layout: clients
 permalink: /clients
 id: clients
-name: Portfiloi
+name: Portfolio
 title: Our Portfolio
 hero_image: /assets/images/hero2.jpg
 headline: Our Portfolio
