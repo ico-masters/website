@@ -2,7 +2,7 @@
 layout: team
 order: 20
 title: Sally Hadid
-avatar: /images/uploads/yamila-eraso2.jpg
+avatar: /images/uploads/sally-bw.jpg
 role: 'Community - TLDR, Convener – TESTNET, DFC'
 description: >-
   Sally studied at the Glasgow School of Art prior to starting a career in
