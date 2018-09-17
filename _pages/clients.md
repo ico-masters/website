@@ -2,11 +2,11 @@
 layout: clients
 permalink: /clients
 id: clients
-name: Clients
-title: Our Clients
+name: Portfiloi
+title: Our Portfolio
 hero_image: /assets/images/hero2.jpg
-headline: Our Client Portfolio
-home_headline: 'Clients, Partners & Portfolio'
+headline: Our Portfolio
+home_headline: Portfolio
 summary: >-
   The projects that make up our portfolio offer creative solutions through the
   use of decentralized technologies. They all share ambitious visions,
