@@ -6,16 +6,13 @@ name: Websiter Terms of Use
 title: Websiter Terms of Use
 hero_image: /assets/images/hero2.jpg
 headline: Websiter Terms of Use
-home_headline: 'Websiter Terms of Use'
+home_headline: Websiter Terms of Use
+summary: |
+  Websiter Terms of Use
+home_summary: Websiter Terms of Use
+description: Websiter Terms of Use
 cta: Websiter Terms of Use
-summary: >
-  Websiter Terms of Use
-home_summary: >-
-  Websiter Terms of Use
-description: >-
-  Websiter Terms of Use
 ---
-
 # Terms of Use
 
 The website [www.tldr.capital](https://www.tldr.capital), including the content, images, materials and information available on or through it (the "**Website**"), is governed by these Terms of Use (the "**Terms**"). By continuing to use this Website, you acknowledge that you have read and agree to these Terms.
@@ -40,9 +37,8 @@ All text, photos, graphics, logos, content and other materials on this Website a
 
 **Privacy Policy.** Before using the Website, please make sure you review our [Global Privacy Policy](/privacy_policy) and our [Cookie Policy](/cookie_policy).
 
-Modification of these Terms. We reserve the right to modify these Terms at any time. Please check these Terms periodically for changes. Your continued use of this Website after the posting of changes constitutes your binding acceptance of such changes.
+**Modification of these Terms**. We reserve the right to modify these Terms at any time. Please check these Terms periodically for changes. Your continued use of this Website after the posting of changes constitutes your binding acceptance of such changes.
 
 **Miscellaneous.** If it is illegal or prohibited in your country of origin to access or use this Website, then you should not do so. Those who choose to access this Website access it on their own initiative and are responsible for compliance with all local laws and regulations. These Terms, and any disputes relating to these Terms or your use of this Website, shall be governed in all respects by the laws of the State of New York, without regard to conflicts of laws principles. Except as otherwise agreed in writing by the applicable TLDR Capital entities, any disputes relating to these Terms shall be resolved exclusively in the state or federal courts located in New York, New York. These Terms set forth the entire agreement between you and us with respect to the subject matter hereof and supersede all prior agreements relating to such subject matter. All TLDR Capital individuals, including officers, employees and contractors, and entities are intended third-party beneficiaries of these Terms. Our rights under these Terms may be waived by us only in writing. These Terms are binding on you as well as your successors and permitted assigns. In the event any provision of these Terms is determined to be invalid or unenforceable, such provision shall be deemed severed from the remainder of these Terms and replaced with a valid and enforceable provision as similar in intent as reasonably possible to the provision so severed, and shall not cause the invalidity or unenforceability of the remainder of these Terms.
 
-**Contact**. Any questions, concerns or complaints regarding these Terms should be sent to [legal@tldr.capital](mailto:legal@tldr.capital).
-
+**Contact**. Any questions, concerns or complaints regarding these Terms should be sent to <mailto:legal@tldr.capital>.
