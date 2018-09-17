@@ -18,7 +18,7 @@ description: >-
 
 # Cookie Policy
 
-This policy relates to the website [www.tldr.capital](https://www.tldr.capital), owned by TLDR Universe Limited. and explains how it deploys cookies and what options do you have to control them (the “**Cookie Policy**”).
+This policy relates to the website [www.tldr.capital](https://www.tldr.capital), owned by TLDR Universe Limited and explains how it deploys cookies and what options do you have to control them (the “**Cookie Policy**”).
 
 ## 1. What are “cookies”?
 
