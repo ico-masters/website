@@ -5,7 +5,7 @@ title: Custody
 image: /images/uploads/custody-overlay15-.jpg
 anchor: Custody
 excerpt: >-
-  Our custody practice enables swift liquidity within a insured secure custody
+  Our custody practice enables swift liquidity within an insured secure custody
   vault for digital assets held by high net worth entities seeking best-of-breed
   physical and cyber security controls.
 description: >-
