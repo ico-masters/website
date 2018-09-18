@@ -1,7 +1,7 @@
 ---
 layout: team
 order: 20
-title: Sally Hadid
+title: Sally Hadidi
 avatar: /images/uploads/sally-bw.jpg
 role: 'Community - TLDR, Convener – TESTNET, DFC'
 description: >-
