@@ -19,6 +19,6 @@ description: >-
   At TLDR we seek innovative blockchain and tokenization projects with a focus
   on increasing adoption and improving industries and existing practices. Take a
   look at some of the ambitious projects in our portfolio.
-cta: See our Portfolio
+cta: See our Projects Portfolio
 ---
 
