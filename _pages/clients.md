@@ -6,7 +6,7 @@ name: Portfolio
 title: Our Portfolio
 hero_image: /assets/images/hero2.jpg
 headline: Our Portfolio
-home_headline: Portfolio
+home_headline: Projects Portfolio
 summary: >-
   The projects that make up our portfolio offer creative solutions through the
   use of decentralized technologies. They all share ambitious visions,
