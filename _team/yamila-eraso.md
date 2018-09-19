@@ -2,7 +2,7 @@
 layout: team
 order: 21
 title: 'Yamila Eraso '
-avatar: /images/uploads/yamila-eraso2.jpg
+avatar: /images/uploads/yamila-eraso3.jpg
 role: 'Partner - TLDR, Venture Capital Advisor'
 description: >-
   Yamila is an experienced venture capital advisor as well as an expert in
