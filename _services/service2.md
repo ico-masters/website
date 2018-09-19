@@ -1,18 +1,18 @@
 ---
 featured: true
 order: 20
-title: Cybersecurity
+title: Security
 image: /images/uploads/cybersecurity-overlay40-.jpg
-anchor: Cybersecurity
+anchor: Security
 excerpt: >-
-  Our cybersecurity practice deploy best-in-class security protocols to protect
-  against cyber threats and other exploits.
+  Our information and physical security teams deploy best-in-class security
+  protocols to protect against digital and physical threats and other exploits.
 description: >-
-  Cybersecurity is about prevention and a clear understanding of the potential
-  threats to your digital assets. Our cybersecurity team works closely with
-  tokenization projects to help them to properly prepared for all events. They
-  will guide you through the most up-to-date security protocols and protection
-  practices, as well as provide valuable insight on proper cybersecurity
-  hygiene.
+  Information and physical security is about prevention and a clear
+  understanding of the potential threats to your digital and physical assets.
+  Our  team works closely with tokenization projects to help them to properly
+  prepared for all events. They will guide you through the most up-to-date
+  security protocols and protection practices, as well as provide valuable
+  insight on proper security hygiene.
 ---
 
