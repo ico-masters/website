@@ -2,7 +2,7 @@
 layout: team
 order: 100
 title: João Marecos
-avatar: /images/uploads/joao.png
+avatar: /images/uploads/joao.jpg
 role: Counsel - TLDR
 description: >-
   João specialized in innovation and information law at the New York University,
