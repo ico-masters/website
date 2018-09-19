@@ -13,7 +13,9 @@ layout: default
   {%- if team.size > 0 -%}
     {%- for member in team -%}
       <div class="person">
-        <div class="profile_pic tldrect" style="background-image: url('{{ member.avatar}}'); "></div>
+        <div class="skew"> 
+          <div class="profile_pic tldrect" style="background-image: url('{{ member.avatar}}'); "></div>
+        </div>
         <div class="bio">
           <div class="person_name mb1 h3 dark-blue bold">
             {{ member.title }}
