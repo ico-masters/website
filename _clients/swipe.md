@@ -1,7 +1,7 @@
 ---
 featured: false
 order: 260
-url: 'https://swipecrypto.com/'
+site_address: 'https://swipecrypto.com/'
 image: /images/uploads/client_swipe.jpg
 title: swipe
 ---

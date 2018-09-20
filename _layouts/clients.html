@@ -12,7 +12,9 @@ layout: default
   {% assign clients = site.clients | sort: 'order' %}
   {%- if clients.size > 0 -%}
     {%- for client in clients -%}
-      <a href="{{ client.url }}" class="client_thumb">
+      <a href="{{ client.site_address }}"
+          class="client_thumb"
+          target="_client{{ client.title | escape }}">
         <img src="{{ client.image }}" alt="{{ client.title | escape }}">
         {{ client.title | escape }}
       </a>

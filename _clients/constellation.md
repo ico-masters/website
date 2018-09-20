@@ -1,7 +1,7 @@
 ---
 featured: false
 order: 80
-url: 'https://constellationlabs.io'
+site_address: 'https://constellationlabs.io'
 image: /images/uploads/client_const.jpg
 title: constellation
 ---
