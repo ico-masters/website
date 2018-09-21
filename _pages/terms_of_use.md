@@ -2,16 +2,15 @@
 layout: policies
 permalink: /terms_of_use
 id: terms_of_use
-name: Websiter Terms of Use
-title: Websiter Terms of Use
+name: Website Terms of Use
+title: Website Terms of Use
 hero_image: /assets/images/hero2.jpg
-headline: Websiter Terms of Use
-home_headline: Websiter Terms of Use
-summary: |
-  Websiter Terms of Use
-home_summary: Websiter Terms of Use
-description: Websiter Terms of Use
-cta: Websiter Terms of Use
+headline: Website Terms of Use
+home_headline: Website Terms of Use
+summary: Website Terms of Use
+home_summary: Website Terms of Use
+description: Website Terms of Use
+cta: Website Terms of Use
 ---
 # Terms of Use
 
