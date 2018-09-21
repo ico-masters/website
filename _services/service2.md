@@ -11,7 +11,7 @@ description: >-
   Information and physical security is about prevention and a clear
   understanding of the potential threats to your digital and physical assets.
   Our team works closely with tokenization projects to help them properly
-  prepare for all events. They will guide you through the most up-to-date
+  prepare for all eventualities. They will guide you through the most up-to-date
   security protocols and protection practices, as well as provide valuable
   insight on proper security hygiene.
 ---
