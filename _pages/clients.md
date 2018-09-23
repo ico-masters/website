@@ -5,8 +5,8 @@ id: clients
 name: Portfolio
 title: Our Portfolio
 hero_image: /assets/images/hero2.jpg
-headline: Our Portfolio
-home_headline: Our Projects Portfolio
+headline: Our Projects
+home_headline: Our Projects
 summary: ''
 home_summary: >-
   TLDR works with a wide variety of projects and crypto infrastructure companies
@@ -15,6 +15,6 @@ description: >-
   We seek out innovative projects with generation-defining teams that make the
   most of our expertise. Here are some of the ambitious projects that we work
   with.
-cta: See our Projects Portfolio
+cta: See Our Portfolio
 ---
 
