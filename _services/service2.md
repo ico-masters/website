@@ -1,12 +1,12 @@
 ---
 featured: true
 order: 15
-title: Security
+title: Crypto Security
 image: /images/uploads/cybersecurity-overlay40-.jpg
-anchor: Security
+anchor: Crypto Security
 excerpt: >-
-  Our digital and physical security teams deploy best-in-class security
-  protocols to protect against digital and physical threats and other exploits.
+  With 100+ years securing US Govt institutions, we are the leaders in crypto
+  custody solutions and hacking response.
 description: >-
   Our digital, physical, and custody security team combines 100+ years
   experience at leading US Government institutions and work tirelessly to
