@@ -1,5 +1,5 @@
 ---
-order: 80
+order: 45
 title: Chuck McGraw
 avatar: /images/uploads/pic_6.jpg
 role: 'Partner & COO - TLDR; formerly Tanium, Navy SEALs'
