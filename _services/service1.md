@@ -5,8 +5,8 @@ title: Global Strategy
 image: /images/uploads/strategy-overlay40-.jpg
 anchor: Strategy
 excerpt: >-
-  Our flagship advisory practice that helps your project navigate tokenisation,
-  marketing and community while scaling your business beyond the TGE.
+  Across all crypto markets, we help startups and corporates build the strategy
+  needed to drive their ecosystem forward.
 description: >-
   Over 20 TLDR partners in seven global markets help exchanges, platforms,
   startups and corporates drive the crypto ecosystem forward. From utility
