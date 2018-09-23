@@ -1,7 +1,7 @@
 ---
 layout: services
 featured: true
-order: 6
+order: 5
 title: People and Experience
 image: /images/uploads/community-overlay15-.jpg
 anchor: People and Experience
