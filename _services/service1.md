@@ -1,16 +1,16 @@
 ---
 featured: true
-order: 10
-title: Strategy
+order: 1
+title: Global Strategy
 image: /images/uploads/strategy-overlay40-.jpg
 anchor: Strategy
 excerpt: >-
   Our flagship advisory practice that helps your project navigate tokenisation,
   marketing and community while scaling your business beyond the TGE.
 description: >-
-  Tokenization projects move from one milestone to the next across their
-  roadmap, towards adoption, usage, and beyond. TLDR’s advisory team supports
-  projects with the strategic elements — planning, marketing strategy,
-  networking and community building — to help them achieve growth and adoption.
+  Over 20 TLDR partners in seven global markets help exchanges, platforms,
+  startups and corporates drive the crypto ecosystem forward. From utility
+  tokens to traditional capital markets, TLDR is at the forefront of strategic
+  planning for many industry-defining projects.
 ---
 
