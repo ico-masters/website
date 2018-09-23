@@ -7,11 +7,11 @@ title: The Team
 hero_image: /assets/images/hero2.jpg
 headline: About us
 home_headline: >-
-  TLDR is driven by a dedicated team with diverse experience in tech, marketing,
-  security and financial markets.
+  From fighting cyber-terrorism to building GPU in-memory databases to big
+  finance, TLDR's team brings a wealth of experience to the crypto ecosystem.
 description: >-
-  TLDR is driven by a dedicated team with diverse experience in tech, marketing,
-  security and financial markets.
+  From fighting cyber-terrorism to building GPU in-memory databases to big
+  finance, TLDR's team brings a wealth of experience to the crypto ecosystem.
 cta: Get in touch
 cta_page: contact
 ---
