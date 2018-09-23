@@ -1,6 +1,6 @@
 ---
 layout: team
-order: 100
+order: 140
 title: João Marecos
 avatar: /images/uploads/joao.jpg
 role: Counsel - TLDR
