@@ -1,6 +1,6 @@
 ---
 layout: team
-order: 21
+order: 30
 title: 'Yamila Eraso '
 avatar: /images/uploads/yamila-eraso3.jpg
 role: 'Partner - TLDR, Venture Capital Advisor'
