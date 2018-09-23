@@ -1,5 +1,5 @@
 ---
-order: 11
+order: 1
 title: Tom Graham
 avatar: /images/uploads/pic_1.jpg
 role: 'Managing Partner - TLDR; Co-founder - Codec, MapD, Media Protocol, DFC'
