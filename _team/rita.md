@@ -2,7 +2,7 @@
 order: 101
 title: Rita Soares
 avatar: /images/uploads/pic_13.jpg
-role: 'Partner – TLDR, formerly Simpson Thacher & Bartlett'
+role: 'Partner & Chief Strategy Officer – TLDR, formerly Simpson Thacher & Bartlett'
 description: >
   Rita is an expert in regulatory and policy issues raised by blockchain,
   cryptocurrencies and emerging technologies. At Harvard’s Berkman Center for
