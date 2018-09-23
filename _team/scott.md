@@ -1,5 +1,5 @@
 ---
-order: 130
+order: 60
 title: Scott Hirokane
 avatar: /images/uploads/pic_10.jpg
 role: 'PM – TLDR; formerly Goldman Sachs, Morgan Stanley'
