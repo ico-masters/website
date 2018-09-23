@@ -2,10 +2,12 @@
 layout: services
 featured: true
 order: 10
-title: Global Ecosystem and Community
+title: Ecosystem and Community
 image: /images/uploads/global-40-.jpg
 anchor: Global Ecosystem and Community
-excerpt: 'We have the global reach you need to succeed. '
+excerpt: >-
+  From Tokyo to Berlin, we have teams on the ground to help you connect to local
+  developers, influencers and users.
 description: >-
   From Japan to Berlin, we have teams on the ground to help you connect to local
   developers, influencers and users. Our global reach allows us to solve
