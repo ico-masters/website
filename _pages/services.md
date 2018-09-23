@@ -5,7 +5,7 @@ id: services
 name: Services
 title: Services
 hero_image: /assets/images/hero2.jpg
-headline: Our Solutions
+headline: Our Services
 home_headline: How We Help
 summary: We work with leading crypto and token companies.
 home_summary: >-
@@ -13,9 +13,9 @@ home_summary: >-
   new token issuers, we provide the experience, strategy and network that will
   drive the first 1 billion crypto users. 
 description: >-
-  TLDR draws on its extensive multidisciplinary expertise to offer clients a
-  full set of solutions. We provide essential support in all areas and for every
-  growth stage in a company.
+  TLDR works with dozens of leading crypto companies from early tech startups to
+  major platforms. We look forward to discussing how we can help your project
+  push its limits. 
 cta: Teste
 ---
 
