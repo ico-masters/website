@@ -1,5 +1,5 @@
 ---
-order: 50
+order: 80
 title: Martin Adams
 avatar: /images/uploads/pic_2.jpg
 role: 'Partner - TLDR; Co-founder - Codec, Media Protocol, DFC'
