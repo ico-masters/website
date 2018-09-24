@@ -9,8 +9,8 @@ excerpt: >-
   custody solutions and hacking response.
 description: >-
   Our digital, physical, and custody security team combines 100+ years
-  experience at leading US Government institutions and work tirelessly to
-  safeguard leading crypto companies and executives against hackers and token
-  theft.
+  experience at leading US Government institutions and corporates. We work
+  tirelessly to safeguard leading crypto companies and executives against
+  hackers and token theft.
 ---
 
