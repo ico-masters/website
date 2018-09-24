@@ -9,8 +9,8 @@ excerpt: >-
   needed to drive their ecosystem forward.
 description: >-
   Over 20 TLDR partners in seven global markets help exchanges, platforms,
-  startups and corporates drive the crypto ecosystem forward. From utility
-  tokens to traditional capital markets, TLDR is at the forefront of strategic
-  planning for many industry-defining projects.
+  startups and corporates drive the crypto ecosystem forward. From utility and
+  security tokens, to building ecosystems and user bases, TLDR is at the
+  forefront of strategic planning for many industry-defining projects.
 ---
 
