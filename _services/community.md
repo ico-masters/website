@@ -11,7 +11,7 @@ excerpt: >-
 description: >-
   We value amazing people and our team has the real-world experience and
   know-how to solve any problem. With experience pursuing hackers at the FBI to
-  building unicorns in Silicone Valley, we empower our clients with the tools
+  building unicorns in Silicon Valley, we empower our clients with the tools
   needed to compete beyond the crypto economy.
 ---
 
