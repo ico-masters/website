@@ -109,7 +109,8 @@ layout: default
 <div class="bg-dark-blue white">
   <div class="section team">
     {% assign team_page = site.pages | where:'id', '/team' | first  %}
-    <h2 class="section_title center light white">{{ team_page.home_headline }}</h2>
+    <h2 class="section_title center light white style="
+    line-height: 1.4;">{{ team_page.home_headline }}</h2>
     <div class="center pt2">
       <a class="btn btn-solid dark-blue mt1 py2 px3 " href="/team">Meet the Team</a>
     </div>
