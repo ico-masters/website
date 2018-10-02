@@ -356,7 +356,14 @@ a.logo {
     -webkit-transform: skew(-10deg);
     -moz-transform: skew(-10deg);
     -ms-transform: skew(-10deg);
-    overflow: hidden;
+    //overflow: hidden;
+  }
+
+  .person:nth-child(even) .skew {
+      top: auto;
+      left: auto;
+      right: 0;
+      bottom: 20px;
   }
 
   .profile_pic {
@@ -390,10 +397,10 @@ a.logo {
       padding: 16px 48px 16px 16px;
     }
     .profile_pic {
-      top: auto;
-      left: auto;
-      right: 0;
-      bottom: 20px;
+        top: auto;
+        left: auto;
+        right: -14px;
+        bottom: 0px;
     }
   }
   &:nth-child(2n+1){
