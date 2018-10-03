@@ -3,7 +3,7 @@ layout: article
 permalink: '/news/:title'
 id: news
 featured: true
-order: 1
+order: 9
 image: /images/uploads/tldr-uncloak.png
 title: "TLDR Signs New Advisory Partnership With\_Uncloak"
 excerpt: >-
