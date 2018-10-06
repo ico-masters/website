@@ -1,6 +1,6 @@
 ---
 layout: clients
-featured: true
+featured: false
 order: 43
 title: TEMCO
 site_address: 'https://temco.io/'
