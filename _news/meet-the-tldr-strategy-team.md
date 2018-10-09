@@ -23,6 +23,8 @@ The core of Strategic Operations at TLDR comprises a team with pretty diverse ba
 
 ## Tom Graham
 
+![Tom Graham, TLDR.](/images/uploads/tg-mtt.jpeg)
+
 Originally with a background in Law, Tom is the Managing Partner at TLDR. It’s clear through his entrepreneurial track record (Codec.ai, MapD, MEDIA Protocol and the Digital Future Council) that his main interests lie in media technology, with a focus on big data, redefining media, and connecting them all. The launch of TLDR fulfills a long-time desire to pair entrepreneurship and crypto.
 
 **Here’s why Tom started TLDR:**
@@ -30,6 +32,8 @@ Originally with a background in Law, Tom is the Managing Partner at TLDR. It’s
 > “Blockchain will be the big platform shift of our generation. Its capacity to extend the global economic and social franchise towards developing countries and non-typical innovators is awesome. I am so happy that we can play a small role in the evolution of so many amazing projects driven by so many incredible people!”
 
 ## Alex Yamashita
+
+![Alex Yamashita, TLDR.](/images/uploads/ay-mtt.jpeg)
 
 A keen investor in tech, lifestyle and consumer companies, Alex’s focus is New Biz Dev and Strategic Partnerships. Previous work in Structured Products and Equities at Goldman Sachs and CLSA, along with a BA in Economics from Yale and an enthusiasm for crypto, complete the picture. That aside, Alex is all about the pursuit and challenge. Especially if it’s thought-provoking.
 
@@ -39,6 +43,8 @@ A keen investor in tech, lifestyle and consumer companies, Alex’s focus is New
 
 ## Graham Friedman
 
+![Graham Friedman, TLDR.](/images/uploads/gf-mtt.jpeg)
+
 By his own admission, Graham is a “crypto nerd”. A Commercial Cinematographer by trade, Graham combines marketing experience and an eye for visually translating brand messages, with a real passion for crypto. The intention: to provide a strong marketing solution for projects within the crypto space.
 
 **Here’s why Graham started TLDR:**
@@ -46,6 +52,8 @@ By his own admission, Graham is a “crypto nerd”. A Commercial Cinematographe
 > “I had developed a feverish obsession with Bitcoin and the subsequent DLT space, investing as much as I could afford. Somewhere throughout the years, I had pitched Jon Knipper on the concept as he is a lover of Forex. One day he calls me and talks about this project that he and a few friends were trying to launch. We chatted, the conversation was great, and I was all in to create something of our own in this burgeoning, utterly revolutionary space.”
 
 ## Rita Soares
+
+![Rita Soares, TLDR.](/images/uploads/rs-mtt.jpeg)
 
 Rita’s leveraging her experience as an attorney and her interest in the regulatory and policy issues raised by emerging technologies to help individuals navigate the complexities of the crypto space. Since her days at Harvard Law School (where she met Tom and Martin), Rita has believed in a decentralized future. Now, she provides strategic advice to organizations that are playing a role in shaping it.
 
@@ -55,6 +63,8 @@ Rita’s leveraging her experience as an attorney and her interest in the regula
 
 ## Martin Adams
 
+![Martin Adams, TLDR.](/images/uploads/ma-mtt.jpeg)
+
 Martin’s focus in IP, Emerging Tech, Corporate Law and Digital Media made him a suitable foil to Tom as a co-founder at Codec.ai, MEDIA Protocol and the DFC. These days Martin’s main interests lie in innovation, AI and blockchain. He talks about them regularly through various international events, but also to anyone who’ll listen. Naturally, these areas form the basis of his advisory role at TLDR.
 
 **Here’s why Martin joined TLDR:**
@@ -63,6 +73,8 @@ Martin’s focus in IP, Emerging Tech, Corporate Law and Digital Media made him 
 
 ## Chuck McGraw
 
+![Chuck McGraw, TLDR.](/images/uploads/cm-mtt.jpeg)
+
 The COO. His BBA in Economics and BS in Information Systems aside, Chuck’s real strength lies in Risk Management, Operations Management, and Strategy Planning. With it, he brings 20 years’ experience as a Navy SEAL to the role. We’re glad he’s on our team.
 
 **Here’s why Chuck joined TLDR:**
@@ -70,6 +82,8 @@ The COO. His BBA in Economics and BS in Information Systems aside, Chuck’s rea
 > “The opportunity to work with a high performing team who are industry leaders and passionate about what we do.”
 
 ## Eugene Kan
+
+![Eugene Kan, TLDR.](/images/uploads/ek-mtt.jpeg)
 
 Heading up TLDR’s community and marketing as well as masternode strategy is Eugene. He brings Brand Strategy, Online Comms and Content Creation to the table at TLDR, leveraging his experience as co-founder of MAEKAN and as former Editorial Director for HYPEBEAST. Brands are built on stories. Eugene seeks to create modern digital campfires for storytelling.
 
