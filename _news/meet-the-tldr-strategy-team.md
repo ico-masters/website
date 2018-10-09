@@ -91,7 +91,7 @@ Heading up TLDR’s community and marketing as well as masternode strategy is Eu
 
 > “I’ve been fascinated with the world of blockchain and crypto for a while, more so on the basis of what role it can serve on a socio-economic level. When I linked up with the guys, I knew that we had both the passion and capabilities of really making a meaningful impact within the space. Part of the allure of TLDR is the diversity of everybody. We’re all learning about the space, a well as from each respective member’s experiences.”
 
-If you’re interested in finding ways to collaborate and partner with TLDR, don’t hesitate to reach out here.
+If you’re interested in finding ways to collaborate and partner with TLDR, don’t hesitate to reach out [here](https://www.tldr.capital/contact).
 
 Find out more about TLDR. Check out our social channels below:
 
