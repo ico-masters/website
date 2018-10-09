@@ -95,7 +95,7 @@ If you’re interested in finding ways to collaborate and partner with TLDR, don
 
 Find out more about TLDR. Check out our social channels below:
 
-Website: [tldr.capital](http://www.tldr.capital/)
+Website: [tldr.capital](https://www.tldr.capital/)
 
 Twitter: [@TLDR_Capital](https://twitter.com/TLDR_Capital)
 
