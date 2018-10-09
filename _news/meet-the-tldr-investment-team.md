@@ -51,7 +51,7 @@ In the early days, Bo spent time in New York as part of the Goldman Sachs deriva
 
 > "In order to help bring some more traditional financial practices to a new asset class."
 
-If you're interested in finding ways to collaborate and partner with TLDR, don't hesitate to reach out here.
+If you're interested in finding ways to collaborate and partner with TLDR, don't hesitate to reach out [here](https://www.tldr.capital/contact).
 
 Find out more about TLDR. Check out our social channels below:
 
