@@ -7,9 +7,9 @@ order: 2
 image: /images/uploads/investment-mtt.jpeg
 title: Meet The TLDR Investment Team
 excerpt: >-
-  nvestments are a critical part of tokenization projects. We understand that at
-  TLDR, and we want to help open up a new world of investment opportunities that
-  are accessible to everyone.
+  Investments are a critical part of tokenization projects. We understand that
+  at TLDR, and we want to help open up a new world of investment opportunities
+  that are accessible to everyone.
 ---
 _Blockchain technology is still in its relative infancy. Its applications are diverse and developing daily across projects from protocols and business-facing solutions, to redefining the consumer experience. The potential to properly build and disrupt multiple industries through transparency and innovative funding models is key. At TLDR, this is what we're about._
 
