@@ -13,6 +13,8 @@ plugins:
   - jekyll-feed
 sass:
   sass_dir: _sass
+include:
+  - _redirects
 
 collections:
   pages:
