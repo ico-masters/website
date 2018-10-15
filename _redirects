@@ -1,0 +1,8 @@
+# Redirect domain aliases to primary domain
+https://tldr.global/* https://www.tldr.capital/:splat 301!
+https://tldrglobal.com/* https://www.tldr.capital/:splat 301!
+https://www.tldrglobal.com/* https://www.tldr.capital/:splat 301!
+https://www.tldr.global/* https://www.tldr.capital/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://tldrcapital.netlify.com/* https://www.tldr.capital/:splat 301!
