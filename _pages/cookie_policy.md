@@ -6,19 +6,16 @@ name: Cookie Policy
 title: Cookie Policy
 hero_image: /assets/images/hero2.jpg
 headline: Cookie Policy
-home_headline: 'Cookie Policy'
+home_headline: Cookie Policy
+summary: |
+  Cookie Policy
+home_summary: Cookie Policy
+description: Cookie Policy
 cta: Cookie Policy
-summary: >
-  Cookie Policy
-home_summary: >-
-  Cookie Policy
-description: >-
-  Cookie Policy
 ---
-
 # Cookie Policy
 
-This policy relates to the website [www.tldr.capital](https://www.tldr.capital), owned by TLDR Universe Limited and explains how it deploys cookies and what options do you have to control them (the “**Cookie Policy**”).
+This policy relates to the website [www.tldr.global](http://www.tldr.global), owned by TLDR Universe Limited and explains how it deploys cookies and what options do you have to control them (the “**Cookie Policy**”).
 
 ## 1. What are “cookies”?
 
@@ -63,21 +60,21 @@ We will not use any cookies other than the following third-party performance coo
 <td markdown="span">https://www.facebook.com/policies/cookies/</td>
 </tr>
 <tr>
-<td markdown="span">__hstc, __hssrc, __hssc</td>
+<td markdown="span">\_\_hstc, \_\_hssrc, __hssc</td>
 <td markdown="span">HubSpot</td>
 <td markdown="span">https://legal.hubspot.com/cookie-policy</td>
 </tr>
 </tbody>
 </table>
 
-
-
 Also, following the consent you provide for the use of the abovementioned cookies, we deploy a single cookie for the single purpose of remembering such consent.
 
 ## 3. How can you control the use of cookies in this website?
+
 A “cookie notice” appeared when you accessed our website, requesting your consent for the use of cookies. Your consent was free, explicit, unambiguous and properly informed by this Cookie Policy.
 
 When you consent in this manner, we and our advertising partners set advertising cookies on the site you are visiting and on other of our websites, dashboards, and services. If you do not provide consent, we will not deploy any cookies in your browser. If you do provide consent, you can opt-out at any time by clicking [here](javascript:discartTerms();). By doing so, you won’t share information with our analytics tool about events or actions that happen after the opt-out.
 
 ## 4. Contact Us
+
 If you have any questions about our use of cookies or other related questions, please refer to our [Global Privacy Policy](/privacy_policy).
