@@ -13,9 +13,9 @@ summary: >-
   drive the first 1 billion crypto users. 
 home_summary: ''
 description: >-
-  TLDR works with dozens of leading crypto companies from early tech startups to
-  major platforms. We look forward to discussing how we can help your project
-  push its limits. 
+  TLDR Global works with dozens of leading crypto companies from early tech
+  startups to major platforms. We look forward to discussing how we can help
+  your project push its limits. 
 cta: Teste
 ---
 
