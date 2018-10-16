@@ -2,7 +2,7 @@
 https://www.tldr.capital/* https://tldr.global/:splat 301!
 https://tldrglobal.com/* https://tldr.global/:splat 301!
 https://www.tldrglobal.com/* https://tldr.global/:splat 301!
-https://www.tldr.global/* https://tldr.global/:splat 301!
+https://tldr.capital/* https://tldr.global/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://tldrcapital.netlify.com/* https://tldr.global/:splat 301!
