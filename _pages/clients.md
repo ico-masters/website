@@ -12,9 +12,8 @@ home_summary: >-
   TLDR works with a wide variety of projects and crypto infrastructure companies
   around the world. Here are just a few:
 description: >-
-  We seek out innovative projects with generation-defining teams that make the
-  most of our expertise. Here are some of the ambitious projects that we work
-  with.
+  We seek out impressive teams, innovative projects and once-in-a-generation
+  products that can make the most of our expertise.
 cta: See Our Portfolio
 ---
 
