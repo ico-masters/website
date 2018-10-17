@@ -6,7 +6,7 @@ title: People and Experience
 image: /images/uploads/community-overlay15-.jpg
 anchor: People and Experience
 excerpt: >-
-  Our 30+ advisory members has unique expertise and global connections to help
+  Our 30+ advisory members have unique expertise and global connections to help
   you succeed.
 description: >-
   We value amazing people and our team has the real-world experience and
