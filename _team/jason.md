@@ -1,6 +1,7 @@
 ---
 order: 55
 title: Jason Truppi
+featured: true
 avatar: /images/uploads/pic_8.jpg
 role: >-
   Partner - TLDR; formerly Cyber Special Agent - FBI, Director of Endpoint
@@ -16,4 +17,3 @@ description: >
 twitter_url: 'https://twitter.com/NotTruppi'
 linkedin_url: 'https://www.linkedin.com/in/jasontruppi'
 ---
-

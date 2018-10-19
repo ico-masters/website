@@ -12,4 +12,3 @@ description: >
   Economics from Yale University.
 linkedin_url: 'https://www.linkedin.com/in/alex-yamashita-a933487'
 ---
-
