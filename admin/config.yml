@@ -55,6 +55,7 @@ collections:
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "team"}
+      - {label: "Featured", name: "featured", widget: "boolean", default: "false"}
       - {label: "Order", name: "order", widget: "number", valueType: "int"}
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Avatar", name: "avatar", widget: "image"}
