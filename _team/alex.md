@@ -1,4 +1,5 @@
 ---
+featured: true
 order: 20
 title: Alex Yamashita
 avatar: /images/uploads/pic_5.jpg
