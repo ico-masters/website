@@ -2,6 +2,7 @@
 order: 5
 featured: true
 title: Jon Knipper
+category: Trader
 avatar: /images/uploads/pic_9.jpg
 role: 'Partner - TLDR; formerly Goldman Sachs, Morgan Stanley'
 description: >

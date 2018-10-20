@@ -2,6 +2,7 @@
 layout: team
 order: 30
 title: 'Yamila Eraso '
+category: Blockchain
 avatar: /images/uploads/yamila-eraso3.jpg
 role: 'Partner - TLDR, Venture Capital Advisor'
 description: >-
@@ -17,4 +18,3 @@ description: >-
   Germany.
 linkedin_url: 'https://www.linkedin.com/in/yamila-eraso-pena/'
 ---
-

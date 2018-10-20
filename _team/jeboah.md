@@ -2,6 +2,7 @@
 order: 70
 title: Jeboah (Bo) Joerg
 avatar: /images/uploads/pic_11.jpg
+category: Crypto
 role: PM - TLDR; formerly Goldman Sachs
 description: >
   Bo leverages over 7 years of derivative and fixed income trading experience at
@@ -13,4 +14,3 @@ description: >
   convertible bond trading effort across Asia.
 linkedin_url: 'https://www.linkedin.com/in/jeboah-joerg-3a333835'
 ---
-

@@ -1,6 +1,7 @@
 ---
 order: 80
 title: Martin Adams
+category: Marketing
 avatar: /images/uploads/pic_2.jpg
 role: 'Partner - TLDR; Co-founder - Codec, Media Protocol, DFC'
 description: >
@@ -12,4 +13,3 @@ description: >
   recognised as a Maserati Top 100 Entrepreneur.
 linkedin_url: 'https://www.linkedin.com/in/martindadams/'
 ---
-

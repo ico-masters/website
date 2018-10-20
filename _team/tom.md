@@ -2,6 +2,7 @@
 order: 1
 featured: true
 title: Tom Graham
+category: CEO
 avatar: /images/uploads/pic_1.jpg
 role: 'Managing Partner - TLDR; Co-founder - Codec, MapD, Media Protocol, DFC'
 description: >

@@ -1,6 +1,7 @@
 ---
 order: 35
 title: Eugene Kan
+category: Business
 avatar: /images/uploads/pic_4.jpg
 role: 'Partner - TLDR; formerly Editorial Director HYPEBEAST, Co-Founder MAEKAN'
 description: >
@@ -12,4 +13,3 @@ description: >
 twitter_url: 'https://twitter.com/EugeneKan'
 linkedin_url: 'https://www.linkedin.com/in/eugenekan'
 ---
-

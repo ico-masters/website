@@ -2,6 +2,7 @@
 order: 55
 title: Jason Truppi
 featured: true
+category: Security
 avatar: /images/uploads/pic_8.jpg
 role: >-
   Partner - TLDR; formerly Cyber Special Agent - FBI, Director of Endpoint

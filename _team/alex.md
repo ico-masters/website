@@ -1,5 +1,6 @@
 ---
 order: 20
+category: Security
 title: Alex Yamashita
 avatar: /images/uploads/pic_5.jpg
 role: 'Partner - TLDR; formerly Goldman Sachs, Multi-sector Entrepreneur & Investor'

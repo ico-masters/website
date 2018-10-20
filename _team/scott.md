@@ -1,6 +1,7 @@
 ---
 order: 60
 title: Scott Hirokane
+category: Security
 avatar: /images/uploads/pic_10.jpg
 role: 'PM – TLDR; formerly Goldman Sachs, Morgan Stanley'
 description: >
@@ -12,4 +13,3 @@ description: >
   Engineering from the University of California at Berkeley.
 linkedin_url: 'https://www.linkedin.com/in/scott-hirokane-4388523/'
 ---
-

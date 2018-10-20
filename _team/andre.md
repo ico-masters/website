@@ -1,6 +1,7 @@
 ---
 order: 10
 title: Andre McGregor
+category: Security
 avatar: /images/uploads/pic_7.jpg
 role: >-
   Partner - TLDR; formerly Cyber Special Agent - FBI, Head of IT Security -
@@ -16,4 +17,3 @@ description: >
 twitter_url: 'https://twitter.com/andreoncyber'
 linkedin_url: 'https://www.linkedin.com/in/andremcgregor'
 ---
-

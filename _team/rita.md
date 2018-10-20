@@ -1,6 +1,7 @@
 ---
 order: 15
 title: Rita Soares
+category: Business
 avatar: /images/uploads/pic_13.jpg
 role: 'Partner & Chief Strategy Officer – TLDR, formerly Simpson Thacher & Bartlett'
 description: >
@@ -14,4 +15,3 @@ description: >
   graduate of Harvard Law School and is based in London.
 linkedin_url: 'https://www.linkedin.com/in/rita-soares-68a13556'
 ---
-
