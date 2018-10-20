@@ -327,6 +327,15 @@ a.logo {
   padding: 50px 0 0 60px;
   margin-bottom: 2rem;
 
+  &:nth-child(even) {
+    .skew {
+      top: auto;
+      left: auto;
+      right: 0;
+      bottom: 20px;
+    }
+  }
+
   @include breakpoint($small){
     padding: 80px 0 0 90px;
   }
@@ -345,18 +354,37 @@ a.logo {
     padding: 16px 16px 16px 48px;
   }
 
-  .profile_pic {
+  .skew {
     position: absolute;
     top: 0;
     left: 0;
+    width: 138px;
+    height: 160px;
+    overflow: hidden;
+    z-index: 1;
+    transform: skew(-10deg);
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -ms-transform: skew(-10deg);
+    //overflow: hidden;
+  }
+
+  .profile_pic {
+    position: absolute;
+    top: 0;
+    left: -12px;
     width: 120px;
     height: 120px;
     z-index: 1;
     background-image: url("images/hero.jpg");
+    transform: skew(10deg);
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -ms-transform: skew(10deg);
 
     @include breakpoint($small){
-      width: 160px;
-      height: 160px;
+      width: 165px;
+      height: 165px;
     }
   }
 
@@ -372,10 +400,10 @@ a.logo {
       padding: 16px 48px 16px 16px;
     }
     .profile_pic {
-      top: auto;
-      left: auto;
-      right: 0;
-      bottom: 20px;
+        top: auto;
+        left: auto;
+        right: -14px;
+        bottom: 0px;
     }
   }
   &:nth-child(2n+1){
