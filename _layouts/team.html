@@ -49,7 +49,7 @@ layout: default
                     </p>
                 </div>
             </div>
-            <img  src="{{ member.avatar}}" alt="" />
+            <img class="member" src="{{ member.avatar}}" alt="" />
             <div class="team-member-hover-state">
                 <div class="v-center">
                   <p class="member-name">{{ member.title }}</p>
@@ -88,13 +88,11 @@ $(document).ready(function(){
     $("div[data-category='"+ category +"']").show();
   }
 
-  var supportTouch = ('ontouchstart' in document.documentElement);
-  var $bioButton = $('.bio-btn');
-
-  if (supportTouch) {
-     $bioButton.hammer().bind('tap', memberBioDialog);
+  var mobile = ('ontouchstart' in document.documentElement);
+  if (mobile) {
+     $('.team-member').hammer().bind('tap', memberBioDialog);
   } else {
-    $bioButton.on('click', memberBioDialog);
+     $('.bio-btn').on('click', memberBioDialog);
   }
 
   function memberBioDialog(e){
@@ -104,18 +102,29 @@ $(document).ready(function(){
          $('.team-member').removeClass('active');
          $('.team-member').css('z-index', '0');
       }
-      let position = $(e.target).parents('.team-member').position();
-      if (position.left === 0 && position.top > 188) {
-           $(e.target).parents('.team-member').addClass('active origin-bottom-left')
-      } else if (position.left !== 0 && position.top > 189) {
-           $(e.target).parents('.team-member').addClass('active origin-bottom-right')
-      } else if (position.left === 0) {
-           $(e.target).parents('.team-member').addClass('active origin-left')
-      }  else {
-           $(e.target).parents('.team-member').addClass('active origin-right')
+
+      if (mobile) {
+        toggleMember($(this));
+      } else {
+        toggleMember($(e.target).parents('.team-member'))
       }
-      $(e.target).parents('.team-member').css('z-index', '9')
-  };
+  }
+
+  function toggleMember($ele) {
+    let position = $ele.position();
+
+    if (position.left === 0 && position.top > 188) {
+         $ele.addClass('active origin-bottom-left')
+    } else if (position.left !== 0 && position.top > 189) {
+         $ele.addClass('active origin-bottom-right')
+    } else if (position.left === 0) {
+         $ele.addClass('active origin-left')
+    }  else {
+         $ele.addClass('active origin-right')
+    }
+
+    $ele.css('z-index', '9')
+  }
 
   $('.close-member-specs').on('click', function(e){
       e.preventDefault();
