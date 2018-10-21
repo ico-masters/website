@@ -3,8 +3,6 @@ layout: default
 ---
 
 {%- include page-hero.html -%}
-<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 <div>
   <div class="section center team-tile">
@@ -49,7 +47,7 @@ layout: default
                 <div class="v-center">
                   <p class="member-name">{{ member.title }}</p>
                   <p class="member-title">{{ member.role }}</p>
-                    <a class="bio-btn" href="#">show bio</a>
+                    <p class="bio-btn" href="#">show bio</p>
                 </div>
             </div>
 
@@ -58,7 +56,9 @@ layout: default
       {%- endfor -%}
 
     </div>
+  </div>
 </div>
+
 <script>
 
 $(document).ready(function(){
@@ -85,6 +85,7 @@ $(document).ready(function(){
   $('.bio-btn').on(tapOrClick, memberBioDialog);
 
   function memberBioDialog(e){
+      e.stopPropagation();
       e.preventDefault();
       if($('.team-member').hasClass('active')){
          $('.team-member').removeClass('active');
@@ -114,4 +115,3 @@ $(document).ready(function(){
 })
 
 </script>
-</div>
