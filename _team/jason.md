@@ -1,7 +1,7 @@
 ---
 order: 55
 featured: true
-category: tldr
+category: Security
 title: Jason Truppi
 avatar: /images/uploads/pic_8.jpg
 role: >-
