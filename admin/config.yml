@@ -38,6 +38,21 @@ collections:
       - {label: "Anchor", name: "anchor", widget: "string"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Description", name: "description", widget: "markdown"}
+      - label: "Testimonials"
+        name: "testimonials"
+        widget: "list"
+        allow_add: true
+        default: []
+        fields:
+          - label: Testimonial
+            name:  testimonial
+            widget: object
+            fields:
+              - {label: "First Name",   name: "first_name", widget: "string", required: true}
+              - {label: "Last Name",    name: "last_name", widget: "string", required: true}
+              - {label: "Avatar",       name: "avatar", widget: "image", required: false}
+              - {label: "description",  name: "description", widget: "markdown", required: true}
+
   - name: "clients"
     label: "Client"
     folder: "_clients"
@@ -62,21 +77,6 @@ collections:
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Twitter", name: "twitter_url", widget: "string", required: false}
       - {label: "Linkedin", name: "linkedin_url", widget: "string", required: false}
-      - label: "Testimonials"
-        name: "testimonials"
-        widget: "list"
-        allow_add: true
-        default: []
-        fields:
-          - label: Testimonial
-            name:  testimonial
-            widget: object
-            fields:
-              - {label: "First Name",  name: "first_name", widget: "string", required: true}
-              - {label: "Last Name",   name: "last_name", widget: "string", required: true}
-              - {label: "Avatar",       name: "avatar", widget: "string", required: false}
-              - {label: "description",  name: "description", widget: "string", required: true}
-
   - name: "testimonials"
     label: "Testimonial"
     folder: "_testimonials"
