@@ -545,4 +545,375 @@ footer {
 }
 
 
+/*
+*
+*  TEAM CAROUSEL
+*
+*/
 
+
+
+.team-carousel .row {
+  overflow: scroll;
+  width: 100%
+}
+
+.row__inner {
+  transition: 450ms transform;
+  font-size: 0;
+  white-space: nowrap;
+  margin: 20px;
+  padding-bottom: 10px;
+}
+.row__inner .tile{
+  opacity: .3
+}
+.tile {
+  position: relative;
+  display: inline-block;
+  width: 280px;
+  height: 200px;
+  margin-right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 450ms all;
+  transform-origin: center left;
+
+}
+.tile__media {
+    position: relative;
+    z-index: 2;
+}
+.tile__img {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+
+}
+
+.tile-description {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    border-left: 1px solid #232646;
+    z-index: 1;
+    opacity: 1;
+    color: #000;
+    padding: 15px;
+    visibility: hidden;
+    transition: all .3s linear;
+    height: 200px;
+    width: 300px;
+    white-space: normal;
+    overflow: scroll;
+    transform: scale(1);
+}
+
+
+
+.tile-description .h6 {
+    font-size: 11px;
+}
+
+
+/*
+*
+*  TEAM CAROUSEL HOVER TILE
+*
+*/
+
+
+.row__inner:hover{
+  transform: translate3d(-28px, 0, 0) /*moveLeft = -($tileWidth * ($growFactor - 1) / 2)*/
+}
+.row__inner:hover .tile:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    z-index: 100;
+}
+.tile:hover .tile-description{
+    visibility: visible;
+    left: 100%;
+}
+
+.tile:last-child .tile-description {
+    transition: none;
+    padding-right: 115px;
+    width: 380px;
+}
+
+@media screen and (max-width:480px){
+
+    .tile-description {
+        width: 280px;
+        border-left: none;
+    }
+    .tile:first-child .tile:hover .tile-description {
+       margin-left: 20px;
+    }
+    .tile:last-child .tile-description {
+        transition: all .3s linear;
+        padding-right: 15px;
+        width: 280px;
+    }
+    .tile:hover .tile-description{
+        height: 100px;
+        top: 100%;
+        left:0px;
+        text-align: center;
+    }
+    .member-description {
+        display: none;
+    }
+    /*.tile:hover ~ .tile{
+        transform: translate3d(44px, 0, 0)!important /*moveRight = $tileWidth * ($growFactor - 1)
+    }*/
+}
+
+.tile:hover ~ .tile{
+  transform: translate3d(56px, 0, 0) /*moveRight = $tileWidth * ($growFactor - 1)*/
+
+}
+
+
+
+/*
+*
+* TEAM TILES
+*
+*/
+
+.team-tile-holder {
+    position: relative;
+}
+.team-tile-holder::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.team-tile-holder .team-member {
+    float: left;
+    width:190px;
+    height: 190px;
+    position: relative;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transition: transform .5s ease-out;
+}
+
+
+.team-tile-holder .team-member img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+/* HOVER STATE */
+
+.team-member-hover-state {
+    opacity: 0;
+    background-color: rgba(43, 50, 115, 0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    transition: opacity .5s;
+    text-align: center;
+    color: #fff;
+    z-index: 5;
+}
+.team-member:hover .team-member-hover-state{
+    opacity: 1;
+}
+.v-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    left: 10px;
+    right: 10px;
+    margin: auto;
+}
+.v-center .member-name {
+    font-weight: bold;
+    font-size: .75rem;
+}
+.v-center .member-title {
+    font-weight: 300;
+    font-size: .70rem;
+}
+
+.bio-btn {
+    font-size: .75rem;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 7px 14px;
+}
+.bio-btn:hover {
+    text-decoration: none;
+}
+
+/* ACTIVE STATE */
+
+.team-member.origin-left {
+    transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+}
+.team-member.origin-right {
+    transform-origin: top right;
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    -ms-transform-origin: top right;
+}
+.team-member.origin-bottom-left {
+    transform-origin: bottom left;
+    -webkit-transform-origin: bottom left;
+    -moz-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+}
+.team-member.origin-bottom-right {
+    transform-origin: bottom right;
+    -webkit-transform-origin: bottom right;
+    -moz-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+}
+
+.team-tile-holder .team-member.active {
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    z-index: 101;
+}
+
+.team-member.active:hover .team-member-hover-state{
+    opacity: 0;
+}
+
+.team-member-active-state {
+    opacity: 0;
+    background-color: rgba(43, 50, 115, 0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    color: #fff;
+    z-index: 4;
+    transition: all .5s linear;
+}
+
+.team-tile-holder .team-member.active .team-member-active-state {
+    opacity: 1;
+    z-index: 101;
+}
+
+.active-member-top .member-social {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 100%;
+    width: 15px;
+}
+.active-member-top .member-social img {
+    border-radius: 100%;
+    max-width: 100%;
+}
+.active-member-top .member-image {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 100%;
+    width: 25px;
+    margin: 0px 5px;
+}
+.active-member-top .member-image img {
+    border-radius: 100%;
+    max-width: 100%;
+}
+
+.team-member-active-state .v-center .member-name {
+    font-size: .4rem;
+    margin: 5px 0px;
+}
+.team-member-active-state .v-center .member-title {
+    font-size: .4rem;
+    margin: 5px 0px;
+}
+.team-member-active-state .v-center .member-description {
+    font-size: .4rem;
+    margin: 5px 0px;
+}
+
+.close-member-specs {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: rgb(43, 50, 115);
+    background-color: #fff;
+    font-size: 7px;
+    padding: 0px 3px;
+    border-radius: 100%;
+
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .team-tile-holder .team-member {
+        width: 50%;
+        height: 170px;
+    }
+    .team-tile {
+        padding-left:  1rem;
+    }
+    .team .section_description {
+        padding: 2rem 1rem;
+    }
+}
+
+
+/*
+*
+* TEAM FILTERS
+*
+*/
+
+.team-filters {
+    display: inline-block;
+    margin: 20px auto;
+}
+.team-filters ul::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.team-filters ul {
+    margin: 0;
+    padding: 0;
+}
+.team-filters ul li {
+    float: left;
+    list-style: none;
+}
+.team-filters ul li a{
+    text-decoration: none;
+     color: #2B3273;
+     font-size: 14px;
+     padding: 6px 18px;
+     cursor: pointer;
+}
+.team-filters ul li a:hover{
+   background-color: #F0E81E;
+
+}
+.team-filters ul li a.active{
+   background-color: #F0E81E;
+
+}

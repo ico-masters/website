@@ -1,5 +1,7 @@
 ---
 order: 1
+featured: true
+category: tldr
 title: Tom Graham
 avatar: /images/uploads/pic_1.jpg
 role: 'Managing Partner - TLDR; Co-founder - Codec, MapD, Media Protocol, DFC'
@@ -12,4 +14,3 @@ description: >
 twitter_url: 'https://twitter.com/tomgtgraham'
 linkedin_url: 'https://www.linkedin.com/in/tomgtgraham'
 ---
-

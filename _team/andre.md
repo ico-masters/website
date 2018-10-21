@@ -1,5 +1,7 @@
 ---
 order: 10
+featured: true
+category: tldr
 title: Andre McGregor
 avatar: /images/uploads/pic_7.jpg
 role: >-
@@ -16,4 +18,3 @@ description: >
 twitter_url: 'https://twitter.com/andreoncyber'
 linkedin_url: 'https://www.linkedin.com/in/andremcgregor'
 ---
-
