@@ -25,15 +25,22 @@ layout: default
                 <div class="close-member-specs">x</div>
                 <div class="v-center">
                    <div class="active-member-top ">
-                       <a href="#" class="member-social">
+                     {% if member.twitter_url %}
+                       <a href="{{member.twitter_url}}" class="member-social">
                             <img  src="/assets/icons/logo-twitter.svg" alt="" />
                        </a>
+                    {% endif %}
+
                        <div class="member-image">
                             <img  src="{{ member.avatar}}" alt="" />
                        </div>
-                       <a href="#" class="member-social">
+
+                    {% if member.linkedin_url %}
+                       <a href="{{member.linkedin_url}}" class="member-social">
                            <img  src="/assets/icons/logo-linkedin.svg" alt="" />
                        </a>
+                    {% endif %}
+
                    </div>
                     <p class="member-name">{{ member.title }}</p>
                     <p class="member-title">{{ member.role }}</p>
