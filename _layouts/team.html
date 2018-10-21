@@ -74,7 +74,7 @@ $(document).ready(function(){
   function onTeamFilterClick(e) {
     e.preventDefault();
 
-    $allMembers = $(".team-member");
+    var $allMembers = $(".team-member");
 
     var $ele = $(event.target);
     $('#team-filters li a').removeClass('active');
