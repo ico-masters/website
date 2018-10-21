@@ -88,8 +88,14 @@ $(document).ready(function(){
     $("div[data-category='"+ category +"']").show();
   }
 
-  var tapOrClick = $.support.touch ? "tap" : "click";
-  $('.bio-btn').on(tapOrClick, memberBioDialog);
+  var supportTouch = ('ontouchstart' in document.documentElement);
+  var $bioButton = $('.bio-btn');
+
+  if (supportTouch) {
+     $bioButton.hammer().bind('tap', memberBioDialog);
+  } else {
+    $bioButton.on('click', memberBioDialog);
+  }
 
   function memberBioDialog(e){
       e.stopPropagation();
@@ -111,7 +117,7 @@ $(document).ready(function(){
       $(e.target).parents('.team-member').css('z-index', '9')
   };
 
-  $('.close-member-specs').on(tapOrClick, function(e){
+  $('.close-member-specs').on('click', function(e){
       e.preventDefault();
       $(e.target).parents('.team-member').removeClass('active')
       setTimeout(function(){
