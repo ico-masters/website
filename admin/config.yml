@@ -74,8 +74,8 @@ collections:
             fields:
               - {label: "First Name",  name: "first_name", widget: "string", required: true}
               - {label: "Last Name",   name: "last_name", widget: "string", required: true}
-              - {label: "Avatar,       name: "avatar", widget: "string", required: false}
-              - {label: "description,  name: "description", widget: "string", required: true}
+              - {label: "Avatar",       name: "avatar", widget: "string", required: false}
+              - {label: "description",  name: "description", widget: "string", required: true}
 
   - name: "testimonials"
     label: "Testimonial"
