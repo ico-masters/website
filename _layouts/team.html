@@ -3,7 +3,8 @@ layout: default
 ---
 
 {%- include page-hero.html -%}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 <div>
   <div class="section center team-tile">
@@ -59,52 +60,58 @@ layout: default
     </div>
 </div>
 <script>
-    $("#team-filters").on('click', onTeamFilterClick);
 
-    function onTeamFilterClick(e) {
+$(document).ready(function(){
+  $("#team-filters").on('click', onTeamFilterClick);
+
+  function onTeamFilterClick(e) {
+    e.preventDefault();
+
+    $allMembers = $(".team-member");
+
+    var $ele = $(event.target);
+    $('#team-filters li a').removeClass('active');
+    $ele.addClass('active');
+
+    var category = $ele.data().category || "all";
+    if (category === "all")
+      return $allMembers.show();
+
+    $allMembers.hide();
+    $("div[data-category='"+ category +"']").show();
+  }
+
+  var tapOrClick = $.support.touch ? "tap" : "click";
+  $('.bio-btn').on(tapOrClick, memberBioDialog);
+
+  function memberBioDialog(e){
       e.preventDefault();
+      if($('.team-member').hasClass('active')){
+         $('.team-member').removeClass('active');
+         $('.team-member').css('z-index', '0');
+      }
+      let position = $(e.target).parents('.team-member').position();
+      if (position.left === 0 && position.top > 188) {
+           $(e.target).parents('.team-member').addClass('active origin-bottom-left')
+      } else if (position.left !== 0 && position.top > 189) {
+           $(e.target).parents('.team-member').addClass('active origin-bottom-right')
+      } else if (position.left === 0) {
+           $(e.target).parents('.team-member').addClass('active origin-left')
+      }  else {
+           $(e.target).parents('.team-member').addClass('active origin-right')
+      }
+      $(e.target).parents('.team-member').css('z-index', '9')
+  };
 
-      $allMembers = $(".team-member");
+  $('.close-member-specs').on(tapOrClick, function(e){
+      e.preventDefault();
+      $(e.target).parents('.team-member').removeClass('active')
+      setTimeout(function(){
+          $(e.target).parents('.team-member').css('z-index', '0')
+      }, 500);
+  });
 
-      var $ele = $(event.target);
-      $('#team-filters li a').removeClass('active');
-      $ele.addClass('active');
+})
 
-      var category = $ele.data().category || "all";
-      if (category === "all")
-        return $allMembers.show();
-
-      $allMembers.hide();
-      $("div[data-category='"+ category +"']").show();
-    }
-
-
-    $('.bio-btn').click(function(e){
-        e.preventDefault();
-        if($('.team-member').hasClass('active')){
-           $('.team-member').removeClass('active');
-           $('.team-member').css('z-index', '0');
-        }
-        let position = $(e.target).parents('.team-member').position();
-        console.log(position)
-        if (position.left === 0 && position.top > 188) {
-             $(e.target).parents('.team-member').addClass('active origin-bottom-left')
-        } else if (position.left !== 0 && position.top > 189) {
-             $(e.target).parents('.team-member').addClass('active origin-bottom-right')
-        } else if (position.left === 0) {
-             $(e.target).parents('.team-member').addClass('active origin-left')
-        }  else {
-             $(e.target).parents('.team-member').addClass('active origin-right')
-        }
-        $(e.target).parents('.team-member').css('z-index', '9')
-    })
-    $('.close-member-specs').click(function(e){
-        e.preventDefault();
-        $(e.target).parents('.team-member').removeClass('active')
-        setTimeout(function(){
-            $(e.target).parents('.team-member').css('z-index', '0')
-        }, 500)
-
-    })
 </script>
 </div>
