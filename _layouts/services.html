@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 {%- include page-hero.html -%}
 
-<div class="section clearfix">
+<!-- <div class="section clearfix">
   <h2 class="section_title dark-blue">
     <span>{{ page.title }}</span>
   </h2>
+
   <p class="pt2 blue">{{ page.summary }}</p>
   {% assign services = site.services | sort: 'order' %}
 
@@ -29,7 +31,77 @@ layout: default
     {%- endif -%}
   </div>
 
+</div> -->
+<!-- NEW MODEL  -->
+<div class="section center">
+    <h2 class="section_title dark-blue">
+        <span>{{ page.title }}</span>
+    </h2>
+    <p class="pt2 blue">{{ page.summary }} </p>
+
+    {% assign services = site.services | sort: 'order' %}
+    {%- for service in services -%}
+      <div class="service-holder">
+        <div class="service-banner">
+            <div class="banner-text center">
+                <p class="h3 white">{{service.title}}</p>
+                <p class="light white">{{service.description}}</p>
+            </div>
+        </div>
+
+        <div id="tldr-carousel" class="carousel slide no-bg" data-ride="carousel">
+              <ol class="carousel-indicators">
+                {%- for testimonial in service.testimonials -%}
+                  <li data-target="#tldr-carousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.index0 == 0 %} active {% endif %}"></li>
+                {%- endfor -%}
+              </ol>
+
+            <div class="carousel-inner" role="listbox">
+              {%- for testimonial in service.testimonials -%}
+                <div class="item {% if forloop.index0 == 0 %} active {% endif %}">
+                    <blockquote class="quote-box has-img left" cite="#">
+                        <img class="author-img" src="" alt="" />
+                        <div class="align-left">
+                            <div class="quote-icon">
+                                <img src="/assets/images/quote_icon.png" alt="quotation mark">
+                            </div>
+                            <p class="italic">{{testimonial.quote}}</p>
+                            <p class="mb0 h5 gray">{{testimonial.name}}, 2018</p>
+                        </div>
+                    </blockquote>
+                </div>
+              {%- endfor -%}
+            </div>
+
+            <a class="left carousel-control" href="#tldr-carousel" role="button" data-slide="prev">
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#tldr-carousel" role="button" data-slide="next">
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <p class="h4 bold left-align mb0">{{service.usecase_company}} </p>
+        <p class="left-align ">{{service.usecase_title}}</p>
+        <p class="left-align">{{service.usecase_body}}</p>
+        <!-- <div class="center py3">
+            <a class="btn btn-solid dark-blue mt1 py2 px3 " href="#">Find Out More</a>
+        </div> -->
+     </div>
+    {%- endfor -%}
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- SERVICE SUMMARY -->
 <!--     <div class="services_summary">
@@ -49,5 +121,3 @@ layout: default
       No Services summary...
     {%- endif -%}
   </div> -->
-
-

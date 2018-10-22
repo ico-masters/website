@@ -48,10 +48,9 @@ collections:
             name:  testimonial
             widget: object
             fields:
-              - {label: "First Name",   name: "first_name", widget: "string", required: true}
-              - {label: "Last Name",    name: "last_name", widget: "string", required: true}
-              - {label: "Avatar",       name: "avatar", widget: "image", required: false}
-              - {label: "description",  name: "description", widget: "markdown", required: true}
+              - {label: "Name",    name: "name",   widget: "string",   required: true}
+              - {label: "Avatar",  name: "avatar", widget: "image",    required: false}
+              - {label: "quote",   name: "quote",  widget: "markdown", required: true}
 
   - name: "clients"
     label: "Client"

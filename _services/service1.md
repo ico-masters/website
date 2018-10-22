@@ -13,5 +13,13 @@ description: >-
   tokens and traditional capital markets, to building ecosystems and user bases,
   TLDR is at the forefront of strategic planning for many industry-defining
   projects.
----
 
+usecase_company: Global company
+usecase_title: usecase title
+usecase_body: usecase body here
+
+testimonials:
+   - avatar: https://tldrcapital.netlify.com/images/uploads/pic_1.jpg
+     name: "Alex Global"
+     quote: "such a awesome Global ... "
+---
