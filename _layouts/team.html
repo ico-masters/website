@@ -78,14 +78,14 @@ $(document).ready(function(){
 
     // Remove pre appended positions if they exist
 
-    if (allMembers.hasClass('active origin-bottom-left')) {
-        allMembers.removeClass('active origin-bottom-left')
-    } else if (allMembers.hasClass('active origin-bottom-right')) {
-        allMembers.removeClass('active origin-bottom-right')
-    } else if ( allMembers.hasClass('active origin-left')) {
-        allMembers.removeClass('active origin-left')
+    if ($allMembers.hasClass('active origin-bottom-left')) {
+        $allMembers.removeClass('active origin-bottom-left')
+    } else if ($allMembers.hasClass('active origin-bottom-right')) {
+        $allMembers.removeClass('active origin-bottom-right')
+    } else if ( $allMembers.hasClass('active origin-left')) {
+        $allMembers.removeClass('active origin-left')
     }  else {
-        allMembers.removeClass('active origin-right')
+        $allMembers.removeClass('active origin-right')
     }
 
     var $ele = $(event.target);
