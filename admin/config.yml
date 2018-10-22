@@ -38,6 +38,9 @@ collections:
       - {label: "Anchor", name: "anchor", widget: "string"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Usecase: Company", name: "usecase_company", widget: "string"}
+      - {label: "Usecase: Title", name: "usecase_title", widget: "string"}
+      - {label: "Usecase: Body", name: "usecase_body", widget: "markdown"}
       - label: "Testimonials"
         name: "testimonials"
         widget: "list"
