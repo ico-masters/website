@@ -102,7 +102,8 @@ $(document).ready(function(){
 
   var mobile = ('ontouchstart' in document.documentElement);
   if (mobile) {
-     $('.team-member').hammer().bind('tap', memberBioDialog);
+     $('.team-member').on('click',function(e){$(this).addClass('hovered')});
+     $('.bio-btn').hammer().bind('tap', memberBioDialog);
   } else {
      $('.bio-btn').on('click', memberBioDialog);
   }
@@ -116,7 +117,7 @@ $(document).ready(function(){
       }
 
       if (mobile) {
-        toggleMember($(this));
+        toggleMember($(this).parents('.team-member'));
       } else {
         toggleMember($(e.target).parents('.team-member'))
       }
@@ -143,6 +144,7 @@ $(document).ready(function(){
       $(e.target).parents('.team-member').removeClass('active')
       setTimeout(function(){
           $(e.target).parents('.team-member').css('z-index', '0')
+          $(e.target).parents('.team-member').removeClass('hovered')
       }, 500);
   });
 

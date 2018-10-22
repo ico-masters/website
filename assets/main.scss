@@ -735,10 +735,15 @@ footer {
     transition: opacity .5s;
     text-align: center;
     color: #fff;
-    z-index: 5;
+    z-index: -1;
 }
 .team-member:hover .team-member-hover-state{
     opacity: 1;
+    z-index: 5
+}
+.team-member.hovered .team-member-hover-state{
+    opacity: 1;
+    z-index: 5
 }
 .v-center {
     position: absolute;
@@ -885,6 +890,14 @@ footer {
     }
     .team .section_description {
         padding: 2rem 1rem;
+    }
+    .team-member:hover .team-member-hover-state{
+      opacity: 0;
+      z-index: -1
+    }
+    .team-member.hovered .team-member-hover-state{
+        opacity: 1;
+        z-index: 5
     }
 }
 
