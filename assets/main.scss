@@ -823,13 +823,20 @@ footer {
     top:0;
     left: 0;
     color: #fff;
-    z-index: 4;
+    z-index: 0;
     transition: all .5s linear;
 }
 
 .team-tile-holder .team-member.active .team-member-active-state {
     opacity: 1;
     z-index: 101;
+}
+
+.active-member-top {
+    display: none;
+}
+.team-member.active .active-member-top {
+    display: block;
 }
 
 .active-member-top .member-social {
