@@ -646,8 +646,18 @@ footer {
 
 @media screen and (max-width:480px){
 
+  .tile {
+        width: 200px;
+        height: 150px;
+    }
+
+    .tile__img {
+         width: 200px;
+        height: 150px;
+    }
+
     .tile-description {
-        width: 280px;
+        width: 200px;
         border-left: none;
     }
     .tile:first-child .tile:hover .tile-description {
@@ -656,7 +666,7 @@ footer {
     .tile:last-child .tile-description {
         transition: all .3s linear;
         padding-right: 15px;
-        width: 280px;
+        width: 200px;
     }
     .tile:hover .tile-description{
         height: 100px;
@@ -667,9 +677,9 @@ footer {
     .member-description {
         display: none;
     }
-    /*.tile:hover ~ .tile{
-        transform: translate3d(44px, 0, 0)!important /*moveRight = $tileWidth * ($growFactor - 1)
-    }*/
+    .tile:hover ~ .tile{
+        transform: translate3d(44px, 0, 0)!important /*moveRight = $tileWidth * ($growFactor - 1)*/
+    }
 }
 
 .tile:hover ~ .tile{
