@@ -4,7 +4,7 @@ layout: default
 
 {%- include page-hero.html -%}
 
-{% assign news = site.news | sort: 'order' %}
+{% assign news = site.news | sort: 'created_at' %}
 {% assign first_article = news | first %}
 
 <div class="full-section">

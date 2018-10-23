@@ -4,6 +4,7 @@ permalink: '/news/:title'
 id: news
 featured: 'false'
 order: 8
+created_at: 08-01-2018
 image: /images/uploads/successful-ico-main.jpeg
 title: Important Factors Behind a Successful ICO
 excerpt: >-
@@ -39,7 +40,7 @@ You need to believe in the team and that they have what it takes to make the pro
 
 A strong team doesn't necessarily just mean good on paper - they need the determination to make the project a success. Knowledge is important, but if the team lack the drive to push the ICO to success then it will very likely fail.
 
-Alex provides further insight into the process of identifying successful ICOs: 
+Alex provides further insight into the process of identifying successful ICOs:
 
 > "The first thing I look at when choosing a potential project is the quality of the team. What I mean by quality is not necessarily the CVs or the qualifications, but some of the attributes of those people. Do they have EQ? Do they seem like scrappy people? Are they people who seem like they can get \[things] done?"
 

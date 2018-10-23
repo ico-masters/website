@@ -4,6 +4,7 @@ permalink: '/news/:title'
 id: news
 featured: 'false'
 order: 2
+created_at: 02-01-2018
 image: /images/uploads/investment-mtt.jpeg
 title: Meet The TLDR Investment Team
 excerpt: >-

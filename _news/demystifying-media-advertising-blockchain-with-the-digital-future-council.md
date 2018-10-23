@@ -4,6 +4,7 @@ permalink: '/news/:title'
 id: news
 featured: 'false'
 order: 4
+created_at: 04-01-2018
 image: /images/uploads/dfc-main.jpeg
 title: 'Demystifying Media, Advertising & Blockchain, With The Digital Future Council'
 excerpt: >-

@@ -4,6 +4,7 @@ permalink: '/news/:title'
 id: news
 featured: 'false'
 order: 6
+created_at: 06-01-2018
 image: /images/uploads/community-engagement-main.jpeg
 title: The Importance Of Community And Engagement
 excerpt: >-
@@ -69,7 +70,7 @@ So, while a bounty programme might still benefit your ICO campaign, they can’t
 
 
 
-> “If you look at 
+> “If you look at
 >
 > [Shopin](https://tokensale.shopin.com/)
 >

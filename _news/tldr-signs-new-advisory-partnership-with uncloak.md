@@ -4,6 +4,7 @@ permalink: '/news/:title'
 id: news
 featured: true
 order: -2
+created_at: 01-01-2018
 image: /images/uploads/tldr-uncloak.png
 title: "TLDR Signs New Advisory Partnership With\_Uncloak"
 excerpt: >-
@@ -14,7 +15,7 @@ At TLDR, our core ethos focuses on projects that we believe will revolutionize t
 
 ## Introducing Uncloak
 
-Uncloak is a project that could completely revolutionize how businesses deal with digital threats. It utilizes the power of the blockchain and powerful, advanced artificial intelligence to check public and hidden data for digital threats. Using true blockchain 3.0, Uncloak allows a global network of verified IT security experts to collaborate in resolving threats and vulnerabilities and be rewarded through a fully automated system. 
+Uncloak is a project that could completely revolutionize how businesses deal with digital threats. It utilizes the power of the blockchain and powerful, advanced artificial intelligence to check public and hidden data for digital threats. Using true blockchain 3.0, Uncloak allows a global network of verified IT security experts to collaborate in resolving threats and vulnerabilities and be rewarded through a fully automated system.
 
 Having identified a gap in the market, Uncloak has evolved to allow smaller businesses and startups a strong, decentralized digital security system that doesn’t need a large financial outlay or expensive upkeep costs. Founder, CEO and Digital Security Expert, Tayo Dada explains:
 
@@ -38,7 +39,7 @@ Uncloak’s aim is to build an extensive channel partnership model that allows t
 
 > _‘Partnerships are core to the success of Uncloak, or any organization for that matter, and it’s extremely important to be able to mitigate risk by leaning on an experienced team that has unparalleled access to a number of key clients and partners, that we are indeed targeting globally. TLDR as an advisory is best placed to aid us Pre-ICO and Post-ICO, and we believe that they will play a part in our road to gaining a competitive edge in the digital security marketplace.’_
 
-Uncloak is ushering in a new era of digital threat detection and security and TLDR are excited to be involved in such a powerful and innovative reply to digital threats. 
+Uncloak is ushering in a new era of digital threat detection and security and TLDR are excited to be involved in such a powerful and innovative reply to digital threats.
 
 If you’d like to find out more about TLDR, check out our social channels below:
 

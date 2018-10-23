@@ -83,7 +83,8 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "hidden", default: '/news/:title'}
       - {label: "ID", name: "id", widget: "hidden", default: 'news'}
       - {label: "Featured", name: "featured", widget: "boolean", default: "false"}
-      - {label: "Order", name: "order", widget: "number", valueType: "int"}
+      - {label: "Order (not being used)", name: "order", widget: "number", valueType: "int"}
+      - {label: "Created At", name: "created_at", widget: "date", format: "DD-MM-YYYY"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}

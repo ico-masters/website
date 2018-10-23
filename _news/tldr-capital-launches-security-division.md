@@ -4,6 +4,7 @@ permalink: '/news/:title'
 id: news
 featured: 'false'
 order: 7
+created_at: 07-01-2018
 image: /images/uploads/security-division-main.jpeg
 title: TLDR Capital Launches Security Division
 excerpt: >-
