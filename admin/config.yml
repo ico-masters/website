@@ -86,7 +86,6 @@ collections:
       - {label: "Order (not being used)", name: "order", widget: "number", valueType: "int"}
       - {label: "Created At", name: "created_at", widget: "date", format: "DD-MM-YYYY"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Featured image", name: "featured_image", widget: "image"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

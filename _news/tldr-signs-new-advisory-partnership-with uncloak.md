@@ -6,7 +6,6 @@ featured: true
 order: -2
 created_at: 20-12-2017
 image: /images/uploads/tldr-uncloak.png
-featured_image: /images/uploads/tldr-uncloak-bordered.png
 title: "TLDR Signs New Advisory Partnership With\_Uncloak"
 excerpt: >-
   Uncloak is a project that could completely revolutionize how businesses deal
