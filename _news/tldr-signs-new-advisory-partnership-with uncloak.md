@@ -4,7 +4,7 @@ permalink: '/news/:title'
 id: news
 featured: true
 order: -2
-image: /images/uploads/68419005-square-wallpapers.jpg
+image: /images/uploads/tldr-uncloak.png
 title: "TLDR Signs New Advisory Partnership With\_Uncloak"
 excerpt: >-
   Uncloak is a project that could completely revolutionize how businesses deal
