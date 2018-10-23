@@ -120,14 +120,18 @@
   position: relative;
   background-size: 100% 100%;
 }
-.news-section article .article-img-container::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, .4)
+.news-section article .article-img-wrapper {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4)
+  }
 }
 
 .news-section article .article-img-container img {

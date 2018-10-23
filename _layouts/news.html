@@ -30,7 +30,10 @@ layout: default
     {%- if news.size > 0 -%}
     {%- for article in news -%}
     <article>
-        <div class="article-img-container" style="background-image:url('{{ article.image }}')">
+        <div class="article-img-container">
+            <div class="article-img-wrapper">
+              <img src="{{ article.image }}" alt="sub-hero-img">
+            </div>
             <p class="z2">{{ article.title | escape }}</p>
         </div>
         <p class="h5 dark-blue">{{ article.excerpt | escape }}</p>
