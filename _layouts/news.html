@@ -34,25 +34,29 @@ layout: default
 
 
 <div class="section news-section z2">
-    {%- if news.size > 0 -%}
+  {%- if news.size > 0 -%}
     {%- for article in news -%}
-    <article>
+      {%- if article.featured == true -%}
+        {% continue %}
+      {%- endif -%}
+
+      <article>
         <div class="article-img-container">
-            <div class="article-img-wrapper">
-              <img src="{{ article.image }}" alt="sub-hero-img">
-              <p class="z2">{{ article.title | escape }}</p>
-            </div>
+          <div class="article-img-wrapper">
+            <img src="{{ article.image }}" alt="sub-hero-img">
+            <p class="z2">{{ article.title | escape }}</p>
+          </div>
         </div>
         <p class="h5 dark-blue">{{ article.excerpt | escape }}</p>
         <div class="btn-holder">
-            <a class="btn btn-solid dark-blue mt1 py2 px3 "
-               href="{{article.url}}">Read more</a>
+          <a class="btn btn-solid dark-blue mt1 py2 px3 "
+             href="{{article.url}}">Read more</a>
         </div>
-    </article>
+      </article>
     {%- endfor -%}
-    {%- else -%}
+  {%- else -%}
     No news list
-    {%- endif -%}
+  {%- endif -%}
 </div>
 
 <section class="news-bottom-subscrition">
