@@ -7,18 +7,25 @@ layout: default
 {% assign news = site.news | sort: 'created_at' %}
 {% assign first_article = news | first %}
 
+{% assign featured_article = first_article %}
+{% for post in news %}
+  {% if post.featured %}
+    {% assign featured_article = post %}
+  {% endif %}
+{% endfor %}
+
 <div class="full-section">
   <section class="sub-hero-news">
       <div>
         <div class="sub-hero-text">
-            <h1 class="h1 white">{{ first_article.title | escape }}</h1>
-            <p class="h4 white">{{ first_article.excerpt | escape }}</p>
+            <h1 class="h1 white">{{ featured_article.title | escape }}</h1>
+            <p class="h4 white">{{ featured_article.excerpt | escape }}</p>
             <a class="btn btn-solid dark-blue mt1 py2 px3 "
-                href="{{first_article.url}}">Read more</a>
+                href="{{featured_article.url}}">Read more</a>
         </div>
         <div class="sub-hero-img-holder">
             <div class="sub-hero-img">
-                <img src="{{ first_article.image }}">
+                <img src="{{ featured_article.image }}">
             </div>
         </div>
       </div>
