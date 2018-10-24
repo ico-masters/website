@@ -4,7 +4,7 @@ layout: default
 
 {%- include page-hero.html -%}
 
-{% assign news = site.news | sort: 'order' %}
+{% assign news = site.news | sort: 'created_at' %}
 {% assign first_article = news | first %}
 
 <div class="full-section">
@@ -18,7 +18,7 @@ layout: default
         </div>
         <div class="sub-hero-img-holder">
             <div class="sub-hero-img">
-                <img src="{{ first_article.image }}" alt="sub-hero-img">
+                <img src="{{ first_article.image }}">
             </div>
         </div>
       </div>
@@ -31,8 +31,10 @@ layout: default
     {%- for article in news -%}
     <article>
         <div class="article-img-container">
-            <img src="{{ article.image }}" alt="sub-hero-img">
-            <p class="z2">{{ article.title | escape }}</p>
+            <div class="article-img-wrapper">
+              <img src="{{ article.image }}" alt="sub-hero-img">
+              <p class="z2">{{ article.title | escape }}</p>
+            </div>
         </div>
         <p class="h5 dark-blue">{{ article.excerpt | escape }}</p>
         <div class="btn-holder">

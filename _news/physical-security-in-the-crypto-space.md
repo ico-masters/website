@@ -4,6 +4,7 @@ permalink: '/news/:title'
 id: news
 featured: 'false'
 order: 5
+created_at: 05-01-2018
 image: /images/uploads/physical-security-main.jpeg
 title: Physical Security in the Crypto Space
 excerpt: >-
