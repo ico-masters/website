@@ -3,7 +3,6 @@ layout: article
 permalink: '/news/:title'
 id: news
 featured: 'false'
-order: 1
 created_at: 01-01-2018
 image: /images/uploads/mtt-strategy.jpeg
 title: Meet the TLDR Strategy Team
@@ -92,16 +91,16 @@ Heading up TLDR’s community and marketing as well as masternode strategy is Eu
 
 > “I’ve been fascinated with the world of blockchain and crypto for a while, more so on the basis of what role it can serve on a socio-economic level. When I linked up with the guys, I knew that we had both the passion and capabilities of really making a meaningful impact within the space. Part of the allure of TLDR is the diversity of everybody. We’re all learning about the space, a well as from each respective member’s experiences.”
 
-If you’re interested in finding ways to collaborate and partner with TLDR, don’t hesitate to reach out [here](https://www.tldr.capital/contact).
+If you’re interested in finding ways to collaborate and partner with TLDR, don’t hesitate to reach out [here](https://tldr.global/contact).
 
 Find out more about TLDR. Check out our social channels below:
 
-Website: [tldr.capital](https://www.tldr.capital/)
+Website: [tldr.global](https://tldr.global/)
 
-Twitter: [@TLDR_Capital](https://twitter.com/TLDR_Capital)
+Twitter: [@TLDR_Global](https://twitter.com/TLDR_Global)
 
-LinkedIn: [linkedin.com/company/tldr-capital](https://www.linkedin.com/company/tldr-capital/)
+LinkedIn: [linkedin.com/company/tldr-global](https://www.linkedin.com/company/tldr-global/)
 
-Medium: [@TLDR_Capital](https://medium.com/@TLDR_Capital)
+Medium: [@TLDR_Global](https://medium.com/@TLDR_Global)
 
 _This article is based on views and information held by TLDR on publication date and may be subject to change, although TLDR does not undertake to update them. Nothing contained herein constitutes investment, legal, tax or other advice, nor a recommendation or solicitation of an offer to buy or sell any securities or to adopt any investment strategy. No representation or warranty, express or implied, is made or given by or on behalf of TLDR as to the accuracy and completeness or fairness of the information contained in this article._
