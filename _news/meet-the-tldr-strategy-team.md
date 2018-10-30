@@ -3,7 +3,7 @@ layout: article
 permalink: '/news/:title'
 id: news
 featured: 'false'
-created_at: 01-01-2018
+created_at: 08-06-2018
 image: /images/uploads/mtt-strategy.jpeg
 title: Meet the TLDR Strategy Team
 excerpt: >-
