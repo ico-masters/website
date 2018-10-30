@@ -3,8 +3,7 @@ layout: article
 permalink: '/news/:title'
 id: news
 featured: 'false'
-order: 8
-created_at: 08-01-2018
+created_at: 17-07-2018
 image: /images/uploads/successful-ico-main.jpeg
 title: Important Factors Behind a Successful ICO
 excerpt: >-
@@ -60,16 +59,18 @@ A fresh concept and a driven and informed team are both attractive prospects whe
 
 
 
-If you’re interested in finding ways to collaborate and partner with TLDR, don’t hesitate to reach out [here](https://www.tldr.capital/contact).
+If you’re interested in finding ways to collaborate and partner with TLDR, don’t hesitate to reach out [here](https://tldr.global/contact).
 
 Find out more about TLDR. Check out our social channels below:
 
-Website: [tldr.capital](https://www.tldr.capital/)
+Website: [tldr.global](https://tldr.global/)
 
-Twitter: [@TLDR_Capital](https://twitter.com/TLDR_Capital)
+Twitter: [@TLDR_Global](https://twitter.com/TLDR_Global)
 
-LinkedIn: [linkedin.com/company/tldr-capital](https://www.linkedin.com/company/tldr-capital/)
+LinkedIn: [linkedin.com/company/tldr-global](https://www.linkedin.com/company/tldr-global/)
 
-Medium: [@TLDR_Capital](https://medium.com/@TLDR_Capital)
+Medium: [@TLDR_Global](https://medium.com/@TLDR_Global)
+
+
 
 _This article is based on views and information held by TLDR on publication date and may be subject to change, although TLDR does not undertake to update them. Nothing contained herein constitutes investment, legal, tax or other advice, nor a recommendation or solicitation of an offer to buy or sell any securities or to adopt any investment strategy. No representation or warranty, express or implied, is made or given by or on behalf of TLDR as to the accuracy and completeness or fairness of the information contained in this article._
