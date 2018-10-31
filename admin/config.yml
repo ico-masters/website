@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: test-repo
   repo: ico-masters/website
   branch: master
   site_domain: tldrcapital.netlify.com
@@ -87,7 +87,7 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Excerpt", name: "excerpt", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "slides"}
   - name: "resources"
     label: "Resources"
     folder: "_resources"
