@@ -46,3 +46,7 @@ and go to: https://tldrcapital.netlify.com
 - https://shopify.github.io/liquid/basics/introduction/
 
 - https://www.youtube.com/watch?v=R4rLx6wTqMw
+
+## Notes
+
+The **netlify-cms** folder in this project, came from https://github.com/ico-masters/netlify-cms
