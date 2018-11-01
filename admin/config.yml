@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: test-repo
   repo: ico-masters/website
   branch: master
   site_domain: tldrcapital.netlify.com
