@@ -13,6 +13,7 @@ plugins:
   - jekyll-feed
 sass:
   sass_dir: _sass
+exclude: [tldr-netlify-cms]
 include:
   - _redirects
 
