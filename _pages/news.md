@@ -14,8 +14,8 @@ home_summary: >
   Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra
   eleifend lacus, vitae ullamcorper metus.
 description: >-
-  Fusc vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra
-  eleifend lacus, vitae ullamcorper metus.
+  Our articles are an amalgamation of thoughts and industry insights from the
+  TLDR Global team as they view and experience the evolving blockchain space.
 cta: Teste
 ---
 
