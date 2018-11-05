@@ -14,9 +14,8 @@ home_summary: >
   Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra
   eleifend lacus, vitae ullamcorper metus.
 description: >-
-  Our articles are an amalgamation of thoughts and industry insights from the
-  TLDR Global team, as they view, experience, and help drive the evolution of
-  the blockchain space.
+  Follow along with TLDR Global's experiences and industry insights on the
+  present and future of blockchain, and its adoption.
 cta: Teste
 ---
 
