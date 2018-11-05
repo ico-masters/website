@@ -13,8 +13,8 @@ summary: >
 home_summary: >
   Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra
   eleifend lacus, vitae ullamcorper metus.
-description: >
-  Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra
+description: >-
+  Fusc vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra
   eleifend lacus, vitae ullamcorper metus.
 cta: Teste
 ---
