@@ -15,7 +15,8 @@ home_summary: >
   eleifend lacus, vitae ullamcorper metus.
 description: >-
   Our articles are an amalgamation of thoughts and industry insights from the
-  TLDR Global team as they view and experience the evolving blockchain space.
+  TLDR Global team, as they view, experience, and help drive the evolution of
+  the blockchain space.
 cta: Teste
 ---
 
