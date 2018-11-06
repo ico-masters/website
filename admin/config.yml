@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: ico-masters/website
-  branch: news-to-blog
+  branch: master
   site_domain: tldrcapital.netlify.com
 media_folder: "images/uploads"
 collections:
