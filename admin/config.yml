@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: test-repo
   repo: ico-masters/website
   branch: master
   site_domain: tldrcapital.netlify.com
@@ -74,14 +74,14 @@ collections:
       - {label: "Company Person", name: "company_person", widget: "string"}
       - {label: "Quote", name: "quote", widget: "markdown"}
       - {label: "Image", name: "image", widget: "image"}
-  - name: "news"
-    label: "News"
-    folder: "_news"
+  - name: "blog"
+    label: "Blog"
+    folder: "_blog"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
-      - {label: "Permalink", name: "permalink", widget: "hidden", default: '/news/:title'}
-      - {label: "ID", name: "id", widget: "hidden", default: 'news'}
+      - {label: "Permalink", name: "permalink", widget: "hidden", default: '/blog/:title'}
+      - {label: "ID", name: "id", widget: "hidden", default: 'blog'}
       - {label: "Featured", name: "featured", widget: "boolean", default: "false"}
       - {label: "Created At", name: "created_at", widget: "date", format: "DD-MM-YYYY"}
       - {label: "Image", name: "image", widget: "image"}

@@ -1,7 +1,7 @@
 ---
 layout: article
-permalink: '/news/:title'
-id: news
+permalink: '/blog/:title'
+id: blog
 featured: 'false'
 created_at: 31-10-2018
 image: /images/uploads/tldr-director-of-security-2.jpg

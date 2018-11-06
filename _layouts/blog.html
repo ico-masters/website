@@ -4,18 +4,18 @@ layout: default
 
 {%- include page-hero.html -%}
 
-{% assign news = site.news | sort: 'created_at' | reverse %}
-{% assign first_article = news | first %}
+{% assign blog = site.blog | sort: 'created_at' | reverse %}
+{% assign first_article = blog | first %}
 
 {% assign featured_article = first_article %}
-{% for post in news %}
+{% for post in blog %}
   {% if post.featured %}
     {% assign featured_article = post %}
   {% endif %}
 {% endfor %}
 
 <div class="full-section">
-  <section class="sub-hero-news">
+  <section class="sub-hero-blog">
       <div>
         <div class="sub-hero-text">
             <h1 class="h1 white">{{ featured_article.title | escape }}</h1>
@@ -33,9 +33,9 @@ layout: default
 </div>
 
 
-<div class="section news-section z2">
-  {%- if news.size > 0 -%}
-    {%- for article in news -%}
+<div class="section blog-section z2">
+  {%- if blog.size > 0 -%}
+    {%- for article in blog -%}
       {%- if article.featured == true -%}
         {% continue %}
       {%- endif -%}
@@ -54,12 +54,12 @@ layout: default
       </article>
     {%- endfor -%}
   {%- else -%}
-    No news list
+    No blog list
   {%- endif -%}
 </div>
 
-<section class="news-bottom-subscrition">
-    <div class="news-form-holder">
+<section class="blog-bottom-subscrition">
+    <div class="blog-form-holder">
         <h1 class="h1 bold white">Subscribe module</h1>
         <p class="h5 white">Get the juicy stuff on your email. Only the juicy stuff on your email. </p>
         <form action="" class="hs-form stacked hs-custom-form">

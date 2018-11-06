@@ -1,7 +1,7 @@
 ---
 layout: article
-permalink: '/news/:title'
-id: news
+permalink: '/blog/:title'
+id: blog
 featured: 'false'
 created_at: 12-07-2018
 image: /images/uploads/community-engagement-main.jpeg

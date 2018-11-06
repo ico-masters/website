@@ -28,7 +28,7 @@ collections:
     output: true
   testimonials:
     output: true
-  news:
+  blog:
     output: true
   resources:
     output: true

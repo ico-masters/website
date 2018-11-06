@@ -1,7 +1,7 @@
 ---
-layout: news
+layout: blog
 permalink: /blog
-id: news
+id: blog
 name: Blog
 title: Blog
 hero_image: /assets/images/hero2.jpg
@@ -18,4 +18,3 @@ description: >-
   present and future of blockchain, and its adoption.
 cta: Teste
 ---
-
