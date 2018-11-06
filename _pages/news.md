@@ -1,6 +1,6 @@
 ---
 layout: news
-permalink: /news
+permalink: /blog
 id: news
 name: Blog
 title: Blog
