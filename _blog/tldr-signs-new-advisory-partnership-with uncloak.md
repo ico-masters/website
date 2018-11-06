@@ -1,7 +1,7 @@
 ---
 layout: article
-permalink: '/news/:title'
-id: news
+permalink: '/blog/:title'
+id: blog
 featured: true
 order: -2
 created_at: 20-12-2017
