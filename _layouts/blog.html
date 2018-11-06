@@ -40,18 +40,20 @@ layout: default
         {% continue %}
       {%- endif -%}
 
-      <article>
-        <div class="article-img-container">
-          <div class="article-img-wrapper">
-            <img src="{{ article.image }}" alt="sub-hero-img">
+
+      <a href="{{article.url}}" class="article">
+        <article>
+          <div class="article-img-container">
+            <div class="article-img-wrapper">
+              <img src="{{ article.image }}" alt="sub-hero-img">
+            </div>
           </div>
-        </div>
-        <p class="h5 dark-blue">{{ article.excerpt | escape }}</p>
-        <div class="btn-holder">
-          <a class="btn btn-solid dark-blue mt1 py2 px3 "
-             href="{{article.url}}">Read more</a>
-        </div>
-      </article>
+          <p class="h5 dark-blue">{{ article.excerpt | escape }}</p>
+          <div class="btn-holder">
+            <button class="btn btn-solid dark-blue mt1 py2 px3">Read more</button>
+          </div>
+        </article>
+      </a>
     {%- endfor -%}
   {%- else -%}
     No blog list
