@@ -60,9 +60,7 @@ For services that haven’t implemented the alternative authentication methods c
 
 Remember, while it may be scary to consider the possibility of your phone being hijacked, awareness is your key defense. In our previous article, [Physical Security in the Crypto Space](https://medium.com/@TLDR_Capital/physical-security-in-the-crypto-space-bee91aca6e7f), TLDR’s Chief Operating Officer and former Navy SEAL, Chuck McGraw, spoke about how important situational awareness is, and stated that the biggest threat to personal security is apathy:
 
-> _"Sometimes we live our lives unaware, not accepting that there are potential bad actors out there who want to negatively affect us. People can be like ostriches with their heads in the sand. You don’t have to live your life in fear, but be a realist. Don’t be a victim_
->
-> ."
+> _"Sometimes we live our lives unaware, not accepting that there are potential bad actors out there who want to negatively affect us. People can be like ostriches with their heads in the sand. You don’t have to live your life in fear, but be a realist. Don’t be a victim_."
 
 By being aware of the potential risks, we build up good security hygiene and that is what protects us from threats such as phone hijacking.
 
