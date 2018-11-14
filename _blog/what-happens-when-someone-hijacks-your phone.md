@@ -2,7 +2,7 @@
 layout: article
 permalink: '/blog/:title'
 id: blog
-featured: 'false'
+featured: false
 created_at: 01-08-2018
 image: /images/uploads/phone-hijacking.jpeg
 title: "What Happens When Someone Hijacks Your\_Phone?"
