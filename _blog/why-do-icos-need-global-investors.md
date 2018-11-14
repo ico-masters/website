@@ -43,17 +43,9 @@ Durgee has been part of token projects and the cryptocurrency world since 2010, 
 
 Martin Adams, TLDR Partner, agrees that one of the key strengths of ICOs compared to traditional fundraising mechanisms is their creation of a global network of ready participants prior to platform launch.
 
-> “
+> “_One of the key benefits of an ICO over traditional fundraising mechanisms is that you have pre-sold a wide global network of potential users of your token._”
 >
-> _One of the key benefits of an ICO over traditional fundraising mechanisms is that you have pre-sold a wide global network of potential users of your token._
->
-> ”
->
-> “
->
-> _So the classic divide between (1) fundraising and then (2) going to market is collapsed. The result is that good projects emerge from their TGEs with huge amounts of latent energy: many of the users, partners, and developers their product will rely on for success are likely to already be invested in their success- that’s powerful._
->
-> ”
+> “_So the classic divide between (1) fundraising and then (2) going to market is collapsed. The result is that good projects emerge from their TGEs with huge amounts of latent energy: many of the users, partners, and developers their product will rely on for success are likely to already be invested in their success- that’s powerful._”
 
 Moreover, separating your project from the rest of the herd is a paramount reason to make sure that it is based on an international footing.
 
@@ -75,11 +67,7 @@ But he adds that US market participants, as well as the country’s regulator, n
 
 “_A global point of view is necessary because this is a global industry. From the issuer perspective, it is really about the willingness of founders and them traveling around and meeting people to understand their point of view,_” Yamashita says.
 
-> “
->
-> _Non-US teams typically have an easier time of doing this, while US teams feel that all they need is already in their home turf. These are the ones who need the pointers and to understand the cultural nuances of doing business in different countries._
->
-> ”
+> “_Non-US teams typically have an easier time of doing this, while US teams feel that all they need is already in their home turf. These are the ones who need the pointers and to understand the cultural nuances of doing business in different countries._”
 
 ## **Diversification**
 
@@ -89,17 +77,7 @@ He argues that blockchain was designed with a global user base in mind and that 
 
 “_Community building continues to prove itself as a key component to a successful ICO. The wider that one’s reach is, the greater the network effect,_” Durgee says.
 
-> “
->
-> _Global buy-in not only supports the network growth but also ensures the utility usage of the token is properly distributed. Let’s say you launch an ICO in Country A and only market that ICO in Country A, you are now at the mercy of Country A and their politics._
->
-> ”
->
-> “
->
-> _This is not how blockchain was intended._
->
-> ”
+> “_Global buy-in not only supports the network growth but also ensures the utility usage of the token is properly distributed. Let’s say you launch an ICO in Country A and only market that ICO in Country A, you are now at the mercy of Country A and their politics. This is not how blockchain was intended._”
 
 ### The TLDR Recap
 
