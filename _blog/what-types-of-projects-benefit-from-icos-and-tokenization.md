@@ -37,7 +37,7 @@ One of TLDR’s founding partners, Graham Friedman, offers his insight into the 
 
 ## What Kinds of People Are Attracted to Investing in ICOs?
 
-The very public nature of an ICO means that literally, anyone can participate in one. It’s the ultimate democratization of investment. All participants require is the base currency of the blockchain the ICO is built on (either Bitcoin or Ether) and they can convert this into tokens, [_‘empowering the masses to participate in investments that can potentially earn them multiples over their capital \[giving] “power back to the people” instead of a close-knit club of elites.’_](https://masterthecrypto.com/crypto-ico-vs-stock-ipo/)
+The very public nature of an ICO means that literally, anyone can participate in one. It’s the ultimate democratization of investment. All participants require is the base currency of the blockchain the ICO is built on (either Bitcoin or Ether) and they can convert this into tokens, \[\_‘empowering the masses to participate in investments that can potentially earn them multiples over their capital [giving] “power back to the people” instead of a close-knit club of elites.’\_](https://masterthecrypto.com/crypto-ico-vs-stock-ipo/)
 
 Graham charts the evolution of the ICO investor, from his experience:
 
@@ -76,13 +76,16 @@ Does an ICO provide an innovative funding mechanism for projects seeking to chal
 5. ICOs and traditional funding methods can coexist, and often help support each other.
 6. You don’t have to be a new startup to explore tokenization as an improvement to existing economic models within your industry.
 
-If you’re interested in finding ways to collaborate and partner with TLDR, don’t hesitate to reach out [here](https://www.tldr.global/contact).
+If you’re interested in finding ways to collaborate and partner with TLDR, don’t hesitate to reach out [here](https://tldr.global/contact).
 
 Find out more about TLDR. Check out our social channels below:
 
-Website: [tldr.global](https://tldr.global)\
-Twitter: [@TLDR_Global](https://twitter.com/TLDR_Global)\
-LinkedIn: [linkedin.com/company/tldr-global](https://www.linkedin.com/company/tldr-global/)\
+Website: [tldr.global](https://tldr.global/)
+
+Twitter: [@TLDR_Global](https://twitter.com/TLDR_Global)
+
+LinkedIn: [linkedin.com/company/tldr-global](https://www.linkedin.com/company/tldr-global/)
+
 Medium: [@TLDR_Global](https://medium.com/@TLDR_Global)
 
 _This article is based on views and information held by TLDR on publication date and may be subject to change, although TLDR does not undertake to update them. Nothing contained herein constitutes investment, legal, tax or other advice, nor a recommendation or solicitation of an offer to buy or sell any securities or to adopt any investment strategy. No representation or warranty, express or implied, is made or given by or on behalf of TLDR as to the accuracy and completeness or fairness of the information contained in this article._
