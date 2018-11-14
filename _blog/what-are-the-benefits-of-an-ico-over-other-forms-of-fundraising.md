@@ -58,13 +58,16 @@ Collaborations like these show the truly global potential of blockchain projects
 5. ICOs allow for high liquidity — but token models do differ.
 6. With the right ICO model, control of the organization can be retained.
 
-If you’re interested in finding ways to collaborate and partner with TLDR, don’t hesitate to reach out [here](https://www.tldr.global/contact).
+If you’re interested in finding ways to collaborate and partner with TLDR, don’t hesitate to reach out [here](https://tldr.global/contact).
 
 Find out more about TLDR. Check out our social channels below:
 
-Website: [tldr.global](https://tldr.global)\
-Twitter: [@TLDR_Global](https://twitter.com/TLDR_Global)\
-LinkedIn: [linkedin.com/company/tldr-global](https://www.linkedin.com/company/tldr-global/)\
+Website: [tldr.global](https://tldr.global/)
+
+Twitter: [@TLDR_Global](https://twitter.com/TLDR_Global)
+
+LinkedIn: [linkedin.com/company/tldr-global](https://www.linkedin.com/company/tldr-global/)
+
 Medium: [@TLDR_Global](https://medium.com/@TLDR_Global)
 
 _This article is based on views and information held by TLDR on publication date and may be subject to change, although TLDR does not undertake to update them. Nothing contained herein constitutes investment, legal, tax or other advice, nor a recommendation or solicitation of an offer to buy or sell any securities or to adopt any investment strategy. No representation or warranty, express or implied, is made or given by or on behalf of TLDR as to the accuracy and completeness or fairness of the information contained in this article._
