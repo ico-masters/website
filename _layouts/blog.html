@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+{%- include page-hero.html -%}
+
+{% assign blog = site.blog | sort: 'created_at' | reverse %}
+{% assign first_article = blog | first %}
+
+{% assign featured_article = first_article %}
+{% for post in blog %}
+  {% if post.featured %}
+    {% assign featured_article = post %}
+  {% endif %}
+{% endfor %}
+
+<div class="full-section">
+  <section class="sub-hero-blog">
+      <div>
+        <div class="sub-hero-text">
+            <h1 class="h1 white">{{ featured_article.title | escape }}</h1>
+            <p class="h4 white">{{ featured_article.excerpt | escape }}</p>
+            <a class="btn btn-solid dark-blue mt1 py2 px3 "
+                href="{{featured_article.url}}">Read more</a>
+        </div>
+        <div class="sub-hero-img-holder">
+            <div class="sub-hero-img">
+                <img src="{{ featured_article.image }}">
+            </div>
+        </div>
+      </div>
+  </section>
+</div>
+
+
+<div class="section blog-section z2">
+  {%- if blog.size > 0 -%}
+    {%- for article in blog -%}
+      {%- if article.featured == true -%}
+        {% continue %}
+      {%- endif -%}
+
+
+      <a href="{{article.url}}" class="article">
+        <article>
+          <div class="article-img-container">
+            <div class="article-img-wrapper">
+              <img src="{{ article.image }}" alt="sub-hero-img">
+            </div>
+          </div>
+          <p class="h5 dark-blue">{{ article.excerpt | escape }}</p>
+          <div class="btn-holder">
+            <button class="btn btn-solid dark-blue mt1 py2 px3">Read more</button>
+          </div>
+        </article>
+      </a>
+    {%- endfor -%}
+  {%- else -%}
+    No blog list
+  {%- endif -%}
+</div>
+
+<section class="blog-bottom-subscrition">
+  {%- include news-letter.html -%}
+</section>

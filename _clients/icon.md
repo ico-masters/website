@@ -1,5 +1,5 @@
 ---
-featured: false
+featured: true
 order: 40
 title: icon
 site_address: 'https://icon.foundation/?lang=en'
