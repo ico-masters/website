@@ -232,9 +232,20 @@ strong {
 
 .map {
   text-align: center;
+
   img {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
   }
+}
+
+
+.invalid-feedback {
+  color: red;
+  display: none;
+}
+
+.was-validated .form-control:invalid~.invalid-feedback {
+  display: block;
 }
