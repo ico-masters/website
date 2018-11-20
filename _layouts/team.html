@@ -94,10 +94,10 @@ $(document).ready(function(){
 
     var category = $ele.data().category || "all";
     if (category === "all")
-      return $allMembers.show();
+      return $allMembers.fadeIn();
 
     $allMembers.hide();
-    $("div[data-category='"+ category +"']").show();
+    $("div[data-category='"+ category +"']").fadeIn();
   }
 
   var mobile = ('ontouchstart' in document.documentElement);
