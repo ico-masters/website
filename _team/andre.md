@@ -1,7 +1,7 @@
 ---
 featured: true
 category: Security
-order: 2
+order: 3
 title: Andre McGregor
 avatar: /images/uploads/pic_7.jpg
 role: >-
