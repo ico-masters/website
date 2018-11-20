@@ -700,6 +700,7 @@ footer {
 
 .team-tile-holder {
     position: relative;
+    min-height: 350px;
 }
 .team-tile-holder::after {
     content: '';
@@ -707,7 +708,7 @@ footer {
     clear: both;
 }
 .team-tile-holder .team-member {
-    float: left;
+    display: inline-block;
     width:190px;
     height: 190px;
     position: relative;
@@ -716,6 +717,7 @@ footer {
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     transition: transform .5s ease-out;
+    margin-top: -7px;
 }
 
 
