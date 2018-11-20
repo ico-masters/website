@@ -2,7 +2,7 @@
 layout: team
 featured: true
 category: Marketing
-order: 65
+order: 5
 title: Sally Hadidi
 avatar: /images/uploads/sally-bw.jpg
 role: 'Community - TLDR, Convener – TESTNET, DFC'
