@@ -1,6 +1,6 @@
 ---
 layout: team
-featured: false
+featured: true
 category: Marketing
 order: 65
 title: Sally Hadidi
