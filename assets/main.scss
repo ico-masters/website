@@ -554,8 +554,10 @@ footer {
 
 
 .team-carousel .row {
-  overflow: scroll;
-  width: 100%
+  width: 100%;
+
+  overflow-y: hidden;
+  overflow-x: scroll;
 }
 
 .row__inner {
@@ -607,7 +609,8 @@ footer {
     height: 200px;
     width: 300px;
     white-space: normal;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     transform: scale(1);
 }
 
