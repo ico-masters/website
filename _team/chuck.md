@@ -1,7 +1,7 @@
 ---
+featured: false
+category: Security
 order: 45
-featured: true
-category: tldr
 title: Chuck McGraw
 avatar: /images/uploads/pic_6.jpg
 role: 'Partner & COO - TLDR; formerly Tanium, Navy SEALs'
@@ -17,3 +17,4 @@ description: >
   USC, Marshall School of Business.
 linkedin_url: 'https://www.linkedin.com/in/chuck-mcgraw-0ab5ba73/'
 ---
+
