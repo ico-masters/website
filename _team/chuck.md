@@ -1,7 +1,7 @@
 ---
 featured: true
 category: Security
-order: 45
+order: 6
 title: Chuck McGraw
 avatar: /images/uploads/pic_6.jpg
 role: 'Partner & COO - TLDR; formerly Tanium, Navy SEALs'
