@@ -159,13 +159,17 @@ layout: default
               }
 
               if ($row.scrollLeft() > titleLeftPosition) {
-                $row.scrollLeft(titleLeftPosition);
+                $row.animate({
+                  scrollLeft: titleLeftPosition
+                }, 220);
               }
 
               if (viewPortSizePlusHidden < titleRightPosition) {
-                $row.scrollLeft($row.scrollLeft() + (titleRightPosition - viewPortSizePlusHidden));
+                $row.animate({
+                  scrollLeft: $row.scrollLeft() + (titleRightPosition - viewPortSizePlusHidden)
+                }, 220);
               }
-            }, 260);
+            }, 270);
 
             if ($(window).width() < 480) {
               $row.height('350px')
