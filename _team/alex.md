@@ -1,7 +1,7 @@
 ---
-order: 20
 featured: true
-category: tldr
+category: Advisory
+order: 20
 title: Alex Yamashita
 avatar: /images/uploads/pic_5.jpg
 role: 'Partner - TLDR; formerly Goldman Sachs, Multi-sector Entrepreneur & Investor'
@@ -14,3 +14,4 @@ description: >
   Economics from Yale University.
 linkedin_url: 'https://www.linkedin.com/in/alex-yamashita-a933487'
 ---
+
