@@ -1,7 +1,7 @@
 ---
 featured: true
 category: Advisory
-order: 20
+order: 2
 title: Alex Yamashita
 avatar: /images/uploads/pic_5.jpg
 role: 'Partner - TLDR; formerly Goldman Sachs, Multi-sector Entrepreneur & Investor'
