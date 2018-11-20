@@ -1,8 +1,8 @@
 ---
+featured: false
+category: Fund
 order: 150
 title: Rob Pfeiffer
-featured: true
-category: tldr
 avatar: /images/uploads/pic_12.jpg
 role: 'Senior Advisor - TLDR; Compass Partner, Bryan Garnier'
 description: >
@@ -12,3 +12,4 @@ description: >
   economy.
 linkedin_url: 'https://www.linkedin.com/in/robert-pfeiffer-52447183/'
 ---
+
