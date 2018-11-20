@@ -127,7 +127,7 @@ $(document).ready(function(){
     var $holder = $ele.closest('.team-tile-holder');
     let position = $ele.position();
 
-    if (position.left < ($holder.width() / 2)) {
+    if ((position.left + $ele.width()) <= ($holder.width() / 2)) {
       if ((position.top + 7) < ($holder.height() / 2)) {
         $ele.addClass('active origin-left')
       } else {

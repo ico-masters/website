@@ -701,6 +701,11 @@ footer {
 .team-tile-holder {
     position: relative;
     min-height: 350px;
+    text-align: left;
+
+    @include breakpoint($medium){
+      text-align: center;
+    }
 }
 .team-tile-holder::after {
     content: '';
