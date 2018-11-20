@@ -1,7 +1,7 @@
 ---
 layout: team
-featured: true
-category: tldr
+featured: false
+category: Legal
 order: 140
 title: João Marecos
 avatar: /images/uploads/joao.jpg
@@ -15,3 +15,4 @@ description: >-
   sectors such as finance, payments, health care and retail.
 linkedin_url: 'https://www.linkedin.com/in/joaomarecos/'
 ---
+
