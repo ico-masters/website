@@ -1,7 +1,7 @@
 ---
 featured: true
 category: Legal
-order: 15
+order: 4
 title: Rita Soares
 avatar: /images/uploads/pic_13.jpg
 role: 'Partner & Chief Strategy Officer – TLDR, formerly Simpson Thacher & Bartlett'
