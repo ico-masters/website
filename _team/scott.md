@@ -1,7 +1,7 @@
 ---
+featured: false
+category: Fund
 order: 60
-featured: true
-category: tldr
 title: Scott Hirokane
 avatar: /images/uploads/pic_10.jpg
 role: 'PM – TLDR; formerly Goldman Sachs, Morgan Stanley'
@@ -14,3 +14,4 @@ description: >
   Engineering from the University of California at Berkeley.
 linkedin_url: 'https://www.linkedin.com/in/scott-hirokane-4388523/'
 ---
+
