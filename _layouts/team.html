@@ -94,10 +94,10 @@ $(document).ready(function(){
 
     var category = $ele.data().category || "all";
     if (category === "all")
-      return $allMembers.show();
+      return $allMembers.fadeIn();
 
     $allMembers.hide();
-    $("div[data-category='"+ category +"']").show();
+    $("div[data-category='"+ category +"']").fadeIn();
   }
 
   var mobile = ('ontouchstart' in document.documentElement);
@@ -124,16 +124,21 @@ $(document).ready(function(){
   }
 
   function toggleMember($ele) {
+    var $holder = $ele.closest('.team-tile-holder');
     let position = $ele.position();
 
-    if (position.left === 0 && position.top > 188) {
-         $ele.addClass('active origin-bottom-left')
-    } else if (position.left !== 0 && position.top > 189) {
-         $ele.addClass('active origin-bottom-right')
-    } else if (position.left === 0) {
-         $ele.addClass('active origin-left')
-    }  else {
-         $ele.addClass('active origin-right')
+    if ((position.left + $ele.width()) <= ($holder.width() / 2)) {
+      if ((position.top + 7) < ($holder.height() / 2)) {
+        $ele.addClass('active origin-left')
+      } else {
+        $ele.addClass('active origin-bottom-left')
+      }
+    } else {
+      if ((position.top + 7) < ($holder.height() / 2)) {
+        $ele.addClass('active origin-right')
+      } else {
+        $ele.addClass('active origin-bottom-right')
+      }
     }
 
     $ele.css('z-index', '9')
