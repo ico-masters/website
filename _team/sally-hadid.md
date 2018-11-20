@@ -1,8 +1,8 @@
 ---
 layout: team
+featured: false
+category: Marketing
 order: 65
-featured: true
-category: tldr
 title: Sally Hadidi
 avatar: /images/uploads/sally-bw.jpg
 role: 'Community - TLDR, Convener – TESTNET, DFC'
@@ -16,3 +16,4 @@ description: >-
   as Pipedrive, Guess and HackerRank, as well as curate TESTNET and DFC.
 linkedin_url: 'https://www.linkedin.com/in/sallyhadidi/'
 ---
+
