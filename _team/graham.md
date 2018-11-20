@@ -1,5 +1,7 @@
 ---
 order: 50
+featured: true
+category: tldr
 title: Graham Friedman
 avatar: /images/uploads/pic_3.jpg
 role: Partner - TLDR; Commercial Cinematographer
@@ -12,4 +14,3 @@ description: >
   modern era.
 linkedin_url: 'https://www.linkedin.com/in/graham-friedman-92581314'
 ---
-

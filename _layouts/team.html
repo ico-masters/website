@@ -4,42 +4,150 @@ layout: default
 
 {%- include page-hero.html -%}
 
-<div class="section clearfix">
-  <h2 class="section_title dark-blue">
-    <span>{{ page.title }}</span>
-  </h2>
-  <p class="pt2 blue">{{ page.summary }}</p>
-  {% assign team = site.team | sort: 'order' %}
-  {%- if team.size > 0 -%}
-    {%- for member in team -%}
-      <div class="person">
-        <div class="skew"> 
-          <div class="profile_pic tldrect" style="background-image: url('{{ member.avatar}}'); "></div>
+<div>
+  <div class="section center team-tile">
+    <div id="team-filters" class="team-filters">
+
+        <ul>
+          {% assign team_categories = site.team | map: 'category' | uniq %}
+              <li><a class="active" herf="#" data-category="all">All</a></li>
+              {%- for category in team_categories -%}
+                <li><a herf="#" data-category={{category | replace: " ", "_" | downcase}}>{{category}}</a></li>
+              {%- endfor -%}
+        </ul>
+    </div>
+
+    <div class="team-tile-holder">
+      {% assign team = site.team | sort: 'order' %}
+      {%- for member in team -%}
+         <div class="team-member" data-category="{{member.category | replace: " ", "_" | downcase}}">
+            <div class="team-member-active-state">
+                <div class="close-member-specs">x</div>
+                <div class="v-center">
+                   <div class="active-member-top ">
+                     {% if member.twitter_url %}
+                       <a href="{{member.twitter_url}}" class="member-social">
+                            <img  src="/assets/icons/logo-twitter.svg" alt="" />
+                       </a>
+                    {% endif %}
+
+                       <div class="member-image">
+                            <img  src="{{ member.avatar}}" alt="" />
+                       </div>
+
+                    {% if member.linkedin_url %}
+                       <a href="{{member.linkedin_url}}" class="member-social">
+                           <img  src="/assets/icons/logo-linkedin.svg" alt="" />
+                       </a>
+                    {% endif %}
+
+                   </div>
+                    <p class="member-name">{{ member.title }}</p>
+                    <p class="member-title">{{ member.role }}</p>
+                    <p class="member-description">
+                        {{ member.description }}
+                    </p>
+                </div>
+            </div>
+            <img class="member" src="{{ member.avatar}}" alt="" />
+            <div class="team-member-hover-state">
+                <div class="v-center">
+                  <p class="member-name">{{ member.title }}</p>
+                  <p class="member-title">{{ member.role }}</p>
+                    <p class="bio-btn" href="#">show bio</p>
+                </div>
+            </div>
+
         </div>
-        <div class="bio">
-          <div class="person_name mb1 h3 dark-blue bold">
-            {{ member.title }}
-          </div>
-          <div class="person_title h4 light">
-            {{ member.role }}
-          </div>
-          {{ member.description }}
-          <br>
-          {%- if member.linkedin_url -%}
-            <a href="{{ member.linkedin_url }}" class="icon_link linkedin" target="_blank">
-              linkedin
-            </a>
-          {%- endif -%}
-          {%- if member.twitter_url -%}
-            <a href="{{ member.twitter_url }}" class="icon_link twitter" target="_blank">
-              twitter
-            </a>
-          {%- endif -%}
-        </div>
-      </div>
-    {%- endfor -%}
-  {%- else -%}
-    Team is empty...
-  {%- endif -%}
+
+      {%- endfor -%}
+
+    </div>
+  </div>
 </div>
 
+<script>
+
+$(document).ready(function(){
+  $("#team-filters").on('click', onTeamFilterClick);
+
+  function onTeamFilterClick(e) {
+    e.preventDefault();
+
+    var $allMembers = $(".team-member");
+
+    // Remove pre appended positions if they exist
+
+    if ($allMembers.hasClass('active origin-bottom-left')) {
+        $allMembers.removeClass('active origin-bottom-left')
+    } else if ($allMembers.hasClass('active origin-bottom-right')) {
+        $allMembers.removeClass('active origin-bottom-right')
+    } else if ( $allMembers.hasClass('active origin-left')) {
+        $allMembers.removeClass('active origin-left')
+    }  else {
+        $allMembers.removeClass('active origin-right')
+    }
+
+    var $ele = $(event.target);
+    $('#team-filters li a').removeClass('active');
+    $ele.addClass('active');
+
+    var category = $ele.data().category || "all";
+    if (category === "all")
+      return $allMembers.show();
+
+    $allMembers.hide();
+    $("div[data-category='"+ category +"']").show();
+  }
+
+  var mobile = ('ontouchstart' in document.documentElement);
+  if (mobile) {
+     $('.team-member').on('click',function(e){$(this).addClass('hovered')});
+     $('.bio-btn').hammer().bind('tap', memberBioDialog);
+  } else {
+     $('.bio-btn').on('click', memberBioDialog);
+  }
+
+  function memberBioDialog(e){
+      e.stopPropagation();
+      e.preventDefault();
+      if($('.team-member').hasClass('active')){
+         $('.team-member').removeClass('active');
+         $('.team-member').css('z-index', '0');
+      }
+
+      if (mobile) {
+        toggleMember($(this).parents('.team-member'));
+      } else {
+        toggleMember($(e.target).parents('.team-member'))
+      }
+  }
+
+  function toggleMember($ele) {
+    let position = $ele.position();
+
+    if (position.left === 0 && position.top > 188) {
+         $ele.addClass('active origin-bottom-left')
+    } else if (position.left !== 0 && position.top > 189) {
+         $ele.addClass('active origin-bottom-right')
+    } else if (position.left === 0) {
+         $ele.addClass('active origin-left')
+    }  else {
+         $ele.addClass('active origin-right')
+    }
+
+    $ele.css('z-index', '9')
+  }
+
+  $('.close-member-specs').on('click', function(e){
+      e.preventDefault();
+      $(e.target).parents('.team-member').removeClass('active')
+      setTimeout(function(){
+          $(e.target).parents('.team-member').css('z-index', '0')
+          $(e.target).parents('.team-member').removeClass('hovered')
+      }, 500);
+  });
+
+})
+
+</script>

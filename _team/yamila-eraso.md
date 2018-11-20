@@ -1,5 +1,7 @@
 ---
 layout: team
+featured: true
+category: tldr
 order: 30
 title: 'Yamila Eraso '
 avatar: /images/uploads/yamila-eraso3.jpg
@@ -17,4 +19,3 @@ description: >-
   Germany.
 linkedin_url: 'https://www.linkedin.com/in/yamila-eraso-pena/'
 ---
-

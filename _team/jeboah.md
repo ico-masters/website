@@ -1,5 +1,7 @@
 ---
 order: 70
+featured: true
+category: tldr
 title: Jeboah (Bo) Joerg
 avatar: /images/uploads/pic_11.jpg
 role: PM - TLDR; formerly Goldman Sachs
@@ -13,4 +15,3 @@ description: >
   convertible bond trading effort across Asia.
 linkedin_url: 'https://www.linkedin.com/in/jeboah-joerg-3a333835'
 ---
-

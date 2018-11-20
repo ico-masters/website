@@ -141,35 +141,24 @@ layout: default
     </div>
     <script>
       (function () {
-        var $row = $('.team-carousel .row');
+        var $row = $('.team-carousel .row')
 
         $('.team-carousel .tile')
           .mouseenter(function() {
             var $this = $(this);
+            var viewPortSize = $row.width();
+            var indexPosition = $this.data("index");
+            var titleLeftPosition = 280 * indexPosition;
+            var titleRightPosition = titleLeftPosition + 700;
+            var viewPortSizePlusHidden = $row.scrollLeft() + viewPortSize;
 
-            setTimeout(function () {
-              var viewPortSize = $row.width();
-              var indexPosition = $this.data("index");
-              var titleLeftPosition = $this.outerWidth(true) * indexPosition;
-              var titleRightPosition = titleLeftPosition + ($this.outerWidth() * 1.2);
-              var viewPortSizePlusHidden = $row.scrollLeft() + viewPortSize;
+            if ($row.scrollLeft() > titleLeftPosition) {
+              $row.scrollLeft(titleLeftPosition);
+            }
 
-              if ($(window).width() > 480) {
-                titleRightPosition = titleRightPosition + ($this.find(".tile-description").outerWidth() * 1.165);
-              }
-
-              if ($row.scrollLeft() > titleLeftPosition) {
-                $row.animate({
-                  scrollLeft: titleLeftPosition
-                }, 220);
-              }
-
-              if (viewPortSizePlusHidden < titleRightPosition) {
-                $row.animate({
-                  scrollLeft: $row.scrollLeft() + (titleRightPosition - viewPortSizePlusHidden)
-                }, 220);
-              }
-            }, 270);
+            if (viewPortSizePlusHidden < titleRightPosition) {
+              $row.scrollLeft(titleRightPosition - viewPortSizePlusHidden);
+            }
 
             if ($(window).width() < 480) {
               $row.height('350px')
