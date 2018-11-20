@@ -1,7 +1,7 @@
 ---
+featured: false
+category: Fund
 order: 75
-featured: true
-category: tldr
 title: Andrew Durgee
 avatar: /images/uploads/andrew-durgee-headshot.png
 role: Partner - TLDR; formerly The Coin Tree
@@ -17,3 +17,4 @@ description: >
   community based on the security of it's proprietary vault system.
 linkedin_url: 'https://www.linkedin.com/in/andrew-durgee-b9367018'
 ---
+
