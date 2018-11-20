@@ -1,7 +1,7 @@
 ---
-order: 55
-featured: true
+featured: false
 category: Security
+order: 55
 title: Jason Truppi
 avatar: /images/uploads/pic_8.jpg
 role: >-
@@ -18,3 +18,4 @@ description: >
 twitter_url: 'https://twitter.com/NotTruppi'
 linkedin_url: 'https://www.linkedin.com/in/jasontruppi'
 ---
+
