@@ -1,7 +1,7 @@
 ---
-order: 10
-featured: true
+featured: false
 category: Security
+order: 10
 title: Andre McGregor
 avatar: /images/uploads/pic_7.jpg
 role: >-
@@ -18,3 +18,4 @@ description: >
 twitter_url: 'https://twitter.com/andreoncyber'
 linkedin_url: 'https://www.linkedin.com/in/andremcgregor'
 ---
+
