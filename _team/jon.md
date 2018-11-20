@@ -1,7 +1,7 @@
 ---
+featured: false
+category: Fund
 order: 5
-featured: true
-category: tldr
 title: Jon Knipper
 avatar: /images/uploads/pic_9.jpg
 role: 'Partner - TLDR; formerly Goldman Sachs, Morgan Stanley'
@@ -14,3 +14,4 @@ description: >
   deals across Asia.
 linkedin_url: 'https://www.linkedin.com/in/jonathan-knipper-8263038'
 ---
+
