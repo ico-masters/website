@@ -9,8 +9,9 @@ layout: default
 
 {% assign featured_article = first_article %}
 {% for post in blog %}
-  {% if post.featured %}
+  {% if post.featured == true %}
     {% assign featured_article = post %}
+    {% break %}
   {% endif %}
 {% endfor %}
 
