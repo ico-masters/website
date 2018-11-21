@@ -5,7 +5,7 @@ id: blog
 featured: 'false'
 created_at: 13-08-2018
 image: /images/uploads/content-marketing-in-crypto.jpeg
-title: "Content Marketing in Crypto: More Than Just\_Medium"
+title: "Content Marketing in Crypto: More Than Just\_Medium (edit)"
 excerpt: >-
   The days of the hard sell and aggressive advertising are long gone. Consumers
   are no longer passive and naïve. They are savvy, experienced and conscious
