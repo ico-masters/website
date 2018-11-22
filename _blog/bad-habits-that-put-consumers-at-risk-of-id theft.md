@@ -2,7 +2,7 @@
 layout: article
 permalink: '/blog/:title'
 id: blog
-featured: 'false'
+featured: false
 created_at: 22-11-2018
 image: /images/uploads/bad-habits.jpeg
 title: "Bad Habits That Put Consumers at Risk of ID\_Theft"
