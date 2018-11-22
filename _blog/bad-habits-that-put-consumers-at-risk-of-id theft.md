@@ -61,15 +61,19 @@ He breaks this down further:
 
 It’s human nature to trust. We want to trust people. So, when we receive messages or files via a public chat service such as Slack, Telegram or WhatsApp our natural instinct is to trust the source and open the message or file. But hackers rely on this nature, as it’s more predictable and easier to break down that the multiple layers of security provided by software.
 
-In our previous article on Social Engineering, Jason expanded on this inherent human weakness, saying: _‘In many ways, social engineering is easier than finding a technical vulnerability in software or hardware, so hackers will continue to exploit the weakest link.’_
+In our previous article on Social Engineering, Jason expanded on this inherent human weakness, saying: "_In many ways, social engineering is easier than finding a technical vulnerability in software or hardware, so hackers will continue to exploit the weakest link."_
 
 The other major weak point is once again human; human error, not software errors. We’re creatures of habit so we often use weak or recycled passwords to ensure quick access. Jason explains why this is dangerous:
 
-_“Weak passwords and password reuse are frequently exploited by hackers to gain access to your personal and corporate accounts._[_In his 2018 research, Troy Hunt, from the website haveibeenpwned.com commented that 86% of passwords in breaches had been used or seen in the data he collected over several previous high profile breaches_](https://www.troyhunt.com/86-of-passwords-are-terrible-and-other-statistics/)_. This means that most passwords are weak or reused, and are easily guessable. The passwords can be brute forced by attackers by using known password lists from previous breaches.”_
+> _“Weak passwords and password reuse are frequently exploited by hackers to gain access to your personal and corporate accounts. _
+>
+> [_In his 2018 research, Troy Hunt, from the website haveibeenpwned.com commented that 86% of passwords in breaches had been used or seen in the data he collected over several previous high profile breaches._](https://www.troyhunt.com/86-of-passwords-are-terrible-and-other-statistics/)
+>
+> _ This means that most passwords are weak or reused, and are easily guessable. The passwords can be brute forced by attackers by using known password lists from previous breaches.”_
 
 Veteran Cyber FBI Special Agent and TLDR Security Team leader, Andre McGregor, discussed weak passwords in a prior post:
 
-_“Quite frankly, many passwords under 13 characters are easily hackable. The longer the password — even by just one extra character — the better the entropy and the harder to hack. Better yet, using a password manager allows for it to generate a long, complex password that you don’t have to remember.”_
+> _“Quite frankly, many passwords under 13 characters are easily hackable. The longer the password — even by just one extra character — the better the entropy and the harder to hack. Better yet, using a password manager allows for it to generate a long, complex password that you don’t have to remember.”_
 
 He also explored some other methods you can use for protection, including multi-step authentication and using a virtual private network (VPN) here:
 
@@ -77,13 +81,13 @@ He also explored some other methods you can use for protection, including multi-
 
 Jason further explains the use of the multi-step authentication:
 
-_“Most online services allow for users to implement two-factor or multi-factor authentication (2FA/MFA) on their accounts. Organizations know that weak and reused passwords are rampant so 2FA and MFA have been implemented to add a layer of security to the online application. Most users do not enable 2FA or MFA on their accounts and are exposing themselves to a certain level of risk that can be mitigated.”_
+> _“Most online services allow for users to implement two-factor or multi-factor authentication (2FA/MFA) on their accounts. Organizations know that weak and reused passwords are rampant so 2FA and MFA have been implemented to add a layer of security to the online application. Most users do not enable 2FA or MFA on their accounts and are exposing themselves to a certain level of risk that can be mitigated.”_
 
 ### Expect the Unexpected
 
 Hackers will always follow the ebb and flow of the internet — often reacting to new developments with their own innovative methods of attack. Jason covers one of the lesser seen, but equally risky threats:
 
-_“Another not so obvious risk exposure comes from how users post and communicate on social media. Social media gives attackers troves of information about their victims. Places they travel, who their friends and family are, potential passwords they may use and a variety of other metadata. Setting strict security policies within each social media account can be cumbersome since each application is quite different, but it could reduce your risk of exposing too much information to unwanted parties.”_
+> _“Another not so obvious risk exposure comes from how users post and communicate on social media. Social media gives attackers troves of information about their victims. Places they travel, who their friends and family are, potential passwords they may use and a variety of other metadata. Setting strict security policies within each social media account can be cumbersome since each application is quite different, but it could reduce your risk of exposing too much information to unwanted parties.”_
 
 The only way to protect yourself in this situation is to take constant care with your online interactions and keep security in the forefront of your mind — always enable the highest level of security for your online actions possible.
 
@@ -116,7 +120,5 @@ Medium: [@TLDR_Global](https://medium.com/@TLDR_Global)
 _Technology and Computer Science have a special place in Jason’s heart. As a Supervisory Special Agent at the FBI, and then Director of Endpoint Detection and Response at Tanium, Jason has enjoyed building, securing and investigating networks. He’s now set his sights on helping to secure the crypto space. In his spare time, Jason continues to drive cyber policy as a Center for Strategic & International Studies Cybersecurity Fellow._
 
 _Find out more about Jason on _[_LinkedIn_](https://www.linkedin.com/in/jasontruppi/)_ or check out _[_@NotTruppi_](https://twitter.com/NotTruppi)_ on Twitter._
-
-
 
 _This article is based on views and information held by TLDR on publication date and may be subject to change, although TLDR does not undertake to update them. Nothing contained herein constitutes investment, legal, tax or other advice, nor a recommendation or solicitation of an offer to buy or sell any securities or to adopt any investment strategy. No representation or warranty, express or implied, is made or given by or on behalf of TLDR as to the accuracy and completeness or fairness of the information contained in this article._
