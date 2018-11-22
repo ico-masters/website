@@ -19,7 +19,9 @@ layout: default
     <div class="featured_services flex pt2">
       {%- for service in services -%}
         <div class="flex-1 px1">
-          <div class="service_small_pic tldrect profile_pic mb2" style="background-image: url('{{ service.image }}');"></div>
+          <div class="service_small_pic tldrect profile_pic mb2">
+            {% image_tag src=service.image height="220" %}
+          </div>
           <h3>{{ service.title }}</h3>
           <p>{{ service.excerpt }}</p>
         </div>
@@ -45,7 +47,7 @@ layout: default
     <div class="clearfix">
       {%- for client in clients -%}
         <a href="{{ client.url }}" class="client_thumb">
-          <img src="{{ client.image }}" alt="{{ client.title | escape }}">
+          {% image_tag src=client.image width="180" alt="{{ client.title | escape }}" %}
           {{ client.title | escape }}
         </a>
       {%- endfor -%}
@@ -118,7 +120,7 @@ layout: default
                  {% for member in members %}
                     <div class="tile" data-index="{% increment index %}">
                         <div class="tile__media">
-                            <img class="tile__img" src="{{member.avatar}}" alt="" />
+                          {% image_tag src=member.avatar width="260" class="tile__img" %}
                         </div>
                         <div class="tile-description">
                             <div class="person_name mb1 h4 dark-blue bold">
@@ -186,7 +188,7 @@ layout: default
 
 
 <div class="map">
-  <img src="/assets/images/map.png" alt="">
+  {% image_tag src="/assets/images/map.png" height="440" %}
 </div>
 
 <!--

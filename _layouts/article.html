@@ -9,7 +9,7 @@ layout: templates/blog_article
   </div>
   <div class="blog-detail-section">
       <div class="big-img">
-          <img src="{{ page.image }}" alt="big img" />
+        {% image_tag src=page.image width="690" alt="big img" %}
       </div>
 
       {{ content }}

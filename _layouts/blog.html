@@ -26,7 +26,7 @@ layout: default
         </div>
         <div class="sub-hero-img-holder">
             <div class="sub-hero-img">
-                <img src="{{ featured_article.image }}">
+              {% image_tag src=featured_article.image width="545" %}
             </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ layout: default
         <article>
           <div class="article-img-container">
             <div class="article-img-wrapper">
-              <img src="{{ article.image }}" alt="sub-hero-img">
+              {% image_tag src=article.image width="245" alt="sub-hero-img" %}
             </div>
           </div>
           <p class="h5 dark-blue">{{ article.excerpt | escape }}</p>

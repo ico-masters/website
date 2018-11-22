@@ -15,7 +15,7 @@ layout: default
       <a href="{{ client.site_address }}"
           class="client_thumb"
           target="_client{{ client.title | escape }}">
-        <img src="{{ client.image }}" alt="{{ client.title | escape }}">
+        {% image_tag src=client.image width="180" alt="{{ client.title | escape }}" %}
         {{ client.title | escape }}
       </a>
     {%- endfor -%}
@@ -23,4 +23,3 @@ layout: default
     No clients to show
   {%- endif -%}
 </div>
-

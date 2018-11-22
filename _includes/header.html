@@ -43,7 +43,7 @@
     <ul class="site-nav">
       <li class="siderbar-menu-logo">
         <a class="logo" rel="author" href="{{ '/' | relative_url }}">
-          <img src="{{ '/assets/images/tldr_logo.svg' | relative_url }}" alt="TLDR Logo" height="38">
+          {% image_tag src=('/assets/images/tldr_logo.svg' | relative_url) height="38" alt="TLDR Logo" %}
         </a>
       </li>
       <li><a class="{% if page.id == '/services' %}selected {% endif %}" href="{{ '/services' | relative_url }}">services</a></li>
