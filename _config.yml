@@ -11,8 +11,11 @@ github_username:  ico_masters
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-srcset
 sass:
   sass_dir: _sass
+srcset:
+  cache: "/tmp/images"
 exclude: [tldr-netlify-cms]
 include:
   - _redirects

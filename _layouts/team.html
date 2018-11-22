@@ -32,7 +32,7 @@ layout: default
                     {% endif %}
 
                        <div class="member-image">
-                            <img  src="{{ member.avatar}}" alt="" />
+                         {% image_tag src=member.avatar width="185" %}
                        </div>
 
                     {% if member.linkedin_url %}
@@ -49,7 +49,7 @@ layout: default
                     </p>
                 </div>
             </div>
-            <img class="member" src="{{ member.avatar}}" alt="" />
+            {% image_tag src=member.avatar width="185" class="member" %}
             <div class="team-member-hover-state">
                 <div class="v-center">
                   <p class="member-name">{{ member.title }}</p>

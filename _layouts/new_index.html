@@ -45,7 +45,7 @@ layout: default
     <div class="clearfix">
       {%- for client in clients -%}
         <a href="{{ client.url }}" class="client_thumb">
-          <img src="{{ client.image }}" alt="{{ client.title | escape }}">
+          {% image_tag src=client.image width="180" alt="{{ client.title | escape }}" %}
           {{ client.title | escape }}
         </a>
       {%- endfor -%}
@@ -118,7 +118,7 @@ layout: default
                  {% for member in members %}
                     <div class="tile" data-index="{% increment index %}">
                         <div class="tile__media">
-                            <img class="tile__img" src="{{member.avatar}}" alt="" />
+                          {% image_tag src=member.avatar width="280" class="tile__img" %}
                         </div>
                         <div class="tile-description">
                             <div class="person_name mb1 h4 dark-blue bold">
@@ -175,7 +175,7 @@ layout: default
 
 
 <div class="map">
-  <img src="/assets/images/map.png" alt="">
+  {% image_tag src="/assets/images/map.png" height="450" %}
 </div>
 
 <!--

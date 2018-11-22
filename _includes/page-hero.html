@@ -1,6 +1,5 @@
 {% if page.hero_image %}
   <style>
-    .hero, .index .hero { background-image: url('{{ page.hero_image }}'); }
     .hero:after {
       content: " ";
       position: absolute;
@@ -14,6 +13,10 @@
 {% endif %}
 
 <div class="hero flex cover_bg">
+  {% if page.hero_image %}
+    {% image_tag src=page.hero_image width="1024" class="hero_bg" %}
+  {% endif %}
+
   <h1 class="headline white z2 relative">
     {{ page.headline }}
   </h1>
