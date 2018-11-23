@@ -70,7 +70,7 @@ As is often the case, complacency is the biggest risk to digital security for Io
 
 1. The Internet of Things (IoT) is streamlining our processes and automating them, making life more efficient.
 2. IoT devices can be an easy target for bad actors and it’s often complacency that leaves us vulnerable.
-3. **Always **change the default password settings on any new device you set up in your home.
+3. **Always** change the default password settings on any new device you set up in your home.
 4. Patch all software regularly. Make sure when you first set up a product that you update immediately to the latest software version.
 5. The trade-off for the efficiency that IoT devices can offer is often privacy.
 
