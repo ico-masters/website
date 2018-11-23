@@ -2,7 +2,7 @@
 layout: article
 permalink: '/blog/:title'
 id: blog
-featured: true
+featured: false
 created_at: 30-10-2018
 image: /images/uploads/tldr-beyond-blocks-2.jpg
 title: "TLDR Looking Ahead to Beyond Blocks\_Bangkok"
