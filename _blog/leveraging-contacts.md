@@ -11,7 +11,7 @@ excerpt: >-
   you know. For new startups, often the first step on their business roadmap is
   community building. But, if you’re new to the space, how do you achieve this?
 ---
-In the crypto community, it’s often just as much about **who** you know as **what** you know. There’s a reason the space is often referred to as a community — within the blockchain industry, projects are often very open to striking up collaborative partnerships. As an emerging industry and new economy, participants within the blockchain space embrace collaboration over competition. Innovators are always looking for new ways to work together and build valuable projects rather than competing for market share.
+In the crypto community, it’s often just as much about **who** you know as **what** you know. There’s a reason the space is often referred to as a community — within the blockchain industry, projects are often very open to striking up collaborative partnerships. As an emerging industry and new economy, participants within the blockchain space should embrace collaboration over competition. Innovators are always looking for new ways to work together and build valuable projects rather than competing for market share.
 
 For new startups, often the first step on their business roadmap is community building. But, if you’re new to the space, how do you achieve this?
 
@@ -53,11 +53,7 @@ At TLDR, our mission is to facilitate working relationships between crypto-ready
 4. Nurture B2B relationships in tandem with community-building efforts for maximum benefit.
 5. Attend industry events, conferences, and meetups, which offer great opportunities for socializing and engaging with others in the space.
 
-
-
 If you’re interested in finding ways to collaborate and partner with TLDR, don’t hesitate to reach out [here](https://tldr.global/contact).
-
-
 
 Find out more about TLDR. Check out our social channels below:
 
