@@ -2,7 +2,7 @@
 layout: article
 permalink: '/blog/:title'
 id: blog
-featured: 'false'
+featured: true
 created_at: 22-11-2018
 image: /images/uploads/levaraging-contacts.jpg
 title: 'Leveraging Contacts '
