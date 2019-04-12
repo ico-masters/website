@@ -2,7 +2,7 @@
 layout: team
 featured: 'false'
 category: Advisory
-order: 11
+order: 100
 title: Sebastian Graham
 avatar: /images/uploads/seb.jpg
 role: "Partner and Community Development\_"
