@@ -1,6 +1,6 @@
 ---
 layout: team
-featured: 'false'
+featured: true
 category: Advisory
 order: 100
 title: Sebastian Graham
