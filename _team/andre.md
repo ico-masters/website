@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 category: Security
 order: 3
 title: Andre McGregor
