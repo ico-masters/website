@@ -7,7 +7,7 @@ title: The Team
 hero_image: /assets/images/hero2.jpg
 headline: About us
 home_headline: >-
-  Fighting cybercrime. Building GPU in-memory databases. Big finance. TLDR
+  Fighting cybercrimes. Building GPU in-memory databases. Big finance. TLDR
   Global's team brings a wealth of experience to the crypto ecosystem.
 description: >-
   Fighting cybercrime. Building GPU in-memory databases. Big finance. TLDR
