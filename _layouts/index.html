@@ -107,6 +107,7 @@ layout: default
 {% assign team_page = site.pages | where:'id', '/team' | first  %}
 {% assign members = site.team | where: "featured", true | sort: 'order' %}
 
+<!--
 <div class="bg-dark-blue white">
     <div class="section team">
         <h2 class="section_title center white">
@@ -185,7 +186,7 @@ layout: default
       })()
     </script>
 </div>
-
+-->
 
 <div class="map">
   {% image_tag src="/assets/images/map.png" height="440" %}
